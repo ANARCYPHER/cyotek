@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html class="no-touch" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://blog.openzeppelin.com/xmlrpc.php">
+<title>Tether Token Audit &#8211; OpenZeppelin blog</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//c0.wp.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel='dns-prefetch' href='//i1.wp.com' />
+<link rel='dns-prefetch' href='//i2.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="OpenZeppelin blog &raquo; Feed" href="https://blog.openzeppelin.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="OpenZeppelin blog &raquo; Comments Feed" href="https://blog.openzeppelin.com/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v7.17.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-85043059-2"  type="text/javascript" data-cfasync="false"></script>
+			<script type="text/javascript" data-cfasync="false">
+				var mi_version = '7.17.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-85043059-2';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( mi_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-85043059-2', {
+						forceSSL:true,anonymize_ip:true,link_attribution:true,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.openzeppelin.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mec-select2-style-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/select2/select2.min.css?ver=5.20.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-font-icons-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/css/iconfonts.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-frontend-style-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/css/frontend.min.css?ver=5.20.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-tooltip-style-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/tooltip/tooltip.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-tooltip-shadow-style-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/tooltip/tooltipster-sideTip-shadow.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='featherlight-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/featherlight/featherlight.css?ver=5.7.2' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='mec-google-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CRoboto%3A100%2C300%2C400%2C700&#038;ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mec-lity-style-css'  href='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/lity/lity.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://blog.openzeppelin.com/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=6.11.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://blog.openzeppelin.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.4.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='uncode-style-css'  href='https://blog.openzeppelin.com/wp-content/themes/uncode/library/css/style.css?ver=831452011' type='text/css' media='all' />
+<style id='uncode-style-inline-css' type='text/css'>
+
+@media (min-width: 960px) { .limit-width { max-width: 1200px; margin: auto;}}
+</style>
+<link rel='stylesheet' id='uncode-icons-css'  href='https://blog.openzeppelin.com/wp-content/themes/uncode/library/css/uncode-icons.css?ver=831452011' type='text/css' media='all' />
+<link rel='stylesheet' id='uncode-custom-style-css'  href='https://blog.openzeppelin.com/wp-content/themes/uncode/library/css/style-custom.css?ver=831452011' type='text/css' media='all' />
+<style id='uncode-custom-style-inline-css' type='text/css'>
+.sharedaddy {display:none !important;}@font-face {font-family:'Silka';src:url('uploads/2019/08/silka-semibold-webfont.eot'); src:url('uploads/2019/08/silka-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('uploads/2019/08/silka-semibold-webfont.woff2') format('woff2'),url('uploads/2019/08/silka-semibold-webfont.woff') format('woff'),url('uploads/2019/08/silka-semibold-webfont.ttf')format('truetype'), }h1, h2, h3, h4, h6 { font-weight:600; line-height:1.35; }blockquote p { font-size:15px; line-height:1.75; margin:18px 0 0; }blockquote { padding:0px 0px 0px 20px; }table td { font-weight:400; }a:link, a:visited, a:hover, a:active, a code {color:#4d5de4;}ol, ul { padding-left:18px; }li { padding-left:6px; padding-bottom:6px; }ul li { list-style-type:disc; }.wp-caption-text { text-align:center; }.enlighter-default { margin:20px 0 !important;padding:1rem 0 !important;font-size:0.75em !important; border-radius:6px; }.ol.EnlighterJS li { margin-left:30px;}ul.EnlighterJS {margin:16px 0 0 0 !important;}span.atomicEnlighterJS { padding:5px !important; border-radius:3px !important; }.pre { overflow:auto; font-size:15px;}code { padding:2px 4px !important; }.style-light code {background-color:#f7f7f7 !important;border:1px solid #eaeaea !important;border-radius:3px !important;font-size:13px !important;}.row.row-parent.style-light.double-top-padding.double-bottom-padding { padding-bottom:36px; }.main-container .row-container .double-bottom-padding { padding-top:2rem; }.isotope-wrapper.single-gutter, .index-system.single-gutter .index-wrapper, .justified-wrapper.single-gutter { margin-top:-30px !important; }#index-1041816597 .main-container .row-container .row-parent .double-internal-gutter { margin-top:0px !important; background:#0000; }.post-after hr {bottom:0px !important;height:1px;width:50%;margin-left:25%;margin-top:10px;}.row div[class*=col-lg-].align_left > .uncol > .uncoltable > .uncell > .uncont hr {margin-right:auto;margin-left:25%;}hr.separator-no-padding {margin-top:27px;margin-bottom:32px;}.home-headings hr{position:absolute;bottom:62px !important;height:1px;width:280px;}.single-block-padding { padding:30px; }.tmb .t-entry .t-entry-title { font-weight:600; font-family:'Silka', Helvetica, Arial, sans-serif; }.tmb .t-entry p.t-entry-author span.tmb-username-wrap { font-size:14px; }.author-profile-bio { margin:-10px; }.contact-methods li { font-size:24px; }.author-profile .contact-methods li a { color:#777777; }.author-profile .contact-methods li a:hover, .author-profile .contact-methods li.contact-method-twitter a:hover, .author-profile .contact-methods li.contact-method-twitter a:focus { background-color:#f7f7f7 !important; color:#4d5ce3 !important;}.home-headings .t-inside.style-color-xsdn-bg, .post-after .t-inside.style-color-xsdn-bg { height:512px !important; }.home-headings .t-entry-text, .post-after .t-entry-text { height:340px !important; }.home-headings .t-entry, .post-after .t-entry { height:280px !important; }.home-headings p.t-entry-author, .post-after p.t-entry-author { position:absolute; bottom:36px; }.footer-copy-mobile { display:none; }.footer-full { max-width:1200px; margin-left:auto; margin-right:auto; }.footer-full a:link, .footer-full a:visited, .footer-full a:hover, .footer-full a:active {color:#a9a9b5;}.footer-links { float:right;}footer .footer-last p { font-size:13px; line-height:2; margin-top:12px }footer .footer-center { padding-top:70px; padding-bottom:50px; }.footer-logo img { width:177px; }.footer-logo { margin-bottom:20px; }.footer-logo, .footer-copy { text-align:left; font-size:12px; }.footer-left, .footer-right { height:auto; }.footer-left { float:left; width:25%; color:#a9a9b5; }.footer-right { float:left; width:75%; text-align:left; }.fcolumn { float:left; margin-right:60px; }.fcolumn h3 { margin:0px; font-size:16px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; }.fcolumn1 {}.fcolumn .fcolumn4{ margin-right:0px; }.footer-icons { float:right; margin-right:60px; clear:right; margin-top:24px;}.footer-icons img { margin:0 10px; height:24px; }.uncode_text_column.footer-post, .uncode_text_column.footer-post-2{ max-width:50%; margin-left:25%; }ol { margin-left:0; }.comment-content { padding:0; }.comment-content p { margin-top:10px; }.comment { padding:28px;margin:24px 0px 0px 0px;border-style:solid;border-color:lightgray;border-width:1px;border-radius:6px;}.comment-author img { max-width:44px; height:auto; border-radius:22px; margin-right:6px;}.comment-author .fn a { color:#282846; font-size:18px; font-family:'Silka', Helvetica, Arial, sans-serif; vertical-align:text-bottom; line-height:44px; }.comment-list { padding:0; }.comment-metadata { font-size:12px; text-transform:uppercase; color:#999999; font-weight:500; margin-top:8px; }article.onebox-body, article.onebox-body .quoted {border-left:solid 1px lightgray;padding:1rem;padding-left:1.5rem;word-break:break-word;margin-top:1rem;}img.site-icon {height:1rem;width:1rem;margin-right:.5rem;margin-top:1rem;}.onebox .date a { color:#282846; }.quoted-title { margin-top:0; }.onebox p span.label1, .onebox .date {font-style:italic;font-size:14px;margin-top:1rem;opacity:.6;}article.onebox-body .onebox-avatar {max-width:1.5rem;border-radius:1rem;margin-right:.5rem;}.aspect-image img.thumbnail { display:none; }aside.onebox.twitterstatus h4, aside.onebox h3 {display:inline;vertical-align:top;line-height:1.5rem;}p.quoted-title {margin-top:0;font-weight:600;font-size:16px;}.quoted-title span { font-weight:300; }.vertical-tab-menu { width:9rem; }.vertical-tab-contents { width:calc(100% - 9rem); }.tab-content.vertical { padding:0px 24px; }.reports-col { max-width:70%; }.reports-header { max-width:55%; margin:auto; }.uncode-info-box, .uncode-info-box a { color:#777 !important; }.nav-tabs > li > a span {white-space:normal;word-break:break-word;line-height:.5;letter-spacing:1px;}.tabs-left > li > a {margin-right:0;display:block;text-align:left;padding:.5rem .5rem .5rem 0;}h6 { margin-top:8px; padding:4px 8px; width:fit-content; border-radius:6px; }.critical h6 { background:#ee5253; color:white; }.high h6 { background:#ff9f43; color:white; }.medium h6 { background:#fbc531; color:white; }.low h6 { background:#63B0F9; color:white; }.note h6 { background:#4e5ee4; color:white; }.reading h6 {background-color:#f1f1f4;font-weight:400;text-transform:uppercase;padding:4px 10px;}.summary h6 {font-weight:400;text-transform:uppercase;padding:4px 10px;border-style:solid;border-width:1px;border-color:#40405988;font-size:12px;}button a.custom-link {display:block;min-width:150px;border:solid 1px #282846;border-radius:8px;padding:13px 31px;font-weight:600;color:#282846;font-family:'Silka',"Helvetica Neue",BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,sans-serif, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;letter-spacing:0.1em;text-transform:uppercase;font-size:12px;}button a.custom-link:hover {background-color:#282846;color:white !important;}.btn-container {display:flex;margin-top:30px;justify-content:center;}button { background:none; }@media (max-width:425px) {.reports-col, .reports-header { max-width:100%; }.vertical-tab-contents { width:100%; }.tab-content.vertical { padding:0px; }.uncode_text_column.footer-post, .uncode_text_column.footer-post-2{ max-width:80%; margin-left:10%; }.main-container .row.row-parent:not(.row-slider):not(.row-header), .main-container .row .row-parent:not(.row-slider):not(.row-header) .row { max-width:100% !important; }}@media (min-width:426px) and (max-width:569px) {.vertical-tab-contents { width:100%; }.tab-content.vertical { padding:0px; border:none; }.reports-col, .reports-header { position:relative; max-width:90%; margin:auto; }}@media (max-width:569px) { .post-info, .post-info a, .uncode-info-box, .uncode-info-box a { font-size:14px !important; line-height:1.7em; }.btn:not(input):not(.checkout-button), .btn-link:not(input):not(.checkout-button) { transform:scale(1); }.t-entry-readmore .btn:not(input):not(.checkout-button), .t-entry-readmore .btn-link:not(input):not(.checkout-button) { transform:scale(1.2); padding:10px 0 !important; } }@media (min-width:570px) and (max-width:1080px) {.reports-header { max-width:80%; }.reports-col { position:relative; max-width:100%; margin:auto; }}@media only screen and (max-width:870px) {.footer-left, .footer-right { float:none; width:80%; margin-left:10%; }.fcolumn1 { margin-left:0%; }.fcolumn { float:left; margin-right:76px; height:140px; width:24%; }.footer-left { height:auto; }footer .footer-center { padding-top:33px; }.footer-right { margin-bottom:139px; }.footer-logo { margin-bottom:40px; }.footer-icons { float:left; margin:24px 0; }.footer-copy-mobile { display:block; text-align:center; color:#a9a9b5; clear:both; }.footer-copy { display:none; }.submenu-light .menu-smart ul a { color:#57566f; text-transform:capitalize;}}
+</style>
+<link rel='stylesheet' id='enlighterjs-css'  href='https://blog.openzeppelin.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=88YGwSeMxKpTIVg' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://blog.openzeppelin.com/wp-content/themes/uncode-child/style.css?ver=1439466665' type='text/css' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://c0.wp.com/p/jetpack/9.8.1/_inc/social-logos/social-logos.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://c0.wp.com/p/jetpack/9.8.1/css/jetpack.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='mec-frontend-script-js-extra'>
+/* <![CDATA[ */
+var mecdata = {"day":"day","days":"days","hour":"hour","hours":"hours","minute":"minute","minutes":"minutes","second":"second","seconds":"seconds","elementor_edit_mode":"no","recapcha_key":"","ajax_url":"https:\/\/blog.openzeppelin.com\/wp-admin\/admin-ajax.php","fes_nonce":"650430c41b","current_year":"2021","current_month":"07","datepicker_format":"yy-mm-dd&Y-m-d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/js/frontend.js?ver=5.20.6' id='mec-frontend-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/js/events.js?ver=5.20.6' id='mec-events-script-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.11.7","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=6.11.7' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.11.7' id='layerslider-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=6.11.7' id='layerslider-transitions-js'></script>
+<script type='text/javascript' id='monsterinsights-frontend-script-js-extra'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/blog.openzeppelin.com","hash_tracking":"false","ua":"UA-85043059-2"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=7.17.0' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.4.4' id='tp-tools-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.4.6' id='revmin-js'></script>
+<script type='text/javascript' src='/wp-content/themes/uncode/library/js/ai-uncode.js' id='uncodeAI' data-home='/' data-path='/' data-breakpoints-images='258,516,720,1032,1440,2064,2880' id='ai-uncode-js'></script>
+<script type='text/javascript' id='uncode-init-js-extra'>
+/* <![CDATA[ */
+var SiteParameters = {"days":"days","hours":"hours","minutes":"minutes","seconds":"seconds","constant_scroll":"on","scroll_speed":"2","parallax_factor":"0.25","loading":"Loading\u2026","slide_name":"slide","slide_footer":"footer","ajax_url":"https:\/\/blog.openzeppelin.com\/wp-admin\/admin-ajax.php","nonce_adaptive_images":"e68e699a31","enable_debug":"","block_mobile_videos":"","is_frontend_editor":"","mobile_parallax_allowed":"","wireframes_plugin_active":"1","sticky_elements":"off","lazyload_type":"","update_wc_fragments":"1","uncode_adaptive":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/themes/uncode/library/js/init.js?ver=831452011' id='uncode-init-js'></script>
+<meta name="generator" content="Powered by LayerSlider 6.11.7 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel="https://api.w.org/" href="https://blog.openzeppelin.com/wp-json/" /><link rel="alternate" type="application/json" href="https://blog.openzeppelin.com/wp-json/wp/v2/posts/80737" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.openzeppelin.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.openzeppelin.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://blog.openzeppelin.com/tether-token-audit-438d561a380/" />
+<link rel='shortlink' href='https://wp.me/paYM0r-l0d' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.openzeppelin.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.openzeppelin.com%2Ftether-token-audit-438d561a380%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.openzeppelin.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.openzeppelin.com%2Ftether-token-audit-438d561a380%2F&#038;format=xml" />
+				<style type="text/css">
+					@font-face {font-family: "Silka";font-display: auto;font-fallback: ;font-weight: 400;src: url(https://blog.openzeppelin.com/wp-content/uploads/2019/08/silka-semibold-webfont.woff2) format('woff2'), url(https://blog.openzeppelin.com/wp-content/uploads/2019/08/silka-semibold-webfont.woff) format('woff'), url(https://blog.openzeppelin.com/wp-content/uploads/2019/08/silka-semibold-webfont.ttf) format('TrueType'), url(https://blog.openzeppelin.com/wp-content/uploads/2019/08/silka-semibold-webfont.eot) format('eot');}				</style>
+							<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v8.0.294-->
+			<script type="text/javascript">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+						<script>
+				(function() {
+					var hbspt = window.hbspt = window.hbspt || {};
+					hbspt.forms = hbspt.forms || {};
+					hbspt._wpFormsQueue = [];
+					hbspt.enqueueForm = function(formDef) {
+						if (hbspt.forms && hbspt.forms.create) {
+							hbspt.forms.create(formDef);
+						} else {
+							hbspt._wpFormsQueue.push(formDef);
+						}
+					}
+					if (!window.hbspt.forms.create) {
+						Object.defineProperty(window.hbspt.forms, 'create', {
+							configurable: true,
+							get: function() {
+								return hbspt._wpCreateForm;
+							},
+							set: function(value) {
+								hbspt._wpCreateForm = value;
+								while (hbspt._wpFormsQueue.length) {
+									var formDef = hbspt._wpFormsQueue.shift();
+									if (!document.currentScript) {
+										var formScriptId = 'leadin-forms-v2-js';
+										hubspot.utils.currentScript = document.getElementById(formScriptId);
+									}
+									hbspt._wpCreateForm.call(hbspt.forms, formDef);
+								}
+							},
+						});
+					}
+				})();
+			</script>
+		<style type='text/css'>img#wpstats{display:none}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="description" content="The Tether team asked us to review and audit their Tether Token contracts. We looked at the code and now, publish our results." />
+<link rel="amphtml" href="https://blog.openzeppelin.com/tether-token-audit-438d561a380/amp/"><meta name="generator" content="Powered by Slider Revolution 6.4.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Tether Token Audit" />
+<meta property="og:url" content="https://blog.openzeppelin.com/tether-token-audit-438d561a380/" />
+<meta property="og:description" content="The Tether team asked us to review and audit their Tether Token contracts. We looked at the code and now, publish our results." />
+<meta property="article:published_time" content="2018-01-03T17:11:47+00:00" />
+<meta property="article:modified_time" content="2020-09-02T18:50:10+00:00" />
+<meta property="og:site_name" content="OpenZeppelin blog" />
+<meta property="og:image" content="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Tether.png?fit=1200%2C675&#038;ssl=1" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="675" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="Tether Token Audit" />
+<meta name="twitter:image" content="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Tether.png?fit=1200%2C675&#038;ssl=1&#038;w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/05/cropped-OZ_icon_background.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/05/cropped-OZ_icon_background.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/05/cropped-OZ_icon_background.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/05/cropped-OZ_icon_background.png?fit=270%2C270&#038;ssl=1" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<!-- Your Google Analytics Plugin is missing the tracking ID -->
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style type="text/css">.mec-wrap, .mec-wrap div:not([class^="elementor-"]), .lity-container, .mec-wrap h1, .mec-wrap h2, .mec-wrap h3, .mec-wrap h4, .mec-wrap h5, .mec-wrap h6, .entry-content .mec-wrap h1, .entry-content .mec-wrap h2, .entry-content .mec-wrap h3, .entry-content .mec-wrap h4, .entry-content .mec-wrap h5, .entry-content .mec-wrap h6, .mec-wrap .mec-totalcal-box input[type="submit"], .mec-wrap .mec-totalcal-box .mec-totalcal-view span, .mec-agenda-event-title a, .lity-content .mec-events-meta-group-booking select, .lity-content .mec-book-ticket-variation h5, .lity-content .mec-events-meta-group-booking input[type="number"], .lity-content .mec-events-meta-group-booking input[type="text"], .lity-content .mec-events-meta-group-booking input[type="email"],.mec-organizer-item a { font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}.mec-event-grid-minimal .mec-modal-booking-button:hover, .mec-events-timeline-wrap .mec-organizer-item a, .mec-events-timeline-wrap .mec-organizer-item:after, .mec-events-timeline-wrap .mec-shortcode-organizers i, .mec-timeline-event .mec-modal-booking-button, .mec-wrap .mec-map-lightbox-wp.mec-event-list-classic .mec-event-date, .mec-timetable-t2-col .mec-modal-booking-button:hover, .mec-event-container-classic .mec-modal-booking-button:hover, .mec-calendar-events-side .mec-modal-booking-button:hover, .mec-event-grid-yearly  .mec-modal-booking-button, .mec-events-agenda .mec-modal-booking-button, .mec-event-grid-simple .mec-modal-booking-button, .mec-event-list-minimal  .mec-modal-booking-button:hover, .mec-timeline-month-divider,  .mec-wrap.colorskin-custom .mec-totalcal-box .mec-totalcal-view span:hover,.mec-wrap.colorskin-custom .mec-calendar.mec-event-calendar-classic .mec-selected-day,.mec-wrap.colorskin-custom .mec-color, .mec-wrap.colorskin-custom .mec-event-sharing-wrap .mec-event-sharing > li:hover a, .mec-wrap.colorskin-custom .mec-color-hover:hover, .mec-wrap.colorskin-custom .mec-color-before *:before ,.mec-wrap.colorskin-custom .mec-widget .mec-event-grid-classic.owl-carousel .owl-nav i,.mec-wrap.colorskin-custom .mec-event-list-classic a.magicmore:hover,.mec-wrap.colorskin-custom .mec-event-grid-simple:hover .mec-event-title,.mec-wrap.colorskin-custom .mec-single-event .mec-event-meta dd.mec-events-event-categories:before,.mec-wrap.colorskin-custom .mec-single-event-date:before,.mec-wrap.colorskin-custom .mec-single-event-time:before,.mec-wrap.colorskin-custom .mec-events-meta-group.mec-events-meta-group-venue:before,.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-side .mec-previous-month i,.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-side .mec-next-month:hover,.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-side .mec-previous-month:hover,.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-side .mec-next-month:hover,.mec-wrap.colorskin-custom .mec-calendar.mec-event-calendar-classic dt.mec-selected-day:hover,.mec-wrap.colorskin-custom .mec-infowindow-wp h5 a:hover, .colorskin-custom .mec-events-meta-group-countdown .mec-end-counts h3,.mec-calendar .mec-calendar-side .mec-next-month i,.mec-wrap .mec-totalcal-box i,.mec-calendar .mec-event-article .mec-event-title a:hover,.mec-attendees-list-details .mec-attendee-profile-link a:hover,.mec-wrap.colorskin-custom .mec-next-event-details li i, .mec-next-event-details i:before, .mec-marker-infowindow-wp .mec-marker-infowindow-count, .mec-next-event-details a,.mec-wrap.colorskin-custom .mec-events-masonry-cats a.mec-masonry-cat-selected,.lity .mec-color,.lity .mec-color-before :before,.lity .mec-color-hover:hover,.lity .mec-wrap .mec-color,.lity .mec-wrap .mec-color-before :before,.lity .mec-wrap .mec-color-hover:hover,.leaflet-popup-content .mec-color,.leaflet-popup-content .mec-color-before :before,.leaflet-popup-content .mec-color-hover:hover,.leaflet-popup-content .mec-wrap .mec-color,.leaflet-popup-content .mec-wrap .mec-color-before :before,.leaflet-popup-content .mec-wrap .mec-color-hover:hover, .mec-calendar.mec-calendar-daily .mec-calendar-d-table .mec-daily-view-day.mec-daily-view-day-active.mec-color, .mec-map-boxshow div .mec-map-view-event-detail.mec-event-detail i,.mec-map-boxshow div .mec-map-view-event-detail.mec-event-detail:hover,.mec-map-boxshow .mec-color,.mec-map-boxshow .mec-color-before :before,.mec-map-boxshow .mec-color-hover:hover,.mec-map-boxshow .mec-wrap .mec-color,.mec-map-boxshow .mec-wrap .mec-color-before :before,.mec-map-boxshow .mec-wrap .mec-color-hover:hover, .mec-choosen-time-message, .mec-booking-calendar-month-navigation .mec-next-month:hover, .mec-booking-calendar-month-navigation .mec-previous-month:hover, .mec-yearly-view-wrap .mec-agenda-event-title a:hover, .mec-yearly-view-wrap .mec-yearly-title-sec .mec-next-year i, .mec-yearly-view-wrap .mec-yearly-title-sec .mec-previous-year i, .mec-yearly-view-wrap .mec-yearly-title-sec .mec-next-year:hover, .mec-yearly-view-wrap .mec-yearly-title-sec .mec-previous-year:hover, .mec-av-spot .mec-av-spot-head .mec-av-spot-box span, .mec-wrap.colorskin-custom .mec-calendar .mec-calendar-side .mec-previous-month:hover .mec-load-month-link, .mec-wrap.colorskin-custom .mec-calendar .mec-calendar-side .mec-next-month:hover .mec-load-month-link, .mec-yearly-view-wrap .mec-yearly-title-sec .mec-previous-year:hover .mec-load-month-link, .mec-yearly-view-wrap .mec-yearly-title-sec .mec-next-year:hover .mec-load-month-link, .mec-skin-list-events-container .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul .mec-event-data-field-item a{color: #333333}.mec-skin-carousel-container .mec-event-footer-carousel-type3 .mec-modal-booking-button:hover, .mec-wrap.colorskin-custom .mec-event-sharing .mec-event-share:hover .event-sharing-icon,.mec-wrap.colorskin-custom .mec-event-grid-clean .mec-event-date,.mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing > li:hover a i,.mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing .mec-event-share:hover .mec-event-sharing-icon,.mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing li:hover a i,.mec-wrap.colorskin-custom .mec-calendar:not(.mec-event-calendar-classic) .mec-selected-day,.mec-wrap.colorskin-custom .mec-calendar .mec-selected-day:hover,.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-row  dt.mec-has-event:hover,.mec-wrap.colorskin-custom .mec-calendar .mec-has-event:after, .mec-wrap.colorskin-custom .mec-bg-color, .mec-wrap.colorskin-custom .mec-bg-color-hover:hover, .colorskin-custom .mec-event-sharing-wrap:hover > li, .mec-wrap.colorskin-custom .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected,.mec-wrap .flip-clock-wrapper ul li a div div.inn,.mec-wrap .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected,.event-carousel-type1-head .mec-event-date-carousel,.mec-event-countdown-style3 .mec-event-date,#wrap .mec-wrap article.mec-event-countdown-style1,.mec-event-countdown-style1 .mec-event-countdown-part3 a.mec-event-button,.mec-wrap .mec-event-countdown-style2,.mec-map-get-direction-btn-cnt input[type="submit"],.mec-booking button,span.mec-marker-wrap,.mec-wrap.colorskin-custom .mec-timeline-events-container .mec-timeline-event-date:before, .mec-has-event-for-booking.mec-active .mec-calendar-novel-selected-day, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date:hover, .mec-ongoing-normal-label, .mec-calendar .mec-has-event:after{background-color: #333333;}.mec-booking-tooltip.multiple-time .mec-booking-calendar-date:hover, .mec-calendar-day.mec-active .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active{ background-color: #333333;}.mec-skin-carousel-container .mec-event-footer-carousel-type3 .mec-modal-booking-button:hover, .mec-timeline-month-divider, .mec-wrap.colorskin-custom .mec-single-event .mec-speakers-details ul li .mec-speaker-avatar a:hover img,.mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing > li:hover a i,.mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing .mec-event-share:hover .mec-event-sharing-icon,.mec-wrap.colorskin-custom .mec-event-list-standard .mec-month-divider span:before,.mec-wrap.colorskin-custom .mec-single-event .mec-social-single:before,.mec-wrap.colorskin-custom .mec-single-event .mec-frontbox-title:before,.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-events-side .mec-table-side-day, .mec-wrap.colorskin-custom .mec-border-color, .mec-wrap.colorskin-custom .mec-border-color-hover:hover, .colorskin-custom .mec-single-event .mec-frontbox-title:before, .colorskin-custom .mec-single-event .mec-wrap-checkout h4:before, .colorskin-custom .mec-single-event .mec-events-meta-group-booking form > h4:before, .mec-wrap.colorskin-custom .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected,.mec-wrap .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected,.event-carousel-type1-head .mec-event-date-carousel:after,.mec-wrap.colorskin-custom .mec-events-masonry-cats a.mec-masonry-cat-selected, .mec-marker-infowindow-wp .mec-marker-infowindow-count, .mec-wrap.colorskin-custom .mec-events-masonry-cats a:hover, .mec-has-event-for-booking .mec-calendar-novel-selected-day, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date:hover, .mec-virtual-event-history h3:before, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date:hover, .mec-calendar-day.mec-active .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active{border-color: #333333;}.mec-wrap.colorskin-custom .mec-event-countdown-style3 .mec-event-date:after,.mec-wrap.colorskin-custom .mec-month-divider span:before, .mec-calendar.mec-event-container-simple dl dt.mec-selected-day, .mec-calendar.mec-event-container-simple dl dt.mec-selected-day:hover{border-bottom-color:#333333;}.mec-wrap.colorskin-custom  article.mec-event-countdown-style1 .mec-event-countdown-part2:after{border-color: transparent transparent transparent #333333;}.mec-wrap.colorskin-custom .mec-box-shadow-color { box-shadow: 0 4px 22px -7px #333333;}.mec-events-timeline-wrap .mec-shortcode-organizers, .mec-timeline-event .mec-modal-booking-button, .mec-events-timeline-wrap:before, .mec-wrap.colorskin-custom .mec-timeline-event-local-time, .mec-wrap.colorskin-custom .mec-timeline-event-time ,.mec-wrap.colorskin-custom .mec-timeline-event-location,.mec-choosen-time-message { background: rgba(51,51,51,.11);}.mec-wrap.colorskin-custom .mec-timeline-events-container .mec-timeline-event-date:after { background: rgba(51,51,51,.3);}</style><style type="text/css">.post-body .mec-timeline-readmore{
+
+color: #ffffff;
+
+}
+
+.post-body:hover .mec-timeline-readmore:hover {
+
+color: #ffffff;
+
+}
+
+
+
+</style></head>
+<body class="post-template-default single single-post postid-80737 single-format-standard  style-color-lxmt-bg non-logged-in group-blog hormenu-position-left hmenu hmenu-position-right header-full-width main-center-align menu-has-cta mobile-parallax-not-allowed ilb-no-bounce unreg qw-body-scroll-disabled wpb-js-composer js-comp-ver-6.6.0 vc_responsive" data-border="0">
+		<div class="body-borders" data-border="0"><div class="top-border body-border-shadow"></div><div class="right-border body-border-shadow"></div><div class="bottom-border body-border-shadow"></div><div class="left-border body-border-shadow"></div><div class="top-border style-light-bg"></div><div class="right-border style-light-bg"></div><div class="bottom-border style-light-bg"></div><div class="left-border style-light-bg"></div></div>	<div class="box-wrapper">
+		<div class="box-container">
+		<script type="text/javascript" id="initBox">UNCODE.initBox();</script>
+		<div class="menu-wrapper">
+													
+													<header id="masthead" class="navbar menu-primary menu-light submenu-light style-light-original menu-with-logo">
+														<div class="menu-container style-color-xsdn-bg menu-borders menu-shadows">
+															<div class="row-menu limit-width">
+																<div class="row-menu-inner">
+																	<div id="logo-container-mobile" class="col-lg-0 logo-container middle">
+																		<div id="main-logo" class="navbar-header style-light">
+																			<a href="https://blog.openzeppelin.com/" class="navbar-brand" data-minheight="20"><div class="logo-image main-logo logo-skinnable" data-maxheight="27" style="height: 27px;"><img src="https://blog.openzeppelin.com/wp-content/uploads/2021/06/OZ_logo_2021.svg" alt="logo" width="2546" height="400" class="img-responsive" /></div></a>
+																		</div>
+																		<div class="mmb-container"><div class="mobile-additional-icons"></div><div class="mobile-menu-button 1 mobile-menu-button-light lines-button x2"><span class="lines"></span></div></div>
+																	</div>
+																	<div class="col-lg-12 main-menu-container middle">
+																		<div class="menu-horizontal menu-dd-shadow-xs">
+																			<div class="menu-horizontal-inner">
+																				<div class="nav navbar-nav navbar-main navbar-nav-first"><ul id="menu-openzeppelin" class="menu-primary-inner menu-smart sm"><li id="menu-item-79967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79967 menu-item-link"><a title="Security Audits" href="https://blog.openzeppelin.com/security-audits/">Security Audits<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-79965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79965 menu-item-link"><a title="Perspectives" href="https://blog.openzeppelin.com/perspectives/">Perspectives<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-79738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79738 menu-item-link"><a title="News" href="https://blog.openzeppelin.com/news/">News<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-87896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87896 menu-item-link"><a title="Events" href="https://blog.openzeppelin.com/ozevents/">Events<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-79737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79737 menu-item-link"><a title="Website" href="https://openzeppelin.com">Website<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul></div><div class="nav navbar-nav navbar-cta"><ul id="menu-call-to-action" class="menu-cta-inner menu-smart sm"><li id="menu-item-89011" class="menu-item-button"><a title="We&#039;re hiring!" href="https://openzeppelin.com/jobs/"><div class="menu-btn-table"><div class="menu-btn-cell"><div class="hiring_button btn-color-768098 btn-round menu-item menu-item-type-custom menu-item-object-custom menu-item-89011 menu-btn-container btn"><span>We&#8217;re hiring!</span></div></div></div></a></li>
+</ul></div><div class="nav navbar-nav navbar-nav-last"><ul class="menu-smart sm menu-icons"><li class="menu-item-link search-icon style-light dropdown "><a href="#" class="trigger-overlay search-icon" data-area="search" data-container="box-container">
+													<i class="fa fa-search3"></i><span class="desktop-hidden"><span>Search</span></span><i class="fa fa-angle-down fa-dropdown desktop-hidden"></i>
+													</a><ul role="menu" class="drop-menu desktop-hidden">
+														<li>
+															<form class="search ccc" method="get" action="https://blog.openzeppelin.com/">
+																<input type="search" class="search-field no-livesearch" placeholder="Search…" value="" name="s" title="Search…" /></form>
+														</li>
+													</ul></li></ul></div><div class="desktop-hidden">
+														 							</div></div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</header>
+												</div>			<script type="text/javascript" id="fixMenuHeight">UNCODE.fixMenuHeight();</script>
+			<div class="main-wrapper">
+				<div class="main-container">
+					<div class="page-wrapper">
+						<div class="sections-container">
+<script type="text/javascript">UNCODE.initHeader();</script><article id="post-80737" class="page-body style-light-bg post-80737 post type-post status-publish format-standard has-post-thumbnail hentry category-security-audits">
+          <div class="post-wrapper">
+          	<div class="post-body"><div class="post-content un-no-sidebar-layout" style="max-width: 55%; margin: auto;"><div class="row-container">
+		  					<div class="row row-parent style-light double-top-padding double-bottom-padding">
+									<div class="post-title-wrapper"><h1 class="post-title">Tether Token Audit</h1><div class="post-info"><div class="date-info">January 3, 2018</div><div class="category-info"><span>|</span>In <a href="https://blog.openzeppelin.com/category/security-audits/" title="View all posts in Security audits">Security audits</a></div><div class="author-info"><span>|</span>By <a href="https://blog.openzeppelin.com/author/openzeppelin-security/">OpenZeppelin Security</a></div></div></div><p><img src="https://i1.wp.com/blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Tether.png?resize=840%2C473&#038;ssl=1" alt="" width="840" height="473" data-recalc-dims="1" /></p>
+<p>The <a href="https://tether.to/">Tether</a> team asked us to review and audit their Tether Token contracts. We looked at the code and now, publish our results.</p>
+<p>A previous version of the code was audited by Philip Daian. See <a href="https://stableset.com/audits/tether_audit_v1/tether_audit_v1.pdf">his full report here</a>, which includes an overview of the application.<br />
+The audited code is located in the <a href="https://github.com/tetherto/ether-contracts/tree/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts">tetherto/ether-contracts</a> repository. The version used for this report is commit <a href="https://github.com/tetherto/ether-contracts/tree/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts"><code>9718de4da7b571c1acf822</code></a>. We restricted our audit only to the Tether and the Zeppelin contracts, without including the ConsenSys multisig wallet.<br />
+Following are our assessment and recommendations, in order of importance.</p>
+<p><em><strong>Update:</strong> The Tether team has followed our recommendations and updated the Tether Token contract. The new version is at commit <a href="https://github.com/tetherto/ether-contracts/tree/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts"><code>0e2e2ddda17ed4ed20c1d89015906d8276fb38ba</code></a>.</em></p>
+<h3>Critical severity</h3>
+<p>No critical severity issues were found.</p>
+<h3>High severity</h3>
+<p>No high severity issues were found.</p>
+<h3>Medium severity</h3>
+<h4>Install OpenZeppelin via NPM and Update</h4>
+<p><code>Contactable</code>, <code>Pausable</code>, <code>SafeMath</code>, <code>Ownable</code>, <code>ERC20Basic</code>, <code>ERC20</code>, <code>BasicToken</code>, and <code>StandardToken</code> were <a href="https://github.com/tetherto/ether-contracts/tree/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin">copied</a> from the OpenZeppelin repository.</p>
+<p>This violates OpenZeppelin’s MIT license, which requires the license and copyright notice to be included if its code is used, and makes it difficult and error-prone to update to a more recent version.</p>
+<p>Moreover, the contracts were copied from an old unspecified version (earlier than June 2017, based on the <a href="https://github.com/OpenZeppelin/zeppelin-solidity/commit/6ede3d9001dcb07e35a38333cb7d6d10bb1a77f8">Solidity version pragma</a>). Since then, there have been multiple fixes to the included contracts, which are missing from the Tether repository.<br />
+Some of these fixes include:</p>
+<ul>
+<li>Fire an event to signal Ownership transfer (see <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/424">PR424</a>)</li>
+<li>Remove incorrect short address attack checks (see <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/277">PR277</a>)</li>
+<li>Check that destination of token transfers is not 0x0 (see <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/415">PR415</a>)</li>
+<li>Add boolean return flags to ERC20 methods to conform to the standard (see <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/308">PR308</a>)</li>
+<li>Use <code>require</code> checks for token preconditions (see <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/466">PR466</a>)</li>
+<li>A user can send to themselves more than their current balance (see <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/377">PR377</a>)</li>
+</ul>
+<p>Consider following the <a href="https://github.com/OpenZeppelin/zeppelin-solidity#getting-started">recommended way</a> to use OpenZeppelin contracts, which is via the <a href="https://www.npmjs.com/package/zeppelin-solidity">zeppelin-solidity NPM package</a>, and update to the latest version (1.4.0 at the time of this writing). This allows for any bugfixes to be easily integrated into the codebase.</p>
+<p><em><strong>Update</strong>: OpenZeppelin version 1.4.0 is imported via NPM as of commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>. However, due to <a href="https://github.com/OpenZeppelin/zeppelin-solidity/issues/434">this issue</a> in the library, a change is needed in the <code>StandardToken</code> contract as described in the <a href="https://github.com/tetherto/ether-contracts/blob/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/README.md">README</a>. Instead of requiring the developer to manually perform the change, consider forking the library in GitHub and changing it there, or commit a <a href="https://git-scm.com/docs/git-apply">patch diff file</a> to automate the change.</em></p>
+<h3>Low severity</h3>
+<h4>OpenZeppelin standard contracts were modified</h4>
+<p>Additionally to copying OpenZeppelin’s contracts instead of installing them via NPM, some of them were modified.<br />
+Fee management was added directly to <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/token/BasicToken.sol"><code>BasicToken</code></a> and <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/token/StandardToken.sol"><code>StandardToken</code></a> implementations, instead of implementing them in a new Token contract that extends from <code>StandardToken</code>.<br />
+We concur with the original observations from Philip Daian in this point:</p>
+<blockquote><p>
+  One change that would make the code substantially cleaner, more modular, and more upgradeable is the moving of the fee calculation functions to the top-level TetherToken file. Currently, the fee calculation is done independently twice in StandardToken.sol and BasicToken.sol. While the calculation has been verified and tested as working, this repetition of code minorly impacts the upgradeability of the token. Furthermore, modifications directly to the Zeppelin library violate the boundaries drawn in the application diagram in the previous section, potentially making future Zeppelin changes more difficult to integrate and more likely to introduce unintended side effects. While this change has been verified as not security critical, it is our belief that such a change would improve the readability, testability and modularity of the existing codebase.
+</p></blockquote>
+<p>Furthermore, non ERC20-compliant changes, such as using <code>MAX_UINT</code> as an <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/token/StandardToken.sol#L37">eternal approval</a> magic value, or forcing clients to <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/token/StandardToken.sol#L61">reduce approval to zero</a> before changing it, were introduced in the StandardToken implementation. Note that, since 1.3.0, OpenZeppelin’s StandardToken has the <a href="https://github.com/OpenZeppelin/zeppelin-solidity/pull/224"><code>increaseApproval](https://github.com/OpenZeppelin/zeppelin-solidity/pull/224) and [</code>decreaseApproval</a> methods to mitigate the latter.</p>
+<p>This is not the way OpenZeppelin standard contracts should be used. Making changes to open-source libraries, instead of using them as is, can be dangerous and prevents from integrating bug-fixes into the codebase easily.<br />
+Consider extending <code>StandardToken</code> in a <code>StandardTokenWithFees</code> contract, that adds the fee calculation feature to the token.</p>
+<p><em><strong>Update</strong>: Fixed in commits <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a> and <a href="https://github.com/tetherto/ether-contracts/tree/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts"><code>0e2e2ddda1</code></a>.</em></p>
+<h4>Token allowances can be modified while the contract is paused</h4>
+<p>The method <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L63"><code>TetherToken#approve</code></a> is missing a <code>whenNotPaused</code> modifier. This allows any user to change allowances while the token is paused. A paused token should halt all state-changing operations, except for those to be run in emergency.<br />
+Consider adding the <code>whenNotPaused</code> modifier to the approve method, or simply using OpenZeppelin’s <a href="https://github.com/OpenZeppelin/zeppelin-solidity/blob/v1.4.0/contracts/token/PausableToken.sol"><code>PausableToken</code></a> contract, which integrates the Pausable functionality into a <code>StandardToken</code>.</p>
+<p><em><strong>Update</strong>: Fixed in commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></p>
+<h4>Solidity version</h4>
+<p>Current code specifies version pragma <code>^0.4.8</code> or <code>^0.4.9</code>, depending on the file. We recommend changing the solidity version pragma to the latest version (<code>^0.4.18</code>) to enforce the use of an up to date compiler. The new compiler <a href="https://etherscan.io/solcbuginfo">includes several bugfixes</a>, including <code>SkipEmptyStringLiteral</code>, to which the <code>0.4.9</code> compiled code is vulnerable.</p>
+<p>Note that this implies updating <code>constant</code> modifiers to <code>pure</code>/<code>view</code>, and updating <code>throw</code>s to <code>revert</code>/<code>require</code>/<code>assert</code> as needed.</p>
+<p><em><strong>Update</strong>: Fixed in commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></p>
+<h3>Unclear responsibilities for BlackList contract</h3>
+<p>The <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol"><code>BlackList</code></a> contract defines methods for adding and removing a user from a blacklist. It also allows the owner to <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L30">destroy</a> the funds of a blacklisted user, which requires the contract to extend <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L7"><code>BasicToken</code></a>, in order to access the balances.</p>
+<p>However, the contract <strong>does not</strong> enforce that transfer methods cannot be executed by blacklisted users. This is manually implemented in TetherToken <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L35">L35</a> and <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L45">L45</a>. This is not a good design, violating the principle of <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">separation of concerns</a> and modularity.</p>
+<p>Consider making the <code>BlackList</code> contract independent from token contracts, and implement the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L30"><code>destroyBlackFunds</code></a> function in the <code>TetherToken</code> directly. Alternatively, consider changing <code>BlackList</code> into a <code>TokenWithBlackList</code>, extending from <code>StandardToken</code>, and adding all the `require(!isBlackListed[msg.sender]) checks there.</p>
+<p><em><strong>Update</strong>: Fixed in commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></p>
+<h4>Unchecked math operations</h4>
+<p>There are unchecked arithmetic operations in the functions <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L104-L105"><code>issue</code></a> and <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L118-L119"><code>redeem</code></a> in TetherToken.</p>
+<p>Even though no overflow should occur due to the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L101-L102">additional</a> <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L115-L116">require</a> guards in both functions, it’s always better to be safe and perform operations with correctness assertions.</p>
+<p>Furthermore, the potential overflow in the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L100"><code>issue</code></a> function should be handled as a <code>throw</code> operation instead of a <code>revert</code> (see <a href="https://media.consensys.net/when-to-use-revert-assert-and-require-in-solidity-61fb2c0e5a57">this article</a> for more info). Note that this would be handled automatically by using a checked addition, and by removing the existing require in that function.</p>
+<p>Additionally, there is an unchecked arithmetic operation in <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L34"><code>BlackList#destroyBlackFunds</code></a>. While <code>totalSupply</code> should never fall below zero, using a checked subtraction would prevent against potential errors in future upgraded implementations.</p>
+<p>Consider using <code>SafeMath</code> for all arithmetic operations in the <code>TetherToken</code> and <code>BlackList</code> contracts.</p>
+<p><em><strong>Update</strong>: Fixed in commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></p>
+<h4>Incomplete test coverage</h4>
+<p>Unit test coverage for the Tether <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/test/test_deprecation.js">deprecation features</a> is quite incomplete. Only the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/test/test_deprecation.js#L14"><code>transfer</code></a> method is checked to be properly delegated to the upgraded token.</p>
+<p>Consider adding tests to also check the delegation of the <code>transferFrom</code>, <code>balanceOf</code>, <code>approve</code>, <code>allowance</code> and <code>totalSupply</code> methods.</p>
+<p><em><strong>Update:</strong> Consider adding tests for the delegation of the <a href="https://github.com/tetherto/ether-contracts/blob/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts/TetherToken.sol#L75"><code>increaseApproval</code></a> and <a href="https://github.com/tetherto/ether-contracts/blob/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts/TetherToken.sol#L83"><code>decreaseApproval</code></a> methods as well.</em></p>
+<h3>Notes &amp; additional information</h3>
+<ul>
+<li>The project has no instructions as to how to run the tests, or the required versions for its dependencies. Consider adding a <a href="https://docs.npmjs.com/files/package.json"><code>package.json</code></a> file with the dependencies (such as <a href="https://www.npmjs.com/package/truffle">truffle</a> and <a href="https://www.npmjs.com/package/zeppelin-solidity">zeppelin-solidity</a>), including a test <a href="https://docs.npmjs.com/misc/scripts">script</a> as well.<br />
+<em><strong>Update:</strong> <code>zeppelin-solidity</code> depdendency added in commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>, consider adding Truffle as well.</em></li>
+<li>Consider adding a <code>README</code> to the project describing its purpose, functionality, structure, architecture, and instructions for development.<br />
+<em><strong>Update:</strong> <code>README</code> added in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>, consider expanding on project architecture.</em></li>
+<li>The short address attack check via the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L63"><code>onlyPayloadSize</code></a> modifier is not considered a correct mitigation for the attack, and even potentially harmful when extending contracts. See <a href="https://github.com/OpenZeppelin/zeppelin-solidity/issues/261">this issue</a> for more information. Consider removing all uses of the modifier from the codebase.<br />
+<em><strong>Update</strong>: Fixed in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></li>
+<li>TetherToken defines the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L13"><code>decimals</code></a> public state variable to be uint, which defaults to <code>uint256</code>. Consider changing this to <code>uint8</code> to comply with the ERC20 <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md#decimals">specification</a>.<br />
+<em><strong>Update</strong>: Fixed in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></li>
+<li>The ERC20 <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md#transfer-1">specification</a> suggests emitting a Transfer event from the address 0x0 when minting new tokens. Consider emitting such event in the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L100"><code>TetherToken#issue</code></a> function. Additionally, we suggest also emitting a Transfer event <strong>to</strong> the address 0x0 when burning the tokens in the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L114"><code>redeem</code></a> and <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L30"><code>destroyBlackFunds</code></a> functions.<br />
+<em><strong>Update</strong>: Fixed in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d0</code></a> for new tokens issued.</em></li>
+<li><code>TetherToken</code> defines methods for <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L81">upgrading</a> the contract, as well as for managing <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L100">issuance</a> and <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L114">redeeming</a> of tokens. Consider moving the upgrade mechanism to a separate <code>UpgradebleToken</code> contract, and having <code>TetherToken</code> extend from it, as a means to separate concerns.</li>
+<li>There are two magic numbers in <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L125-L126"><code>TetherToken#setParams</code></a>. Consider changing them into constants and define them at the contract level for clarity.<br />
+<em><strong>Update</strong>: Fixed in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></li>
+<li>Maximum fees cannot be defined as a fraction of a token, since the <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L129"><code>TetherToken#setParams</code></a> function accepts a <code>newMaxFee</code> which is multiplied by <code>10**decimals</code>. Consider accepting the new <code>maximumFee</code> value directly, to allow for fraction of tokens to be used.</li>
+<li>Contract <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/UpgradedStandardToken.sol#L6"><code>UpgradedStandardToken</code></a> extends <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/token/StandardToken.sol"><code>StandardToken</code></a>. Since it is used as an interface exclusively, consider extending from <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/token/ERC20.sol">ERC20</a>, which is the interface implemented by <code>StandardToken</code>.</li>
+<li>Consider marking the address parameter in all three <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L38">blacklist events</a> (<code>DestroyedBlackFunds</code>, <code>AddedBlackList</code> and <code>RemovedBlackList</code>) as <code>indexed</code>, to allow a client to listen for changes to their own status.<br />
+<em><strong>Update</strong>: Fixed in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></li>
+<li>Function <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L10"><code>BlackList#</code></a> is unnecessary, since the mapping <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L18"><code>isBlackListed</code></a> is already flagged as public. Consider removing the getter function, or remove the public modifier in <code>isBlackListed</code>.</li>
+<li>Function <code>BlackList#</code><a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L14"><code>getOwner</code></a> is unnecessary, since the owner is <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/zeppelin/ownership/Ownable.sol#L10">already provided</a> by the parent Ownable contract.<br />
+<em><strong>Update</strong>: Fixed in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></li>
+<li>Consider adding a guard to <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L81">TetherToken#deprecate</a> to check that the <code>upgradedAddress</code> is not 0x0, to prevent potential mistakes. Furthermore, consider adding a public flag <code>isUpgradedToken</code> to <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/UpgradedStandardToken.sol"><code>UpgradedStandardToken</code></a>, and check that the code at <code>upgradedAddress</code> does contain that flag.<br />
+<em><strong>Update:</strong> Added a check that address is not <code>0x0</code> in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>.</em></li>
+<li>The <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/BlackList.sol#L10-L16">getters in the <code>BlackList</code>contract</a> are not tested. However, since these methods are unnecessary (for they are already automatically generated by Solidity), consider removing them rather than adding tests for them.</li>
+<li>Note that the check that new fees are below a maximum value in order to “<a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L124-L126">ensure transparency</a>” can be easily circumvented, since the token can be upgraded to a version without those limits, and calls are automatically forwarded to the new one.</li>
+<li>Given that <a href="https://github.com/tetherto/ether-contracts/blob/9718de4da7b571c1acf822bfde1f5300d1acc381/contracts/TetherToken.sol#L24">decimals</a> is parameterisable in a <code>TetherToken</code>, it is possible to update from a token with a number of decimals to another with a different number. This could cause issues in client interfaces listing the tokens. Consider using a fixed amount of decimals, preferably 18 for compatibility with ETH.<br />
+<em><strong>Update:</strong> A public property <code>_totalSupply</code> was added to the <a href="https://github.com/tetherto/ether-contracts/blob/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts/UpgradedStandardToken.sol#L9"><code>UpgradedStandardToken</code></a> contract in commit<a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a>. It is not required as part of the interface. Consider removing it.</em></li>
+<li><em><strong>Update:</strong> Commit <a href="https://github.com/tetherto/ether-contracts/tree/ce34f14d0590cb6bea2f3d33fe3f9584e4c72554/contracts"><code>ce34f14d05</code></a> adds the interface <a href="https://github.com/tetherto/ether-contracts/blob/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts/UpgradedTokenTest.sol#L6"><code>PreviousTokenInterface</code></a> with the <code>oldBalanceOf</code> method, which is <a href="https://github.com/tetherto/ether-contracts/blob/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts/TetherToken.sol#L60">implemented</a> by TetherToken. Consider having TetherToken explicitly inherit from <code>PreviousTokenInterface if needed</code>.</em></li>
+</ul>
+<h3>Audited contracts</h3>
+<p>Following are the MD5 hashes of the audited contracts:</p>
+<pre>
+dfc0c783ff7a782bbf415f4b4943cbfe contracts/TetherToken.sol
+652103fa8d6b9c7d5952770a5abf5b96 contracts/UpgradedStandardToken.sol
+3cf622b896dc0990d4f606d8ee9217f1 contracts/BlackList.sol
+37e0a81e72f33831e41099c7f5ef4d88 contracts/UpgradedTokenTest.sol
+e14829154a7c9bf9f750707692727a51 contracts/zeppelin/ownership/Ownable.sol
+a9e3c69db6b3d594691c6f25b4ceec80 contracts/zeppelin/ownership/Contactable.sol
+9165ac7dbad97414a00549eb6bb17cba contracts/zeppelin/lifecycle/Pausable.sol
+0770d7b5b0bff5cc992e1ccd19b5672d contracts/zeppelin/token/StandardToken.sol
+aa0786f69b28548bae8bf69b04f66475 contracts/zeppelin/token/ERC20Basic.sol
+ef90a4ebcd66da85d3b0977e3b31f5ed contracts/zeppelin/token/ERC20.sol
+5c56ca643931cab56bf1325fb0abdda7 contracts/zeppelin/token/BasicToken.sol
+72a05c21bd9108344f9a4207a2223ef2 contracts/zeppelin/SafeMath.sol
+</pre>
+<p><em><strong>Update</strong>: The MD5 hashes of the updated contracts corresponding to commit <a href="https://github.com/tetherto/ether-contracts/tree/0e2e2ddda17ed4ed20c1d89015906d8276fb38ba/contracts"><code>0e2e2ddda1</code></a> are the following:</em></p>
+<pre>
+5d82de93b5c5fe047d7481d232f35901  BlackList.sol
+c4173bcac5359d53c95dc393036c3cba  StandardTokenWithFees.sol
+12341f088134abc35ca9e504b03b3453  TetherToken.sol
+158de41f417db1785ea4a5ed0136b6c9  UpgradedStandardToken.sol
+</pre>
+<h3>Conclusion</h3>
+<p>No critical or high severity issues were found. Some changes were proposed to follow best practices and reduce potential attack surface.</p>
+<p><em>Note that as of the date of publishing, the above review reflects the current understanding of known security patterns as they relate to the Tether Token contracts. We have not reviewed the related Tether project. The above should not be construed as investment advice. For general information about smart contract security, check out our thoughts <a href="https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702">here</a>.</em></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-80737" class="share-twitter sd-button share-icon" href="https://blog.openzeppelin.com/tether-token-audit-438d561a380/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-80737" class="share-facebook sd-button share-icon" href="https://blog.openzeppelin.com/tether-token-audit-438d561a380/?share=facebook" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-162247579-80737-60de5d8c54204' data-src='https://widgets.wp.com/likes/#blog_id=162247579&amp;post_id=80737&amp;origin=blog.openzeppelin.com&amp;obj_id=162247579-80737-60de5d8c54204' data-name='like-post-frame-162247579-80737-60de5d8c54204'><h3 class="sd-title">Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+								</div>
+							</div></div><div class="post-after row-container"><div data-parent="true" class="vc_row row-container" id="row-208083"><div class="row no-top-padding single-bottom-padding one-h-padding full-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding"><div class="uncont"><div class="divider-wrapper "  >
+    <hr class="border-color-uydo-color separator-no-padding"  style="width: 50%;" />
+</div>
+<div class="uncode_text_column footer-post" ><h3>Security Audits</h3>
+<ul>
+<li>If you are interested in smart contract security, you can continue the discussion in our <a href="http://forum.openzeppelin.com">forum</a>, or even better, <a href="http://openzeppelin.com/jobs">join the team</a> 🚀</li>
+<li>If you are building a project of your own and would like to request a security audit, please do so <a href="http://openzeppelin.com/security-audits">here</a>.</li>
+</ul>
+</div></div></div></div></div></div><script id="script-row-208083" data-row="script-row-208083" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-208083"));</script></div></div></div></div><div class="post-after row-container"><div data-parent="true" class="vc_row style-color-lxmt-bg row-container" id="row-113474"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding"><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h5 class="h5 font-weight-200 text-uppercase" ><span><p style="text-align: center;">related posts</p></span></h5></div><div class="clear"></div></div><div id="index-5" class="isotope-system isotope-general-light">
+									<div class="isotope-wrapper single-gutter style-color-lxmt-bg">
+			<div class="isotope-container isotope-layout style-masonry isotope-pagination" data-type="masonry" data-layout="masonry" data-lg="1000" data-md="600" data-sm="480" data-vp-height="">
+			<div class="tmb tmb-iso-w4 tmb-iso-h4 tmb-light tmb-content-left tmb-image-anim tmb-shadowed tmb-shadowed-xs  grid-cat-1444 tmb-id-80431 tmb-img-ratio tmb-content-under tmb-media-first">
+						<div class="t-inside style-color-xsdn-bg" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 50%;"></div><a tabindex="-1" href="https://blog.openzeppelin.com/metal-token-audit-d7e4dbf17bcf/" class="pushed" target="_self" data-lb-index="0"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry t-single-line"></div></div></div></div></div><img class="adaptive-async wp-image-82947" src="https://blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Metal-Token-uai-258x129.png" width="258" height="129" alt="" data-uniqueid="82947-622696" data-guid="https://blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Metal-Token.png" data-path="2019/09/cover_audits_Metal-Token.png" data-width="2400" data-height="1350" data-singlew="4" data-singleh="2" data-crop="1" data-fixed="" /></a></div>
+				</div>
+			</div><div class="t-entry-text">
+							<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><a class="bordered-cat tmb-term-evidence font-ui" href="https://blog.openzeppelin.com/category/security-audits/">Security audits</a></span></p><h3 class="t-entry-title h3"><a href="https://blog.openzeppelin.com/metal-token-audit-d7e4dbf17bcf/" target="_self">Metal Token Audit</a></h3><div class="t-entry-excerpt "><p>The Metal team asked us to review and audit their new Metal Token contract code. We looked at their…</p></div><p class="t-entry-readmore btn-container"><a href="https://blog.openzeppelin.com/metal-token-audit-d7e4dbf17bcf/" class="btn btn-link " target="_self">Read More</a></p></div></div>
+					</div></div>
+					</div><div class="tmb tmb-iso-w4 tmb-iso-h4 tmb-light tmb-content-left tmb-image-anim tmb-shadowed tmb-shadowed-xs  grid-cat-1444 tmb-id-80571 tmb-img-ratio tmb-content-under tmb-media-first">
+						<div class="t-inside style-color-xsdn-bg" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 50%;"></div><a tabindex="-1" href="https://blog.openzeppelin.com/erc20-element-token-audit-2128b50e37cd/" class="pushed" target="_self" data-lb-index="1"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry t-single-line"></div></div></div></div></div><img class="adaptive-async wp-image-83473" src="https://blog.openzeppelin.com/wp-content/uploads/2018/03/ELEMENT-uai-258x129.png" width="258" height="129" alt="" data-uniqueid="83473-503075" data-guid="https://blog.openzeppelin.com/wp-content/uploads/2018/03/ELEMENT.png" data-path="2018/03/ELEMENT.png" data-width="2560" data-height="1350" data-singlew="4" data-singleh="2" data-crop="1" data-fixed="" /></a></div>
+				</div>
+			</div><div class="t-entry-text">
+							<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><a class="bordered-cat tmb-term-evidence font-ui" href="https://blog.openzeppelin.com/category/security-audits/">Security audits</a></span></p><h3 class="t-entry-title h3"><a href="https://blog.openzeppelin.com/erc20-element-token-audit-2128b50e37cd/" target="_self">ERC20 Element Token Audit</a></h3><div class="t-entry-excerpt "><p>The Element Group team asked us to review and audit their ERC20 Element Token contract. We looked…</p></div><p class="t-entry-readmore btn-container"><a href="https://blog.openzeppelin.com/erc20-element-token-audit-2128b50e37cd/" class="btn btn-link " target="_self">Read More</a></p></div></div>
+					</div></div>
+					</div><div class="tmb tmb-iso-w4 tmb-iso-h4 tmb-light tmb-content-left tmb-image-anim tmb-shadowed tmb-shadowed-xs  grid-cat-1444 tmb-id-80619 tmb-img-ratio tmb-content-under tmb-media-first">
+						<div class="t-inside style-color-xsdn-bg" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 50%;"></div><a tabindex="-1" href="https://blog.openzeppelin.com/bax-token-audit-85fe7b186c89/" class="pushed" target="_self" data-lb-index="2"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry t-single-line"></div></div></div></div></div><img class="adaptive-async wp-image-82906" src="https://blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Bax-uai-258x129.png" width="258" height="129" alt="" data-uniqueid="82906-157476" data-guid="https://blog.openzeppelin.com/wp-content/uploads/2019/09/cover_audits_Bax.png" data-path="2019/09/cover_audits_Bax.png" data-width="2400" data-height="1350" data-singlew="4" data-singleh="2" data-crop="1" data-fixed="" /></a></div>
+				</div>
+			</div><div class="t-entry-text">
+							<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><a class="bordered-cat tmb-term-evidence font-ui" href="https://blog.openzeppelin.com/category/security-audits/">Security audits</a></span></p><h3 class="t-entry-title h3"><a href="https://blog.openzeppelin.com/bax-token-audit-85fe7b186c89/" target="_self">Bax Token Audit</a></h3><div class="t-entry-excerpt "><p>The BABB team asked us to review and audit their Bax Token contract. We looked at the code and now…</p></div><p class="t-entry-readmore btn-container"><a href="https://blog.openzeppelin.com/bax-token-audit-85fe7b186c89/" class="btn btn-link " target="_self">Read More</a></p></div></div>
+					</div></div>
+					</div>		</div>
+
+	</div>
+	</div>
+</div></div></div></div></div><script id="script-row-113474" data-row="script-row-113474" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-113474"));</script></div></div></div></div></div>
+          </div>
+        </article>								</div><!-- sections container -->
+							</div><!-- page wrapper -->
+												<footer id="colophon" class="site-footer">
+							<div class="row-container style-color-nhtu-bg footer-center footer-last">
+		  					<div class="row row-parent style-dark limit-width no-top-padding no-h-padding no-bottom-padding">
+									<div class="site-info uncell col-lg-6 pos-middle text-center"><div class="footer-full">
+<div class="footer-left">
+<div class="footer-logo"><a href="http://openzeppelin.com"><img src="https://blog.openzeppelin.com/wp-content/uploads/2019/05/logo_OZ_white.png" /></a><span class="oz_footer_sign"><br />
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]--><br />
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script><br />
+<script>
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "7795250",
+	formId: "302e486e-d812-4b0c-b817-d1fe7cb47534"
+});
+</script></span></div>
+<div class="footer-copy">© OpenZeppelin 2017-2021 | <a href="http://openzeppelin.com/privacy">Privacy </a> | <a href="http://openzeppelin.com/tos">Terms of Service</a></div>
+</div>
+<div class="footer-right">
+<div class="footer-links">
+<div class="fcolumn fcolumn1">
+<h3>Products</h3>
+<p><a href="http://openzeppelin.com/contracts">Contracts</a><br /><a href="https://openzeppelin.com/defender">Defender</a></div>
+<div class="fcolumn fcolumn2">
+<h3>Security</h3>
+<p><a href="http://openzeppelin.com/security-audits">Security Audits</a></div>
+<div class="fcolumn fcolumn3">
+<h3>Learn</h3>
+<p><a href="http://docs.openzeppelin.com">Docs</a><br /><a href="http://forum.openzeppelin.com">Forum</a><br /><a href="http://ethernaut.openzeppelin.com">Ethernaut</a></div>
+<div class="fcolumn fcolumn4">
+<h3>Company</h3>
+<p><a href="http://openzeppelin.com">Website</a><br /><a href="http://openzeppelin.com/about">About</a><br /><a href="http://openzeppelin.com/jobs">Jobs</a><br /><a href="https://openzeppelin.com/images/OpenZeppelin_brand.zip">Logo Kit</a></div>
+</div>
+<div class="footer-icons"><a href="http://github.com/openzeppelin"><img src="https://blog.openzeppelin.com/wp-content/uploads/2019/11/github.svg" /></a><a href="http://twitter.com/openzeppelin"><img src="https://blog.openzeppelin.com/wp-content/uploads/2019/11/twitter.svg" /></a><a href="https://zpl.in/discord"><img src="https://blog.openzeppelin.com/wp-content/uploads/2021/02/discord.svg" /></a><a href="https://blog.openzeppelin.com/feed/"><img src="https://blog.openzeppelin.com/wp-content/uploads/2019/11/rss.svg" /></a></div>
+</div>
+<div class="footer-copy-mobile">©2021. All rights reserved | <a href="http://openzeppelin.com/privacy">Privacy </a> | <a href="http://openzeppelin.com/tos">Terms of Service</a></div>
+</div>
+</div><!-- site info -->
+								</div>
+							</div>						</footer>
+																	</div><!-- main container -->
+				</div><!-- main wrapper -->
+							</div><!-- box container -->
+		</div><!-- box wrapper -->
+		
+					<div class="overlay overlay-sequential style-dark style-dark-bg overlay-search" data-area="search" data-container="box-container">
+				<div class="mmb-container"><div class="menu-close-search mobile-menu-button menu-button-offcanvas mobile-menu-button-dark lines-button x2 overlay-close close" data-area="search" data-container="box-container"><span class="lines"></span></div></div>
+				<div class="search-container"><form action="https://blog.openzeppelin.com/" method="get">
+	<div class="search-container-inner">
+		<input type="search" class="search-field form-fluid no-livesearch" placeholder="Search…" value="" name="s" title="Search for:">
+		<i class="fa fa-search3"></i>
+
+			</div>
+</form>
+</div>
+			</div>
+		
+	<!--  -->
+<script defer id='bilmur' data-provider='wordpress.com' data-service='atomic' src='https://s0.wp.com/wp-content/js/bilmur.min.js?m=202126'></script>
+<script type="text/javascript">function customscroll() {
+    window.scroll({
+        top: 500, 
+        left: 0, 
+        behavior: 'smooth',
+    });
+}</script><script type="text/html" id="wpb-modifications"></script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/blog.openzeppelin.com\/tether-token-audit-438d561a380\/":80737};
+	</script>
+				<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/underscore.min.js' id='underscore-js'></script>
+<script type='text/javascript' id='daves-wordpress-live-search-js-extra'>
+/* <![CDATA[ */
+var DavesWordPressLiveSearchConfig = {"resultsDirection":"down","showThumbs":"false","showExcerpt":"false","displayPostCategory":"false","showMoreResultsLink":"true","activateWidgetLink":"true","minCharsToSearch":"2","xOffset":"0","yOffset":"0","blogURL":"https:\/\/blog.openzeppelin.com","ajaxURL":"https:\/\/blog.openzeppelin.com\/wp-admin\/admin-ajax.php","viewMoreText":"View more results","outdatedJQuery":"Dave's WordPress Live Search requires jQuery 1.2.6 or higher. WordPress ships with current jQuery versions. But if you are seeing this message, it's likely that another plugin is including an earlier version.","resultTemplate":"<ul id=\"dwls_search_results\" class=\"search_results dwls_search_results\">\n<input type=\"hidden\" name=\"query\" value=\"<%- resultsSearchTerm %>\" \/>\n<% _.each(searchResults, function(searchResult, index, list) { %>\n        <%\n        \/\/ Thumbnails\n        if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) {\n                liClass = \"post_with_thumb\";\n        }\n        else {\n                liClass = \"\";\n        }\n        %>\n        <li class=\"post-<%= searchResult.ID %> daves-wordpress-live-search_result <%- liClass %>\">\n\n        <a href=\"<%= searchResult.permalink %>\" class=\"daves-wordpress-live-search_title\">\n        <% if(DavesWordPressLiveSearchConfig.displayPostCategory == \"true\" && searchResult.post_category !== undefined) { %>\n                <span class=\"search-category\"><%= searchResult.post_category %><\/span>\n        <% } %><span class=\"search-title\"><%= searchResult.post_title %><\/span><\/a>\n\n        <% if(searchResult.post_price !== undefined) { %>\n                <p class=\"price\"><%- searchResult.post_price %><\/p>\n        <% } %>\n\n        <% if(DavesWordPressLiveSearchConfig.showExcerpt == \"true\" && searchResult.post_excerpt) { %>\n                <%= searchResult.post_excerpt %>\n        <% } %>\n\n        <% if(e.displayPostMeta) { %>\n                <p class=\"meta clearfix daves-wordpress-live-search_author\" id=\"daves-wordpress-live-search_author\">Posted by <%- searchResult.post_author_nicename %><\/p><p id=\"daves-wordpress-live-search_date\" class=\"meta clearfix daves-wordpress-live-search_date\"><%- searchResult.post_date %><\/p>\n        <% } %>\n        <div class=\"clearfix\"><\/div><\/li>\n<% }); %>\n\n<% if(searchResults[0].show_more !== undefined && searchResults[0].show_more && DavesWordPressLiveSearchConfig.showMoreResultsLink == \"true\") { %>\n        <div class=\"clearfix search_footer\"><a href=\"<%= DavesWordPressLiveSearchConfig.blogURL %>\/?s=<%-  resultsSearchTerm %>\"><%- DavesWordPressLiveSearchConfig.viewMoreText %><\/a><\/div>\n<% } %>\n\n<\/ul>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/uncode-daves-wordpress-live-search/js/daves-wordpress-live-search.js?ver=5.7.2' id='daves-wordpress-live-search-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/ui/datepicker.min.js' id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/js/jquery.typewatch.js?ver=5.20.6' id='mec-typekit-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/featherlight/featherlight.js?ver=5.20.6' id='featherlight-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/select2/select2.full.min.js?ver=5.20.6' id='mec-select2-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/tooltip/tooltip.js?ver=5.20.6' id='mec-tooltip-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/lity/lity.min.js?ver=5.20.6' id='mec-lity-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/colorbrightness/colorbrightness.min.js?ver=5.20.6' id='mec-colorbrightness-script-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/modern-events-calendar-lite/assets/packages/owl-carousel/owl.carousel.min.js?ver=5.20.6' id='mec-owl-carousel-script-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/p/jetpack/9.8.1/_inc/build/photon/photon.min.js' id='jetpack-photon-js'></script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"8.0.294"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://js.hs-scripts.com/7795250.js?integration=WordPress' async defer id='hs-script-loader'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/mediaelement-and-player.min.js' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/mediaelement-migrate.min.js' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/wp-mediaelement.min.js' id='wp-mediaelement-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/themes/uncode/library/js/plugins.js?ver=831452011' id='uncode-plugins-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/themes/uncode/library/js/app.js?ver=831452011' id='uncode-app-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/p/jetpack/9.8.1/_inc/build/postmessage.min.js' id='postmessage-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/p/jetpack/9.8.1/_inc/build/jquery.jetpack-resize.min.js' id='jetpack_resize-js'></script>
+<script type='text/javascript' src='https://c0.wp.com/p/jetpack/9.8.1/_inc/build/likes/queuehandler.min.js' id='jetpack_likes_queuehandler-js'></script>
+<script type='text/javascript' src='https://blog.openzeppelin.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=88YGwSeMxKpTIVg' id='enlighterjs-js'></script>
+<script type='text/javascript' id='enlighterjs-js-after'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"scroll","linenumbers":false,"theme":"atomic","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.7.2/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+<script type='text/javascript' id='sharing-js-js-extra'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://c0.wp.com/p/jetpack/9.8.1/_inc/build/sharedaddy/sharing.min.js' id='sharing-js-js'></script>
+<script type='text/javascript' id='sharing-js-js-after'>
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+	<iframe src='https://widgets.wp.com/likes/master.html?ver=202126#ver=202126' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+	<script src='https://stats.wp.com/e-202126.js' defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.8.1',blog:'162247579',post:'80737',tz:'-3',srv:'blog.openzeppelin.com'} ]);
+	_stq.push([ 'clickTrackerInit', '162247579', '80737' ]);
+</script>
+</body>
+</html>
+<!--
+	generated in 0.921 seconds
+	109382 bytes batcached for 300 seconds
+-->

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>adam | Tether</title>
+	<atom:link href="https://tether.to/author/adam/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tether.to</link>
+	<description>Stable digital cash on the Blockchain</description>
+	<lastBuildDate>Fri, 05 Jan 2018 17:25:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.5</generator>
+	<item>
+		<title>USD₮ and EUR₮ now supported on Ethereum</title>
+		<link>https://tether.to/usd%e2%82%ae-and-eur%e2%82%ae-now-supported-on-ethereum/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Fri, 05 Jan 2018 17:18:56 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=7889</guid>
+
+					<description><![CDATA[<p>Tether is working tirelessly to disrupt the legacy financial system through a more modern approach to money. As the first platform to facilitate the transfer of fiat backed currencies over a blockchain network, Tether has made headway by giving customers the ability to transfer value across the blockchain without the inherent volatility and complexity typically [&#8230;]</p>
+The post <a href="https://tether.to/usd%e2%82%ae-and-eur%e2%82%ae-now-supported-on-ethereum/">USD₮ and EUR₮ now supported on Ethereum</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Tether is working tirelessly to disrupt the legacy financial system through a more modern approach to money. As the first platform to facilitate the transfer of fiat backed currencies over a blockchain network, Tether has made headway by giving customers the ability to transfer value across the blockchain without the inherent volatility and complexity typically associated with a digital currency.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Following the widespread success of our Bitcoin-based USD Tether, issued via the Omni Layer Protocol, we have today launched and issued both US Dollars and Euros as Ethereum-based Tether, compatible with the ERC20 standard. The Ethereum-based Tether allows for tokenized USD and EUR to be transferred over the Ethereum network. This enables interoperability with Ethereum-based protocols and Decentralised Applications (DApps) whilst allowing users to transact and exchange fiat pegged currencies across the Ethereum Network.</span></p>
+<p><span style="font-weight: 400;">The contract information and issuance information for these new versions of Tether are viewable at </span><a href="https://wallet.tether.to/transparency"><span style="font-weight: 400;">https://wallet.tether.to/transparency</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">The ERC20 Tether will have much lower network transaction fees and much faster confirmation times (15-30 seconds) compared with Tether on Omni. This will facilitate more efficient exchange arbitrage, and several partner exchanges are already working to integrate the new tokens.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Many Ethereum projects are building technologies envisioned to assist in moving blockchains ever closer to mainstream adoption through the revolutionization of the conservative financial world. A key element in this progression involves the development of currencies with lower inherent volatility whilst simultaneously allowing for applications which interface with the real world to, for example, pay bills, fund charities and pay salaries.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">We hope these new products will act as a crucial piece of public infrastructure for the Ethereum community and associated DApps. We are excited about the possibilities this will enable for projects in the Ethereum ecosystem, and we look forward to working closely with many of them in the future and seeing new use cases for ERC20 Tether.</span></p>
+<p><span style="font-weight: 400;">The contracts were audited by Phil Daian, and later by Zeppelin, and the full report on the latest version is available </span><a href="https://blog.zeppelin.solutions/tether-token-audit-438d561a380"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span></p>
+<p><img loading="lazy" class="alignnone size-medium wp-image-7890" src="https://tether.to/wp-content/uploads/2018/01/zep-300x81.png" alt="zep" width="300" height="81" srcset="https://tether.to/wp-content/uploads/2018/01/zep-300x81.png 300w, https://tether.to/wp-content/uploads/2018/01/zep.png 480w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>&nbsp;</p>
+<p>USD₮ Contract Address: <a title="0xdac17f958d2ee523a2206206994597c13d831ec7" href="https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7" target="_blank">0xdac17f958d2ee523a2206206994597c13d831ec7</a></p>
+<p>EUR₮ Contract Address: <a title="0xabdf147870235fcfc34153828c769a70b3fae01f" href="https://etherscan.io/token/0xabdf147870235fcfc34153828c769a70b3fae01f" target="_blank">0xabdf147870235fcfc34153828c769a70b3fae01f</a></p>
+<p>&nbsp;</p>The post <a href="https://tether.to/usd%e2%82%ae-and-eur%e2%82%ae-now-supported-on-ethereum/">USD₮ and EUR₮ now supported on Ethereum</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Wallet Service and Platform Update</title>
+		<link>https://tether.to/wallet-service-and-platform-update/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Thu, 21 Dec 2017 01:51:55 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=7873</guid>
+
+					<description><![CDATA[<p>We have been cautious about providing updates prematurely regarding the security breach of November 19, 2017 before having gathered sufficient information and taking substantial action to address the issue. We understand that doing so raised some questions and doubts throughout the community. While we still cannot disclose much about ongoing investigations, we can provide the [&#8230;]</p>
+The post <a href="https://tether.to/wallet-service-and-platform-update/">Wallet Service and Platform Update</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">We have been cautious about providing updates prematurely regarding the security breach of November 19, 2017 before having gathered sufficient information and taking substantial action to address the issue. We understand that doing so raised some questions and doubts throughout the community. While we still cannot disclose much about ongoing investigations, we can provide the following information about actions which have taken place over the past month to recover, secure, and move forward from the security breach.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>The Incident</b></p>
+<p>Immediately following the breach, Tether reached out and coordinated with exchange partners to block any use of the stolen Tethers on partner platforms, through use of a special release of the integrators wallet/daemon. After advice and consultation with the Omni Foundation (the underlying technology upon which Tether Tokens are built and managed), a new feature was developed by the foundation that, after enabled, allowed us to freeze and blacklist stolen Tethers. In this way, Omni could prevent them from being used at a protocol level. This action was not taken lightly and has allowed Tether to safeguard against any further potential disruptions to the ecosystem in an effort to protect the entire community.</p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Wallet Services/Accessibility</b></p>
+<p>As of December 19, 2017, Tether is enabling limited wallet services, allowing users to login and start withdrawing any funds held in their wallets, as needed. The system is still processing a backlog of transactions sent after the original Nov 19th shutdown, so any user deposits sent in the past month should become available and accessible in their respective wallets over the course of a few days.</p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Moving Forward</b></p>
+<p><span style="font-weight: 400;">In light of the events of the past month, we are in the process of developing and building a new platform, and we will be slowly phasing out and discontinuing the current wallet services and all old addresses. </span><i><span style="font-weight: 400;">To prevent against possible loss of funds, users should not attempt to deposit any funds to their old wallet or deposit addresses.</span></i><span style="font-weight: 400;"> Additionally, while the new system is being built, we will be disabling new signups on the platform.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Redemption/Creation</b></p>
+<p>Until we are able to migrate to the new platform, the purchase or sale of Tether will not be possible directly through tether.to. For the time being, though, we invite you to use the services of any one of a dozen global exchanges to acquire or dispose of Tethers for either USD or other cryptocurrencies. Such exchanges and other qualified corporate customers can contact Tether directly to arrange for creation and redemption. Sadly, however, we cannot create or redeem tether for any U.S.-based customers at this time.</p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Update to Terms of Service</b></p>
+<p>We are in the process of updating the Terms of Service for Tether based on feedback from the community. Among other things, we will clarify the language surrounding our rights to refuse redemption (or creation) to certain parties. The Tether Terms of Service have been widely misunderstood as meaning that Tethers are not redeemable at Tether’s whim or that Tethers are not backed by their underlying assets. This is false. Absent a reasonable legal justification not to redeem Tethers, and provided that you are a fully verified customer of Tether, your Tethers are freely redeemable. However, we must and will take steps to prevent terrorists and other bad actors from trafficking in Tethers. Accordingly, where, for example, a redemption of Tether will violate applicable laws, that redemption will continue to be prohibited.</p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Audit</b></p>
+<p><span style="font-weight: 400;">Friedman LLP continues to work diligently toward a full balance sheet audit as of September 30, 2017. We understand that the public is anxiously awaiting the completion of this process, but it cannot be rushed and we are not Friedman’s only customer. Moreover, the amount of due diligence that is being performed by Friedman is substantial. We (and Friedman LLP) are committed to this process in our quest to deliver on a new standard of transparency in our industry. In the meantime, we wish to once more state, very clearly, that Tether Limited does, in fact, carry USD bank balances in the amounts stated </span><a href="https://wallet.tether.to/transparency"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;"> at banks at which we have accounts. Any suggestion to the contrary is uninformed and baseless.</span></p>
+<p><strong><strong><br />
+</strong></strong>Sincerely,<strong><strong><br />
+</strong></strong></p>
+<p><span style="font-weight: 400;">The Tether Team</span></p>
+<p>&nbsp;</p>The post <a href="https://tether.to/wallet-service-and-platform-update/">Wallet Service and Platform Update</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Update on Security Incident</title>
+		<link>https://tether.to/update-on-security-incident/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Thu, 23 Nov 2017 15:11:32 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=7804</guid>
+
+					<description><![CDATA[<p>On Sunday, November 19th, $30,950,010.00 in Tether tokens were stolen from our treasury wallet through malicious action by an external attacker. While we are in the process of co-ordinating and co-operating with law enforcement on this matter, we are satisfied that we have found the cause of the breach of Tether’s systems. We are taking [&#8230;]</p>
+The post <a href="https://tether.to/update-on-security-incident/">Update on Security Incident</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">On Sunday, November 19th, $30,950,010.00 in Tether tokens were stolen from our treasury wallet through malicious action by an external attacker. While we are in the process of co-ordinating and co-operating with law enforcement on this matter, we are satisfied that we have found the cause of the breach of Tether’s systems. We are taking measures to recover the Tethers and are migrating the platform to a new infrastructure. More information about our initial response to this breach is</span><a href="https://tether.to/tether-critical-announcement/"> <span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">No customer funds were stolen as a part of this security breach; only Tether tokens were taken, and only from the Tether hot wallet. We have told Tether integrators that those Tethers will not be redeemed by Tether. This breach was planned and premeditated as a market disruption event and an attack on our customers, our business, and our community.</span></p>
+<p><span style="font-weight: 400;">Those of us who care about our community must fight against hackers as well as those enemies using misinformation to create chaos and sow distrust.</span></p>
+<p><span style="font-weight: 400;">We are a privately held corporation with significant assets. Our books are currently under audit by Friedman LLP, one of the fifty largest accounting firms in the United States. While the audit is taking longer than we would have liked, the reality is that the</span><a href="https://tether.to/wp-content/uploads/2017/09/Final-Tether-Consulting-Report-9-15-17_Redacted.pdf"> <span style="font-weight: 400;">interim consulting memorandum</span></a><span style="font-weight: 400;"> they produced shows clearly that Tether has the resources to back Tethers that have been issued. Friedman looked at our bank statements and other documents underpinning these issuances.</span></p>
+<p><span style="font-weight: 400;">We have strong customer and shareholder relations and tens of thousands of you know the importance of our community and this journey we are on together. We work closely with financial regulators, law enforcement agencies, compliance personnel, bank officials, and tech academics, among others, to ensure that we are protecting our customers and meeting our obligations.</span></p>
+<p>As with other financial institutions worldwide, and in order to safeguard your assets, we do not redeem Tethers from terrorists or other criminal elements. In order to protect our customers and the community, we must keep language in our terms of service preventing bad elements from sullying our systems. In any event, our terms of service inform our customers of what the law already provides: that we cannot and will not issue Tethers to or redeem Tethers from criminal elements. Nevertheless, we believe in being as straightforward and honest as possible about what you are dealing in. We are willing to review our terms of service to see if we can make this point more clearly.</p>
+<p><span style="font-weight: 400;">Similarly, we will not endanger our customers by revealing our banks. As those of you who are active in cryptocurrency know, there is pressure from large correspondent banks in the U.S. to bully other institutions not to accept the community’s business. We do, however, bank at major financial institutions and will continue to do so.</span></p>
+<p><b>Further Issuances</b></p>
+<p><span style="font-weight: 400;">Tethers are being ‘printed’ or issued because there is demand for them. This process is explained in the</span><a href="https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf"> <span style="font-weight: 400;">Tether whitepaper</span></a><span style="font-weight: 400;">. When Tethers are issued, assets are debited (added) to the assets on Tether’s balance sheet, and Tethers are credited (added) to the business’s liabilities. The consulting memorandum demonstrates that these mechanisms are in balance. Every Tether is fully backed by the fiat underpinning it upon issuance.</span></p>
+<p>We are proud to have been one of the first to market with a product. Some of the main actors in the digital token space have adopted it. We believe it works well.</p>
+<p><b>Conclusion</b></p>
+<p><span style="font-weight: 400;">We are proud of the business that we have built, and of its resilience in the face of threats from those trying to attack our community. We always have room for improvement, and we will continue to work hard to continue to earn your trust and confidence. We understand trust must always be earned and we will continue to work hard as a business to improve our communications.</span></p>
+<p><span style="font-weight: 400;">Sincerely,</span></p>
+<p><span style="font-weight: 400;">The Tether Team</span></p>
+<p>&nbsp;</p>The post <a href="https://tether.to/update-on-security-incident/">Update on Security Incident</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Critical Announcement</title>
+		<link>https://tether.to/tether-critical-announcement/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Tue, 21 Nov 2017 03:29:04 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=7801</guid>
+
+					<description><![CDATA[<p>Yesterday, we discovered that funds were improperly removed from the Tether treasury wallet through malicious action by an external attacker. Tether integrators must take immediate action, as discussed below, to prevent further ecosystem disruption. $30,950,010 USDT was removed from the Tether Treasury wallet on November 19, 2017 and sent to an unauthorized bitcoin address. As Tether [&#8230;]</p>
+The post <a href="https://tether.to/tether-critical-announcement/">Tether Critical Announcement</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Yesterday, we discovered that funds were improperly removed from the Tether treasury wallet through malicious action by an external attacker. </span><i><span style="font-weight: 400;">Tether integrators must take immediate action, as discussed below, to prevent further ecosystem disruption.</span></i></p>
+<p><span style="font-weight: 400;">$30,950,010 USDT was removed from the Tether Treasury wallet on November 19, 2017 and sent to an unauthorized bitcoin address. </span><span style="font-weight: 400;">As Tether is the issuer of the USDT managed asset, we will </span><i><span style="font-weight: 400;">not</span></i> <span style="font-weight: 400;">redeem any of the stolen tokens, and we are in the process of attempting token recovery to prevent them from entering the broader ecosystem. The attacker is holding funds in the following address: 16tg2RJuEPtZooy18Wxn2me2RhUdC94N7r. If you receive any USDT tokens from the above address, or from any downstream address that receives these tokens, </span><i><span style="font-weight: 400;">do not accept them, as they have been flagged and will not be redeemable by Tether for USD</span></i><b><i>.</i></b><span style="font-weight: 400;">  </span></p>
+<p>The following steps have been taken to address this matter:</p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The tether.to back-end wallet service has been temporarily suspended. A thorough investigation on the cause of the attack is being undertaken to prevent similar actions in the future.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">We are providing new builds of Omni Core to the community. (Omni Core is the software used by Tether integrators to support Omni Layer transactions.) These builds should prevent any movement of the stolen coins from the attacker’s address. We strongly urge all Tether integrators to install this software </span><i><span style="font-weight: 400;">immediately </span></i><span style="font-weight: 400;">to prevent the coins from entering the ecosystem. Again, any tokens from the attacker’s address </span><i><span style="font-weight: 400;">will not be redeemed</span></i><span style="font-weight: 400;">.</span> <span style="font-weight: 400;">Accordingly, any and all exchanges, wallets, and other Tether integrators should install this software immediately</span> <span style="font-weight: 400;">in order to prevent loss:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><a href="https://github.com/tetherto/omnicore/releases/tag/0.2.99.s"><span style="font-weight: 400;">https://github.com/tetherto/omnicore/releases/tag/0.2.99.s</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span></a><span style="font-weight: 400;">Note that this software will cause a consensus change to currently running Omni Core clients, meaning that it is effectively a temporary hard fork to the Omni Layer. Integrators running this build will not accept any token sends from the attacker’s address, preventing the coins from moving further from the attacker’s address.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">We are working with the Omni Foundation to investigate ways that will allow Tether to reclaim stranded tokens and rectify the hard fork created by the above software. Once this protocol enhancement is complete, the Omni Foundation will provide updated binaries for all integrators to install. These builds will supersede the binaries provided above by Tether.to. After the protocol upgrades to the Omni Layer are in place, Tether will reclaim the stolen tokens and return them to treasury.</span></li>
+</ol>
+<p><span style="font-weight: 400;">Tether issuances have not been affected by this attack, and all Tether tokens remain fully backed by assets in the Tether reserve. The only tokens that will not be redeemed are the ones that were stolen from Tether treasury yesterday. Those tokens will be returned to treasury once the Omni Layer protocol enhancements are in place.</span><strong><strong> </strong></strong></p>
+<p><span style="font-weight: 400;">We will provide further updates as they come available, and we appreciate the community’s patience, understanding, and support while we work to rectify the situation in the best possible manner to everyone’s benefit.</span></p>
+<p><strong><strong> </strong></strong>The Tether Team</p>The post <a href="https://tether.to/tether-critical-announcement/">Tether Critical Announcement</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Update</title>
+		<link>https://tether.to/tether-update/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Tue, 05 Sep 2017 14:27:26 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=7768</guid>
+
+					<description><![CDATA[<p>Tether has grown dramatically over recent months, despite banking issues. We are grateful to all of our users and exchanges that continue to fuel the adoption of Tether as the de facto standard for ‘crypto dollars.’ The Tether team wants to update the community on several items: first, to share exciting news about the future [&#8230;]</p>
+The post <a href="https://tether.to/tether-update/">Tether Update</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Tether has grown dramatically over recent months, despite banking issues. We are grateful to all of our users and exchanges that continue to fuel the adoption of Tether as the de facto standard for ‘crypto dollars.’ </span></p>
+<p>The Tether team wants to update the community on several items: first, to share exciting news about the future of Tether; and, second, to address misinformation that a small group of individuals has been spreading on various online forums about Tether and exchanges that are integrated with Tether.</p>
+<p>&nbsp;</p>
+<p><b>Banking</b></p>
+<p><span style="font-weight: 400;">In April 2017, we announced that Tether’s primary banks in Taiwan were being blocked by U.S. correspondent banks, including Wells Fargo. We are among a number of innovative companies in the digital token space experiencing such banking roadblocks.</span></p>
+<p><span style="font-weight: 400;">Since that announcement, we have been diligently working on other payment avenues and channels, including third party payment processors and banking relationships in countries with friendlier correspondent banking connections. We have found and will continue to find solutions, and we appreciate the community’s patience as we bring these new relationships online.</span></p>
+<p>We have been busy establishing a global network of money-transfer channels designed to be resilient against further aggressive action from correspondent banks. We have also opened an escrow-based relationship with a U.S.-based institution to service qualified corporate customers. While we are aware of and understand users’ desire for specific, public updates, we believe at this time that it would be a mistake to be too forthcoming about the specifics of any particular money transfer solution. We are comfortable, however, sharing the following information:</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Large customers are still able to move money into and out of Tether.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Depending on the jurisdiction, smaller retail-type customers will continue to encounter difficulties in moving funds using traditional payment rails.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Even as we begin to normalize traditional money transfer operations, we will likely soon enforce substantial minimums on the creation and redemption of Tethers.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Euro payments should become less problematic, as transactions may be routed through a UK-based (and FCA-regulated) payment processor with whom we are working.</span></li>
+</ul>
+<p>While our banking challenges are troublesome and distracting, tens of millions of dollars are able to flow in and out of Tether daily using the channels we have established.  Although not available to all users, these flows have been sufficient to bring markets supporting Tether-based trading pairs back into alignment with markets supporting USD-based trading pairs.</p>
+<p><strong><strong> </strong></strong></p>
+<p><b>New Tether Currencies</b></p>
+<p><span style="font-weight: 400;">As we establish additional banking relationships, we should be able to offer additional currency options to Tether users. Our beta of EURT tokens has demonstrated our ability to issue additional currencies, and others such as JPY and GBP will be available soon. Additional exchanges that support these currencies should also be coming online.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Tether on Ethereum</b></p>
+<p><span style="font-weight: 400;">After many months in code review, we are excited to announce the forthcoming launch of Tether USD tokens as an ERC20 token on the Ethereum network. Initially, we are creating a limited supply for contract developers to play with, but we will shortly be offering a service on tether.to to exchange Omni-based tokens for ERC20-based tokens and vice versa. We are excited to bring a credible dollar-backed token to the Ethereum community for use in fast, easy transfers and smart contracts.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Tether on Litecoin</b></p>
+<p><span style="font-weight: 400;">The team behind the Omni Layer also has a live beta deployment of Omni on Litecoin, and we are actively testing Tether issuances and transfers on the Litecoin network. Negligible-to-zero fees and faster block times make for a sensible alternative to the Bitcoin blockchain for issued asset applications. Similar to the ERC20 token, we will be offering a service to swap into and out of Omni on Litecoin tether tokens. Several existing Tether-integrated exchanges are already testing Omni on Litecoin integrations to support this deployment.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Tether on Trezor</b></p>
+<p><span style="font-weight: 400;">The Omni Layer team has also been working with the TREZOR development community to complete the integration for Tether USD and other Omni on Bitcoin-based assets with the TREZOR hardware wallet. Compatibility and release announcements will be forthcoming.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Tether on Lightning</b></p>
+<p><span style="font-weight: 400;">We are also excited to announce the initial discovery and integration discussion with the Lightning team for low-cost, instant transactions of Tether currencies on the Lightning network.  This should also facilitate atomic swaps of Tethers between the Omni on Bitcoin and Omni on Litecoin chains.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Auditors</b></p>
+<p><span style="font-weight: 400;">We are aware of online discussions about Tether’s lack of publicly-available audits. Periodic audits of our bank balances have been performed by the Taiwan-based auditing firm TOPSUN CPAs &amp; Co. The results of those audits were for the benefit of shareholders and were not in a form suitable for public consumption (to begin with, they were in Mandarin). Nonetheless, we have asked them to prepare the following attestations (PDFs linked) in English, for release to the community, covering <a href="https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20161231.pdf">December 31, 2016</a>; <a href="https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20170131.pdf">January 31,2017</a>; <a href="https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20170228.pdf">February 28, 2017</a>; and, <a href="https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20170331.pdf">March 31, 2017</a>. As we are no longer banking in Taiwan, and given that we are achieving substantial scale, we have engaged Friedman, LLP, in New York, to perform comprehensive balance sheet audits on a quarterly basis going back to Dec 31, 2016. We will share those results with you as they become available in the coming weeks or months.</span></p>
+<p><strong><strong> </strong></strong></p>
+<p><b>Solvency</b></p>
+<p><span style="font-weight: 400;">We have also read online about many outlandish conspiracy theories suggesting that Tether is not backed 1:1 by currency on deposit with banking institutions. Any such claim is unequivocally false, and the audits will bear that out. Our Terms of Service have been carefully picked apart by various malcontents and twisted to suggest that Tethers would not be redeemable for currency on some bizarre, malicious whim by Tether. That is untrue. While we reserve the right not to redeem for any particular customer, </span><i><span style="font-weight: 400;">as we must</span></i><span style="font-weight: 400;">, we will not do so for no reason. We have a duty to try to ensure that our service is not being used by persons from sanctioned countries, that is otherwise on a sanctions list, or that has some background check problem. In short, redemptions will not be unreasonably denied, but we reserve the right to selectively deny redemption </span><i><span style="font-weight: 400;">and</span></i><span style="font-weight: 400;"> creation of Tethers on a case-by-case basis. As such, this policy, which is necessary from a regulatory perspective, has no bearing on our presentation of the liabilities of the company. The company considers </span><i><span style="font-weight: 400;">all </span></i><span style="font-weight: 400;">tethers outstanding to be liabilities for presentation on the balance sheet for which there is always an equivalent amount (or greater) held in assets to back those presented liabilities. Full stop.</span></p>
+<p>&nbsp;</p>The post <a href="https://tether.to/tether-update/">Tether Update</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

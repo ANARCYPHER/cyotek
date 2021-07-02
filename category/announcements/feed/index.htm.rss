@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Announcements | Tether</title>
+	<atom:link href="https://tether.to/category/announcements/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tether.to</link>
+	<description>Stable digital cash on the Blockchain</description>
+	<lastBuildDate>Thu, 17 Jun 2021 14:10:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.5</generator>
+	<item>
+		<title>How is Tether Used?</title>
+		<link>https://tether.to/how-is-tether-used/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Thu, 17 Jun 2021 14:10:33 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8435</guid>
+
+					<description><![CDATA[<p>As the largest and most widely used stablecoin across multiple blockchains, Tether tokens (USDt) have been used to secure over $60 billion dollars of value. This value has been transformed from a physical, legacy format into a digital one. By digitizing dollar based liquidity, USDt unlocks the potential of money to perform new functions via [&#8230;]</p>
+The post <a href="https://tether.to/how-is-tether-used/">How is Tether Used?</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>As the largest and most widely used stablecoin across multiple blockchains, Tether tokens (USDt) have been used to secure over $60 billion dollars of value. This value has been transformed from a physical, legacy format into a digital one.<br><br>By digitizing dollar based liquidity, USDt unlocks the potential of money to perform new functions via emerged blockchain based infrastructure.<br><br>While Tether is agnostic in terms of specific use cases, it is valuable to explore how Tether tokens are being used around the world and what specific benefits users gain from choosing a Tether token over either traditional fiat currencies or digital currencies.<br></p>
+
+
+
+<h3><strong>Liquidity and Volume</strong></h3>
+
+
+
+<p>Tether tokens are free from the constraints of legacy financial stacks and as such are able to trade with increased speed and ease. In 2021, USDt traded over 130 billion dollars of volume per day across all exchanges on average.<br><br>Traditional fiat systems are held back by the settlement process where dollars must be moved across separate institutions and then settled into a final balance. This adds time and cost to the movement of dollars.<br><br>Tether tokens are native to various blockchains and inherit settlement assurances from the underlying network. All blockchain networks inherently provide settlement with every transaction.<br><br>This means that Tether tokens can be robustly traded and settled with ease.</p>
+
+
+
+<h3><br><strong>Trading in a Crypto World</strong></h3>
+
+
+
+<p>The ease at which Tether tokens can be moved is of particular value in the robust ecosystem of cryptocurrency exchanges and decentralized financial applications.<br><br>Cryptocurrency markets are both international and operate 24/7. Current financial infrastructure has been designed for localized equities markets which trade limited hours on weekdays- the exact opposite of what has emerged in cryptocurrency markets.<br><br>As a result, traders experience severe limitations trying to move funds via wire to exchanges. Funds need to move between time zones and potentially currencies only to settle after more than a day at their destination.<br><br>This mismatch means that traders are left completely unable to quickly respond to opportunities that emerge in the market if they only have access to traditional financial infrastructure.<br><br>Tether tokens solve this problem by providing stable liquidity that can be moved with the same speed and freedom as the rest of the cryptocurrency market.<br><br>Without access to liquidity that can be both easily transacted with and is stable in value, traders are forced to either take price risk or time risk. They can use a cryptocurrency to transact but risk price volatility during transfer, or they can use fiat and risk the market changing by the time funds settle.</p>
+
+
+
+<h3><br><strong>International Payments<br></strong></h3>
+
+
+
+<p>Tether tokens allow users to circumvent the cumbersome process of sending money internationally.<br><br>International transfers are costly, fees include wire fees, currency conversion costs, and service fees. Sending money international is more expensive for smaller transfers while getting cheaper for larger amounts.<br><br>International transfers are also slow, easily taking a week to complete the process and settle in the recipients account. </p>
+
+
+
+<p>Tether tokens eliminate the need to convert value between different fiat currencies while bringing settlement time down to minutes, not days or weeks.<br><br>Tether allows direct payments to be made while empowering anyone with an internet connection with the ability to hold value that is denominated in a given fiat currency. This means that using USDt anyone can hold value denominated in dollars even if they lack banking access that can hold dollars.</p>
+
+
+
+<h3><br><strong>Holding Dollar-Based Value Overseas</strong></h3>
+
+
+
+<p>Many people around the world prefer to hold value in dollars due to weak local currencies. However, this requires them to either hold cash or work with a local bank that can safely and securely hold dollars (or another fiat currency).<br><br>Either of these options creates security risks for the user. By holding cash, they open themselves up to the risk of theft and the need for physical security. By working with a bank, they expose themselves to a risk of theft during withdrawals and the movement of money- if they can even find a bank that will offer dollar custody to begin with.<br><br>By using USDt, users can hold dollar based value in an accessible way. Use of USDt also plugs them into a global transaction and settlement network they can access from their computer.<br><br>Accessing international payments can be very challenging in some countries but Tether tokens open up access to the whole world.<br></p>
+
+
+
+<h3><br><strong>De-Fi Infrastructure <br></strong></h3>
+
+
+
+<p>De-Fi is a fastly growing concept that has been born of the ability for decentralized networks to build out financial infrastructure. Many De-Fi products utilize some form of collateralization, borrowing, and yield generation. These applications have been proven to be effective in facilitating lending/borrowing at growing levels of scale.<br><br>However, due to the fact that De-Fi can currently only work with on-chain assets it must contend with the natural volatility of current generation crypto assets. Excess volatility can create greater financial risks for those utilizing De-Fi products as a spike of volatility can result in liquidations or losses.<br><br>Tether provides a solution in the form of on-chain collateral which maintains a stable value. Users can deposit Tether Tokens as collateral to participate in De-Fi networks without needing to manage volatility.<br><br>This ends up not only protecting the user, but stabilizing the entire system as failures can cascade throughout the application if they are large enough.<br><br>For De-Fi to mature as a financial stack, it is essential that users have access to the ability to collateralize these applications with non-volatile assets.</p>
+
+
+
+<h3><br><strong>Digital Only Exchanges<br></strong></h3>
+
+
+
+<p>A notable quality about many cryptocurrency exchanges is that many of them are digital only. They do not have any connection to the legacy banking system and do not utilize fiat currencies in any way. These have been less common as the larger exchanges have eventually integrated fiat currency on-ramps, but they are still an important subset of cryptocurrency exchanges today.<br><br>Tether tokens allow digital only exchanges to offer traders and investors the ability to sell their position into a stable asset (many call it Tethering Up). Without the utility that Tether tokens provide, users could only sell their positions into other cryptocurrencies which experience volatility and share correlation to market movements.<br><br>Tether tokens also empower investors and traders to have efficient ways to transfer capital into and out of digital exchanges.<br><br>While most larger cryptocurrency exchanges will feature fiat integrations soon, the concept of a digital only exchange has found a new iteration in the decentralized exchange (DEX). </p>
+
+
+
+<p>DEXs cannot integrate fiat currencies in the traditional sense as they exist purely on-chain and can only work with on-chain assets. Having a tokenized version of dollar based collateral becomes crucial here if the goal of a DEX is to provide traders the same services that a centralized exchange can offer.<br><br>By virtue of being an on-chain asset, Tether Tokens provide DEX traders with the ability to cash out into a stable on-chain asset that will maintain its value between trades.</p>
+
+
+
+<h3><br><strong>Banking and Non-Banking Innovation</strong></h3>
+
+
+
+<p>Tether tokens create the ability for corporations to transfer funds independently of the legacy banking system. However, they also create the capacity to build innovation on top of the legacy banking system.<br><br>Banking is one of the most heavily regulated and difficult to navigate systems in the world. Most consumers never see what is happening behind the scenes, but the settlement process for fiat transfers is a complex and cumbersome process. Additionally, different corporations may have specific blockers that prevent them from integrating with the legacy system.<br><br>One of the key innovations of blockchain based assets is that tokens combine payment and settlement into a single system.<br><br>Tether tokens present a utility to businesses that allows them to send, receive, store, and settle funds quickly and efficiently.<br><br>This is an empowering tool for businesses which cannot access the legacy banking system or experience significant shortcomings or costs working within the limitations of the legacy system.<br><br>However, Tether tokens not only represent an alternative and a stop gap for areas where legacy banking fails to meet business needs but also represent a way for financial services providers to build on top of banking infrastructure.<br><br>Different regions are in the process or have passed legislation that allows public blockchains to be used as settlement systems within the banking structures.<br><br>This opens a doorway for banks to leverage the powerful benefits of blockchain based assets to better serve their clients. This is not a major use of Tether tokens today, but represents an area where blockchain based assets can support and improve the existing financial system.</p>
+
+
+
+<h3><br><strong>Settlement Assurances</strong></h3>
+
+
+
+<p>Tether tokens aim to provide settlement finality within minutes, unlike the risks that merchants are exposed to via credit card chargebacks and reversal of bank transfers.<br><br>For industries that struggle with these issues, accepting Tether tokens is one way they can avoid this common difficulty.<br><br>While most cryptocurrencies provide settlement finality, Tether tokens ensure the merchants and businesses don&#8217;t need to manage volatility or juggle multiple assets.<br></p>The post <a href="https://tether.to/how-is-tether-used/">How is Tether Used?</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Launches New ERC20 Contract Address for Tether Euro (EURt) Tokens</title>
+		<link>https://tether.to/tether-launches-new-erc20-contract-address-for-tether-euro-eurt-tokens/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Wed, 09 Jun 2021 12:36:51 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8431</guid>
+
+					<description><![CDATA[<p>We’re pleased to announce the launch of a new ERC20 contract address for Tether Euro (EURt) tokens. The old contract address on our Transparency page has been updated with the new address here: 0xc581b735a1688071a1746c968e0798d642ede491</p>
+The post <a href="https://tether.to/tether-launches-new-erc20-contract-address-for-tether-euro-eurt-tokens/">Tether Launches New ERC20 Contract Address for Tether Euro (EURt) Tokens</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>We’re pleased to announce the launch of a new ERC20 contract address for Tether Euro (EURt) tokens.</p>
+
+
+
+<p>The <a href="https://etherscan.io/token/0xabdf147870235fcfc34153828c769a70b3fae01f" target="_blank" rel="noreferrer noopener">old contract address</a> on our <a href="https://wallet.tether.to/transparency" target="_blank" rel="noreferrer noopener">Transparency page</a> has been updated with the new address here: <a href="https://etherscan.io/address/0xc581b735a1688071a1746c968e0798d642ede491" target="_blank" rel="noreferrer noopener"><strong>0xc581b735a1688071a1746c968e0798d642ede491</strong></a></p>The post <a href="https://tether.to/tether-launches-new-erc20-contract-address-for-tether-euro-eurt-tokens/">Tether Launches New ERC20 Contract Address for Tether Euro (EURt) Tokens</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Issuance Primer</title>
+		<link>https://tether.to/tether-issuance-primer/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Fri, 28 May 2021 12:16:47 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8419</guid>
+
+					<description><![CDATA[<p>Tether Operations Limited (Tether), operating tether.to, is the oldest and largest stablecoin provider, with over 60 billion dollars of Tether tokens in circulation as of May 2021. Due to the importance of Tether Tokens to the entire crypto ecosystem, the issuance of USDt is a careful and strategically planned process that spans four distinct stages: [&#8230;]</p>
+The post <a href="https://tether.to/tether-issuance-primer/">Tether Issuance Primer</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>Tether Operations Limited (<strong>Tether</strong>), operating tether.to, is the oldest and largest stablecoin provider, with over 60 billion dollars of Tether tokens in circulation as of May 2021. Due to the importance of Tether Tokens to the entire crypto ecosystem, the issuance of USDt is a careful and strategically planned process that spans four distinct stages: <em>Authorized, Issued, Redeemed, and Destroyed</em>.<br><br>This article will explain each of these stages in detail and shed light over why Tether uses this process to maximize the security and usability of Tether tokens (USDt).<br><br><br><strong>Authorized-</strong> Authorized tokens can be thought of as pre-issued tokens. Authorized tokens are created in large batches for two key reasons: to meet customer demand and to minimize how frequently Tether signer’s need to interact with the private keys.<br><br>Authorized transactions can be generated ahead of time and then signed by multiple signers involved in the Tether tokens issuance process. Authorized transactions are always prepared for a fixed amount of USDt. This amount is determined by conversations Tether has had with clients and represents the anticipated demand for USDt by these parties.</p>
+
+
+
+<p>Tether’s private keys control the ability to issue USDt, so private key security is a top priority for Tether. By issuing tokens in batches, Tether is able to greatly reduce how often private keys need to be used. Additionally, maintaining an inventory of authorized USDt allows Tether to meet customer demand in a timely manner.</p>
+
+
+
+<p><br>The authorization process ensures that USDt don&#8217;t need to be issued every time a request is made. Otherwise, Tether’s private keys would need to be interacted with and potentially exposed everytime a client submits a request for USDt.</p>
+
+
+
+<p><br>Authorized USDt are not counted as part of the market cap of Tether tokens. These tokens are not in circulation and as such are not backed by collateral. All USDt that are issued into circulation are fully backed by collateral. All authorized USDt are held within Tether’s treasury.<br><br><strong>Issued- </strong>Issued Tether tokens are tokens which have been issued to a client and are currently in circulation.<br><br>All issued USDt are always 100% backed by Tether reserves, which include traditional currency and cash equivalents and, from time to time, may include other assets and receivables from loans made by Tether to third parties.<br><br>The market cap of USDt is made up entirely of issued tokens. Issued tokens may be held by an exchange, an individual, or an institution that is using USDt to transact with or to store funds in a secure digital form.<br><br>All issued USDt are initially taken from the current supply of authorized USDt in Tether’s treasury. In order to leave Tether’s treasury, newly issued USDt must be backed by collateral. The supply of authorized tokens decreases every time USDt is issued until it is replenished by future authorizations.<br><br><strong>Redeemed- </strong>Every USDt can be redeemed for US Dollars on a 1:1 basis. Redeemed tokens are USDt that have been sent back to Tether to be processed for redemption into USD. Redeemed tokens that are no longer backed by collateral are held back from circulation and stored in Tether’s inventory or treasury. Redeemed USDt tokens are not released back into circulation unless new collateral has been provided to back these tokens. Redeemed USDt tokens may be issued to new clients in response to demand or they may be destroyed.<br><br>Redeemed USDt are not counted in the market cap of USDt.<br><br><strong>Destroyed- </strong>Destroyed USDt are USDt that have been permanently destroyed. Destroyed USDt&nbsp; are neither in circulation nor in the Tether treasury/inventory.<br><br>USDt may be destroyed in the event that Tether has more USDt tokens in it’s treasury/inventory than are required for estimated client demand after a redemption has taken place.<br><br>USDt may also be destroyed if after a chain swap there were excess tokens which were deemed unnecessary.&nbsp;</p>
+
+
+
+<p><strong><br></strong><strong>Chain Swaps</strong><br><br>The Tether token is not only the largest stablecoin, but USDt is issued on more blockchains than any other stablecoin on the market.<br><br>USDt are currently issued on Algorand, Bitcoin Cash’s Simple Ledger Protocol (SLP), Ethereum, EOS, Liquid Network, Omni, Tron, and Solana.<br><br>In order to manage user demand in each of these different ecosystems, it is sometimes necessary to move USDt from one blockchain to another.&nbsp;</p>
+
+
+
+<p>For the average USDt user, the best way to swap USDt from one blockchain to another is via a cryptocurrency exchange that supports both versions of USDt, such as Bitfinex. However, when a cryptocurrency exchange needs to balance out a surplus of one type of USDt it may require a chain swap.</p>
+
+
+
+<p>In order to perform the chain swap, the exchange will send USDt to Tether and a corresponding number of USDt will be sent back to the exchange on the corresponding chain.<br><br>If the client’s request is for more USDt (of a specific chain) than Tether currently has in it’s treasury, then new USDt will be first authorized and then issued on the corresponding chain and Tether may destroy the excess USDt on the previous chain if necessary.<br><br>Chain swaps are a net neutral process in terms of USDt issuance. The net balance of total USDt remains the same, as tokens are simply moved from one blockchain to another. All USDt remain backed by the same collateral.&nbsp;</p>
+
+
+
+<p>While users may see USDt&nbsp; being issued due to chain swaps, it can be helpful to understand that this issuance of tokens does not constitute the creation of additional USDt.</p>
+
+
+
+<p><strong>The Lifecycle of USDt</strong></p>
+
+
+
+<p>At any given time a Tether token can be identified as being in one of these four stages of the issuance cycle: authorized, issued, redeemed, or destroyed.</p>
+
+
+
+<p>By conducting issuance using this system, Tether is able to safeguard some of the most important private keys in the cryptocurrency industry and provide in demand services to Tether clients.<br>By better outlining the Tether issuance cycle, Tether hopes to create more transparency and provide a clearer picture of the various issuance alerts that become circulated via block explorer monitoring.&nbsp;</p>The post <a href="https://tether.to/tether-issuance-primer/">Tether Issuance Primer</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Tokens (USDt) to Launch on Avalanche</title>
+		<link>https://tether.to/tether-tokens-usdt-to-launch-on-avalanche/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Mon, 17 May 2021 14:57:52 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8417</guid>
+
+					<description><![CDATA[<p>We’re pleased to announce that Tether tokens (USDt) will be available on Avalanche, an open-source platform for launching highly decentralized applications, new financial primitives and new interoperable blockchains. Avalanche is a decentralized smart contracts platform built for the scale of global finance. The protocol is designed as a highly scalable ecosystem with the aim of [&#8230;]</p>
+The post <a href="https://tether.to/tether-tokens-usdt-to-launch-on-avalanche/">Tether Tokens (USDt) to Launch on Avalanche</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>We’re pleased to announce that Tether tokens (USDt) will be available on Avalanche, an open-source platform for launching highly decentralized applications, new financial primitives and new interoperable blockchains.</p>
+
+
+
+<p>Avalanche is a decentralized smart contracts platform built for the scale of global finance. The protocol is designed as a highly scalable ecosystem with the aim of delivering near-instant transaction finality while levying low transaction fees that are fractions of a cent.</p>
+
+
+
+<p>Avalanche has emerged as a hub in the nascent space of decentralized finance (DeFi). Avalanche is compatible with Solidity, a high-level object-oriented programming language, primarily used on Ethereum. This enables Ethereum developers to quickly build decentralized apps (DApps).&nbsp;</p>
+
+
+
+<p>The launch of USDt on Avalanche will provide traders with a fast, cost-effective way to transfer USDt across different exchanges and trading platforms.</p>The post <a href="https://tether.to/tether-tokens-usdt-to-launch-on-avalanche/">Tether Tokens (USDt) to Launch on Avalanche</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Releases Breakdown of its Reserves</title>
+		<link>https://tether.to/tether-releases-breakdown-of-its-reserves/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Thu, 13 May 2021 11:48:26 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8408</guid>
+
+					<description><![CDATA[<p>Today, Tether Holdings Limited made available a breakdown of the categories of assets forming the basis of Tether’s issued token reserves at March 31, 2021. We will be releasing this breakdown on a quarterly basis for the next two years. You can see the breakdown here. Today’s publication reflects our continued dedication to making this [&#8230;]</p>
+The post <a href="https://tether.to/tether-releases-breakdown-of-its-reserves/">Tether Releases Breakdown of its Reserves</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today, Tether Holdings Limited made available a breakdown of the categories of assets forming the basis of Tether’s issued token reserves at March 31, 2021. We will be releasing this breakdown on a quarterly basis for the next two years.</p>
+
+
+
+<p>You can see the breakdown<strong> <a href="https://tether.to/wp-content/uploads/2021/05/tether-march-31-2021-reserves-breakdown.pdf" target="_blank" rel="noreferrer noopener">here</a></strong>.</p>
+
+
+
+<p>Today’s publication reflects our continued dedication to making this information public as part of our ongoing commitment to transparency and setting the standard in our industry. We embrace that commitment to our community.&nbsp;</p>The post <a href="https://tether.to/tether-releases-breakdown-of-its-reserves/">Tether Releases Breakdown of its Reserves</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Releases Most Recent Independent Assurance Opinion Confirming Tether’s Reserves Fully Backed</title>
+		<link>https://tether.to/assurance-opinion-apr-21/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Thu, 29 Apr 2021 11:56:02 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8399</guid>
+
+					<description><![CDATA[<p>Today, Tether Holdings Limited made available its Consolidated Reserves Report for March 31, 2021 and an accompanying assurance opinion by Moore Cayman attesting that the information is accurate. It is our plan to release Consolidated Reserves Reports and related assurance opinions on a quarterly basis. You can read the Consolidated Reserves Report and assurance opinion [&#8230;]</p>
+The post <a href="https://tether.to/assurance-opinion-apr-21/">Tether Releases Most Recent Independent Assurance Opinion Confirming Tether’s Reserves Fully Backed</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today, Tether Holdings Limited made available its Consolidated Reserves Report for March 31, 2021 and an accompanying assurance opinion by <a href="https://www.moore.ky/" target="_blank" rel="noreferrer noopener">Moore Cayman</a> attesting that the information is accurate. It is our plan to release Consolidated Reserves Reports and related assurance opinions on a quarterly basis.</p>
+
+
+
+<p>You can read the Consolidated Reserves Report and assurance opinion <strong><a href="https://tether.to/wp-content/uploads/2021/04/tether-assurance-mar-2021-2.pdf" target="_blank" rel="noreferrer noopener" title="https://tether.to/wp-content/uploads/2021/04/tether-assurance-mar-2021-2.pdf">here</a></strong>.</p>
+
+
+
+<p>Today’s publication reflects our continued dedication to making this information public as part of our ongoing commitment to transparency and setting the standard in our industry. We embrace that commitment to our community.&nbsp;</p>The post <a href="https://tether.to/assurance-opinion-apr-21/">Tether Releases Most Recent Independent Assurance Opinion Confirming Tether’s Reserves Fully Backed</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether (USDt) to Launch on Polkadot</title>
+		<link>https://tether.to/tether-usdt-to-launch-on-polkadot/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 15:15:44 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8394</guid>
+
+					<description><![CDATA[<p>We’re pleased to announce that Tether tokens (USDt) will be the first stablecoin to launch on Polkadot, a scalable multi-chain network. Before deploying on Polkadot, the first protocol that provides an environment for cross-chain composability of multiple applications and protocols, USDt will go live on the network’s cousin, the canary network Kusama.&#160; The launch of [&#8230;]</p>
+The post <a href="https://tether.to/tether-usdt-to-launch-on-polkadot/">Tether (USDt) to Launch on Polkadot</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>We’re pleased to announce that Tether tokens (USDt) will be the first stablecoin to launch on Polkadot, a scalable multi-chain network. Before deploying on Polkadot, the first protocol that provides an environment for cross-chain composability of multiple applications and protocols, USDt will go live on the network’s cousin, the canary network Kusama.&nbsp;</p>
+
+
+
+<p>The launch of USDt on Polkadot is pending the formation of parachains: independent chains that can have their own tokens and be optimized for specific use cases. The aim is to ensure that when USDt is available, it will become the first ever stablecoin on the Polkadot network. As parachains will first launch on Kusama, USDt will deploy the canary network before becoming available on Polkadot.&nbsp;</p>
+
+
+
+<p>Polkadot and Kusama are open-source networks that were bootstrapped by the Web3 Foundation, which funds research and development teams building the stack of technologies that form the basis of the decentralized web. For more information, please visit <a href="https://web3.foundation">https://web3.foundation</a>&nbsp;</p>The post <a href="https://tether.to/tether-usdt-to-launch-on-polkadot/">Tether (USDt) to Launch on Polkadot</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Assurance Opinion Confirms Tether’s Reserves Fully Backed; Company Shares as Part of Ongoing Transparency Commitment</title>
+		<link>https://tether.to/assurance-opinion-mar-21/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Tue, 30 Mar 2021 11:56:29 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8387</guid>
+
+					<description><![CDATA[<p>Today, Tether Holdings Limited proactively made available a recent assurance opinion by Moore Cayman confirming that information in the company’s Consolidated Reserves Report is accurate. This attestation by an independent accountant—a member of Moore Global, one of the largest accounting networks in the world—re-confirms our long-stated position that all Tether tokens are fully backed by [&#8230;]</p>
+The post <a href="https://tether.to/assurance-opinion-mar-21/">Assurance Opinion Confirms Tether’s Reserves Fully Backed; Company Shares as Part of Ongoing Transparency Commitment</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today, Tether Holdings Limited proactively made available a recent assurance opinion by <a href="https://www.moore.ky/" target="_blank" rel="noreferrer noopener">Moore Cayman</a> confirming that information in the company’s Consolidated Reserves Report is accurate. This attestation by an independent accountant—a member of <a href="https://www.moore-global.com/" target="_blank" rel="noreferrer noopener">Moore Global</a>, one of the largest accounting networks in the world—re-confirms our long-stated position that all Tether tokens are fully backed by Tether’s reserves.</p>
+
+
+
+<p>You can read the assurance opinion and the Consolidated Reserves Report <strong><a href="https://tether.to/wp-content/uploads/2021/03/tether-assurance-feb-2021.pdf" target="_blank" rel="noreferrer noopener" title="https://tether.to/wp-content/uploads/2021/03/tether-assurance-feb-2021.pdf">here</a></strong>.</p>
+
+
+
+<p>Tether has always been fully backed, and the assurance opinion we made available today confirms it once again. As Tether’s growth in the market continues to validate our business, we understand the public’s interest in this matter and are pleased to share this attestation as part of our ongoing commitment to transparency.</p>
+
+
+
+<p>Since the founding of Tether, we have made earnest and continuing efforts to enhance our public disclosures and communications. As a leader in the growing cryptocurrency industry, we remain committed to being among the most transparent stablecoins. This latest assurance opinion—and our dedication to providing further reports moving forward—is a reflection of that commitment.</p>The post <a href="https://tether.to/assurance-opinion-mar-21/">Assurance Opinion Confirms Tether’s Reserves Fully Backed; Company Shares as Part of Ongoing Transparency Commitment</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether Tokens (USDt) Live on Solana</title>
+		<link>https://tether.to/tether-tokens-usdt-live-on-solana/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Thu, 11 Mar 2021 16:06:16 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8383</guid>
+
+					<description><![CDATA[<p>We’re pleased to announce the launch of Tether tokens (USDt) on Solana, an ultra high-speed Layer 1 blockchain. With this integration, USDt holders can exchange USDt at speeds greater than 50,000 transactions per second, often for as little as $0.00001 per transaction. This will facilitate the development of high-speed, low-cost applications, including those in the [&#8230;]</p>
+The post <a href="https://tether.to/tether-tokens-usdt-live-on-solana/">Tether Tokens (USDt) Live on Solana</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>We’re pleased to announce the launch of Tether tokens (USDt) on Solana, an ultra high-speed Layer 1 blockchain.</p>
+
+
+
+<p>With this integration, USDt holders can exchange USDt at speeds greater than 50,000 transactions per second, often for as little as $0.00001 per transaction. This will facilitate the development of high-speed, low-cost applications, including those in the decentralised finance (DeFi) space.</p>
+
+
+
+<p>In addition to Solana, USDt also supports Algorand, Ethereum, EOS, Liquid Network, Omni, Tron and Bitcoin Cash’s Standard Ledger Protocol.</p>
+
+
+
+<p>Solana is one of the fastest-growing blockchains by both market capitalization and use. For more information, please visit <a href="https://solana.com/" target="_blank" rel="noreferrer noopener">solana.com</a>.&nbsp;</p>The post <a href="https://tether.to/tether-tokens-usdt-live-on-solana/">Tether Tokens (USDt) Live on Solana</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tether and Bitfinex reach settlement with New York Attorney General’s Office</title>
+		<link>https://tether.to/tether-and-bitfinex-reach-settlement-with-new-york-attorney-generals-office/</link>
+		
+		<dc:creator><![CDATA[claudia]]></dc:creator>
+		<pubDate>Tue, 23 Feb 2021 12:49:26 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://tether.to/?p=8378</guid>
+
+					<description><![CDATA[<p>Tether and Bitfinex are pleased to have reached a settlement of legal proceedings with the New York Attorney General’s Office. Under the terms of the settlement, we admit no wrongdoing. The settlement amount we have agreed to pay to the Attorney General’s Office should be viewed as a measure of our desire to put this [&#8230;]</p>
+The post <a href="https://tether.to/tether-and-bitfinex-reach-settlement-with-new-york-attorney-generals-office/">Tether and Bitfinex reach settlement with New York Attorney General’s Office</a> first appeared on <a href="https://tether.to">Tether</a>.]]></description>
+										<content:encoded><![CDATA[<p>Tether and Bitfinex are pleased to have reached a settlement of legal proceedings with the New York Attorney General’s Office. Under the terms of the settlement, we admit no wrongdoing. The settlement amount we have agreed to pay to the Attorney General’s Office should be viewed as a measure of our desire to put this matter behind us and focus on our business.</p>
+
+
+
+<p>Over the past two and a half years, we worked in full cooperation with the Attorney General’s Office and provided more than 2.5 million pages of documentation to answer their questions and bring this matter to a close.&nbsp;</p>
+
+
+
+<p>The settlement resolves allegations about public disclosures related to a loan Tether made to Bitfinex when Bitfinex was encountering challenges accessing approximately US$850 million in Bitfinex funds held by a payment processor in 2018. These events are by now well known.&nbsp;</p>
+
+
+
+<p>The loan was made to ensure continuity for Bitfinex’s customers. It has since been repaid early and in full, including interest. At no point did the loan impact Tether’s ability to process redemptions.</p>
+
+
+
+<p>The Attorney General’s Office concluded, in essence, that we could have done better in publicly disclosing these events. Contrary to online speculation, after two and half years there was no finding that Tether ever issued tethers without backing, or to manipulate crypto prices.</p>
+
+
+
+<p>Putting aside the Attorney General’s characterization of these disclosure issues as misrepresentations or violations of any legal obligation, we share the Attorney General’s goal of increasing transparency.&nbsp; For that reason, last year we voluntarily provided the Attorney General with information about the composition of Tether’s reserves, and we proposed that as part of the settlement agreement, we would disclose—both to the Attorney General’s office and to the public—additional information about Tether’s reserves. We do not make this commitment reluctantly; we embrace it.</p>
+
+
+
+<p>We are pleased that our customers have shown loyalty and commitment to our businesses over the past two years, while this investigation was ongoing.  The market capitalization of tethers has grown from US$2 billion to in excess of US$34 billion over that time period, and Bitfinex has seen dramatic growth, as well, particularly this year. We look forward to both companies continuing to lead the industry and serve our customers.</p>
+
+
+
+<p>We wish to thank the personnel at the New York Attorney General’s Office for their cooperation and professionalism.</p>The post <a href="https://tether.to/tether-and-bitfinex-reach-settlement-with-new-york-attorney-generals-office/">Tether and Bitfinex reach settlement with New York Attorney General’s Office</a> first appeared on <a href="https://tether.to">Tether</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

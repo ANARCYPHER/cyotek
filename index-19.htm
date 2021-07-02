@@ -1,0 +1,863 @@
+<!DOCTYPE html><!--  Last Published: Thu Jun 10 2021 03:33:01 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="60576ecd0fcb94336e250d0a" data-wf-site="60576ecd0fcb94c403250d07">
+<head>
+  <meta charset="utf-8">
+  <title>Torus Labs | Open-Source Key Management</title>
+  <meta content="Torus is the most secure passwordless authentication and private key management platform with the security guarantees of non-custodial Public Key Infrastructure (PKI)." name="description">
+  <meta content="Torus Labs | Open-Source Key Management" property="og:title">
+  <meta content="Torus is the most secure passwordless authentication and private key management platform with the security guarantees of non-custodial Public Key Infrastructure (PKI)." property="og:description">
+  <meta content="Torus Labs | Open-Source Key Management" property="twitter:title">
+  <meta content="Torus is the most secure passwordless authentication and private key management platform with the security guarantees of non-custodial Public Key Infrastructure (PKI)." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/components.css" rel="stylesheet" type="text/css">
+  <link href="css/torusv2.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","DM Sans:regular,italic,500,500italic,700,700italic:latin,latin-ext"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-126622802-1"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-126622802-1', {'anonymize_ip': false});</script>
+  <style type="text/css" media="screen">
+    .editor-container {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .inline-editor { 
+      width: 300px;
+      height: 300px;
+      border-radius: 6px;
+    }
+    .ace_scroller, .ace_gutter {
+      padding: 10px 0 0 0 !important;
+    }
+    .ace-tomorrow-night {
+      background-color: rgb(24, 48, 85) !important;
+    }
+    .ace-tomorrow-night.ace_multiselect .ace_selection.ace_start {
+      box-shadow: 0 0 3px 0px rgb(24, 48, 85) !important;
+    }
+    .ace-tomorrow-night .ace_gutter {
+      background-color: rgb(24, 48, 85) !important;
+    }
+    .ace-tomorrow-night .ace_gutter-active-line {
+      background-color: rgb(24, 48, 85) !important;
+    }
+    .ace-tomorrow-night .ace_marker-layer .ace_active-line {
+      background: rgb(15, 38, 73) !important;
+    }
+    .ace-tomorrow-night .ace_keyword {
+      color: #61e3a5 !important;
+    }
+    .ace-tomorrow-night .token.string {
+      color: #71a7ff !important;
+    }
+    .ace-tomorrow-night .ace_keyword.ace_operator {
+      color: #ff9d3d !important;
+    }
+    .ace-tomorrow-night .ace_keyword, .ace-tomorrow-night .ace_meta, .ace-tomorrow-night .ace_storage, .ace-tomorrow-night .ace_storage.ace_type, .ace-tomorrow-night .ace_support.ace_type {
+      color: #61e3a5 !important;
+    }
+    .normal-mode .ace_cursor {
+      border: none;
+      background-color: #C5C8C680;
+    }
+    .normal-mode .ace_hidden-cursors .ace_cursor {
+      border: 1px solid #C5C8C6;
+    }
+    @media only screen and (min-width: 375px) {
+      .inline-editor { 
+        width: 355px;
+      }
+    }
+    @media only screen and (min-width: 400px) {
+      .inline-editor { 
+        width: 380px;
+      }
+    }
+    @media only screen and (min-width: 520px) {
+      .inline-editor { 
+        width: 500px;
+      }
+    }
+    @media only screen and (min-width: 620px) {
+      .inline-editor { 
+        width: 600px;
+      }
+    }
+  </style>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="b1ae36a2-c9d5-4554-9db8-b28aeb8ddf4e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script><!--  Google Tag Manager  -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KN2SFHS');</script>
+  <!--  End Google Tag Manager  -->
+</head>
+<body>
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="36e3f6bf-0e81-36dc-8552-74a93e1b3298" role="banner" class="navbar w-nav">
+    <div class="container navbar-container w-container">
+      <div class="nav-column left">
+        <a href="index.html" aria-current="page" class="w-nav-brand w--current"><img src="images/torus-logo-blue-1.svg" alt="" class="logo-brand-white"></a>
+      </div>
+      <nav role="navigation" class="nav-menu-2 w-nav-menu">
+        <div data-hover="1" data-delay="0" class="w-dropdown">
+          <div class="nav-link-2 w-dropdown-toggle">
+            <div class="w-icon-dropdown-toggle"></div>
+            <div>Developers</div>
+          </div>
+          <nav class="dropdown-list-2 resources w-dropdown-list">
+            <div class="w-layout-grid drop-grid-2">
+              <div class="drop-list-div">
+                <div class="drop-title-2">Plug and play</div>
+                <a href="https://openlogin.com" class="dropdown-link-2 w-inline-block"><img src="images/OpenLogin.svg" alt="" class="drop-icon">
+                  <div class="text-2">OpenLogin</div>
+                </a>
+                <a href="https://toruswallet.io" class="dropdown-link-2 w-inline-block"><img src="images/Wallet.svg" alt="" class="drop-icon">
+                  <div class="text-2">Wallet</div>
+                </a>
+              </div>
+              <div class="drop-list-div-2">
+                <div class="drop-title-2">Customized solution</div>
+                <a href="https://customauth.io" class="dropdown-link-2 w-inline-block"><img src="images/CustomAuth-1.svg" alt="" class="drop-icon">
+                  <div class="text-2">CustomAuth</div>
+                </a>
+              </div>
+              <div class="drop-list-div-3">
+                <div class="drop-title-2">others</div>
+                <a href="https://docs.tor.us/" class="dropdown-link-2 w-inline-block"><img src="images/Documentation.png" alt="" class="drop-icon">
+                  <div class="text-2">Documentation</div>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <a href="technology.html" class="nav-link-2 w-nav-link">Technology</a>
+        <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+          <div class="nav-link-2 w-dropdown-toggle">
+            <div class="w-icon-dropdown-toggle"></div>
+            <div>Users</div>
+          </div>
+          <nav class="dropdown-list-2 template desktop-dropdown w-dropdown-list">
+            <div class="w-layout-grid drop-grid-2 desktop-dropdown">
+              <div class="drop-list-div">
+                <div class="drop-title-2">manage</div>
+                <a href="https://app.openlogin.com" class="dropdown-link-disabled w-inline-block"><img src="images/OpenLogin--user.svg" alt="" class="drop-icon">
+                  <div class="text-2">OpenLogin</div>
+                </a>
+                <a href="https://app.tor.us" class="dropdown-link-2 w-inline-block"><img src="images/Wallet---user.svg" alt="" class="drop-icon">
+                  <div class="text-2">Wallet</div>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <a href="pricing.html" class="nav-link-2 w-nav-link">Pricing</a>
+        <div data-hover="1" data-delay="0" class="w-dropdown">
+          <div class="nav-link-2 w-dropdown-toggle">
+            <div class="w-icon-dropdown-toggle"></div>
+            <div>About Torus</div>
+          </div>
+          <nav class="dropdown-list-2 w-dropdown-list">
+            <div class="w-layout-grid drop-grid-2 smaller-dropdown-list">
+              <div id="w-node-_4c51f7f0-7be5-8218-4fe4-e40887b10e5e-3e1b3298" class="drop-list-div">
+                <a href="about-us.html" class="dropdown-link-2 w-inline-block"><img src="images/About-us.png" alt="" class="drop-icon">
+                  <div class="text-2">About us</div>
+                </a>
+                <a href="partners.html" class="dropdown-link-2 w-inline-block"><img src="images/DApp-List.png" alt="" class="drop-icon">
+                  <div class="text-2">Partners</div>
+                </a>
+                <a href="https://angel.co/company/torus-2" class="dropdown-link-2 w-inline-block"><img src="images/Career.png" alt="" class="drop-icon">
+                  <div class="text-2">Career</div>
+                </a>
+                <a href="https://medium.com/toruslabs" class="dropdown-link-2 w-inline-block"><img src="images/Blog.png" alt="" class="drop-icon">
+                  <div class="text-2">Blog</div>
+                </a>
+                <a href="contact-us.html" class="dropdown-link-2 w-inline-block"><img src="images/Contact-us.png" alt="" class="drop-icon">
+                  <div class="text-2">Contact us</div>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+      <div class="nav-column right">
+        <a href="https://developer.tor.us/" class="button nav-button w-button">Access dashboard</a>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="icon-3 w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="w-embed">
+    <style>
+.clip {
+    -webkit-background-clip: text;
+    color: transparent;
+}
+</style>
+  </div>
+  <div data-w-id="c3b25ba7-acfb-d7bd-04bf-0ba02a287657" style="opacity:0" class="section-5">
+    <div class="container-hero-homepage w-container">
+      <div class="container-5 hero-homepage-2">
+        <div class="hero-column-2 w-row">
+          <div class="column-18 w-col w-col-7 w-col-medium-6 w-col-small-small-stack w-col-tiny-tiny-stack">
+            <div class="hero-div">
+              <h1 class="text-header hero-small left-align white">Non-custodial Key Management,<br>Meets Passwordless Auth</h1>
+              <div class="big-text center-text left white">The first SDK to combine the simplicity of passwordless authentication with the security of private key management</div>
+              <a href="https://docs.tor.us" class="button-hero secondary-mode w-button">View docs</a>
+            </div>
+          </div>
+          <div class="column-23 w-col w-col-5 w-col-medium-6 w-col-small-small-stack w-col-tiny-tiny-stack">
+            <a href="https://app.openlogin.com/" class="w-inline-block"><img src="images/Hero-Image2.svg" alt="" class="hero-image-2"></a>
+            <div class="div-block-52"><img src="images/arrow-up.gif" loading="lazy" width="40" height="40" alt="" class="image-467"></div>
+            <div class="big-text">Try it yourself</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-2-copy">
+    <div data-w-id="a22a16df-4785-08f0-b921-e0dcaac3d566" style="opacity:0" class="container padding-top">
+      <div class="div-block-24">
+        <div data-delay="4000" data-animation="outin" class="slider-companies-small w-slider" data-autoplay="1" data-easing="ease-in-out" data-hide-arrows="1" data-nav-spacing="4" data-duration="2000" data-infinite="1">
+          <div class="w-slider-mask">
+            <div class="slide-2 small w-slide">
+              <div class="slider-wrapper-wide">
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.46.55-PM.png" srcset="images/Screenshot-2021-03-12-at-5.46.55-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.46.55-PM.png 660w" height="48" sizes="(max-width: 479px) 166.734375px, (max-width: 767px) 28vw, (max-width: 991px) 18vw, (max-width: 1279px) 15vw, 166.734375px" alt="" class="image-477"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.47.18-PM.png" width="194" sizes="(max-width: 479px) 100vw, (max-width: 767px) 22vw, (max-width: 1279px) 15vw, 167.1875px" srcset="images/Screenshot-2021-03-12-at-5.47.18-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.47.18-PM.png 576w" alt="" class="image-475"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.47.32-PM.png" sizes="(max-width: 479px) 100vw, (max-width: 767px) 22vw, (max-width: 1279px) 15vw, 133.75px" srcset="images/Screenshot-2021-03-12-at-5.47.32-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.47.32-PM.png 640w" alt="" class="image-478"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.47.46-PM.png" sizes="(max-width: 479px) 100vw, (max-width: 767px) 20vw, (max-width: 1279px) 13vw, 117.03125px" srcset="images/Screenshot-2021-03-12-at-5.47.46-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.47.46-PM.png 670w" alt="" class="image-476"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.51.02-PM.png" width="280" alt="" class="image-474"></div>
+              </div>
+            </div>
+            <div class="slide-2-copy small w-slide">
+              <div class="slider-wrapper-wide">
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-15-at-6.37.36-PM.png" srcset="images/Screenshot-2021-03-15-at-6.37.36-PM-p-500.png 500w, images/Screenshot-2021-03-15-at-6.37.36-PM.png 726w" height="48" sizes="(max-width: 479px) 121.84375px, (max-width: 767px) 25vw, 121.84375px" alt="" class="image-477"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-15-at-6.36.32-PM.png" width="194" sizes="(max-width: 479px) 100vw, (max-width: 767px) 22vw, (max-width: 1279px) 15vw, 167.1875px" srcset="images/Screenshot-2021-03-15-at-6.36.32-PM-p-500.png 500w, images/Screenshot-2021-03-15-at-6.36.32-PM.png 922w" alt="" class="image-475"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-15-at-6.37.05-PM.png" sizes="(max-width: 479px) 100vw, (max-width: 767px) 22vw, (max-width: 1279px) 15vw, 133.75px" srcset="images/Screenshot-2021-03-15-at-6.37.05-PM-p-500.png 500w, images/Screenshot-2021-03-15-at-6.37.05-PM.png 662w" alt="" class="image-478"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-15-at-6.38.22-PM.png" alt="" class="image-476"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-15-at-6.41.39-PM.png" width="280" alt="" class="image-474"></div>
+              </div>
+            </div>
+            <div class="slide-2 small slide-3 w-slide">
+              <div class="slider-wrapper-wide">
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.50.47-PM.png" alt="" class="check-who-is-using-us-logos-2"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.48.52-PM.png" sizes="(max-width: 479px) 100vw, (max-width: 767px) 22vw, (max-width: 1279px) 15vw, 167.1875px" srcset="images/Screenshot-2021-03-12-at-5.48.52-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.48.52-PM.png 648w" alt="" class="check-who-is-using-us-logos-2"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.48.36-PM.png" width="173" alt="" class="kyber-logo"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.50.34-PM.png" width="70" sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, (max-width: 1279px) 9vw, 100.3125px" srcset="images/Screenshot-2021-03-12-at-5.50.34-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.50.34-PM.png 598w" alt="" class="yearn-logo"></div>
+                <div class="logo-wrapper-wide-2"><img src="images/Screenshot-2021-03-12-at-5.50.11-PM.png" width="190" sizes="(max-width: 479px) 100vw, (max-width: 767px) 22vw, (max-width: 1279px) 15vw, 167.1875px" srcset="images/Screenshot-2021-03-12-at-5.50.11-PM-p-500.png 500w, images/Screenshot-2021-03-12-at-5.50.11-PM.png 696w" alt="" class="check-who-is-using-us-logos-2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon-2 w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav-2 w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-9 white-section torusv2">
+    <div data-w-id="57c2a5e1-8122-fa5b-9bb8-6d8174bd9c20" style="opacity:0" class="container-5">
+      <div data-w-id="57c2a5e1-8122-fa5b-9bb8-6d8174bd9c21" style="opacity:0" class="columns-10 w-row">
+        <div class="column-19 w-col w-col-6">
+          <div class="div-block-9 torusv2">
+            <div data-w-id="e53c2e7c-956c-78af-3532-626d8636d543" data-animation-type="lottie" data-src="documents/HeroAnimationT.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="13.533333333333333" data-duration="5"></div>
+          </div>
+        </div>
+        <div class="w-col w-col-6">
+          <div class="page-tittle-2 left right-text">
+            <h2 class="text-header hero-small left-align">Only the best<br>passwordless experiences</h2>
+            <p class="paragraph-24">Make life easy for your users, no passwords, no downloads. Increase conversion rates by as much as 74% and reduce support tickets</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-9 more-top-padding">
+    <div class="container">
+      <div class="page-header">
+        <h1 class="text-header keys-header">Built for the future of the Web</h1>
+        <p class="big-text center-text">Authentication abstracted for the decentralized ecosystem</p>
+        <div class="build-for-web3-col w-row">
+          <div class="column-25 w-col w-col-4 w-col-stack w-col-tiny-tiny-stack"><img src="images/Opensource1.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Open-source</strong></h5>
+            <p class="paragraph-25">From front to back end, Torus is a completely open source project</p>
+          </div>
+          <div class="column-24 w-col w-col-4 w-col-stack w-col-tiny-tiny-stack"><img src="images/Group-4901.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Actually Non-custodial</strong></h5>
+            <p class="paragraph-25">Instead of keeping keys on AWS, Torus accounts are accessible by users and only users</p>
+          </div>
+          <div class="column-15 w-col w-col-4 w-col-stack w-col-tiny-tiny-stack"><img src="images/Group-4965.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Blockchain Agnostic</strong></h5>
+            <p class="paragraph-25">Connect to any blockchain regardless of cryptographic key type</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="torus-feats" class="section-9 white-section torusv2">
+    <div data-w-id="a8087fa8-a076-2301-5d44-5dc03deb7432" style="opacity:0" class="container-5">
+      <div data-w-id="a8087fa8-a076-2301-5d44-5dc03deb7433" style="opacity:0" class="columns-10 w-row">
+        <div class="column-19 w-col w-col-6 w-col-stack">
+          <div class="page-tittle-2 left">
+            <h2 class="text-header hero-small left-align">Any device, Any stack, All logins</h2>
+            <p class="paragraph-24">Torus can be integrated into web, mobile or desktop native applications. You can use plug and play authentication suites or connect directly yourselves.</p>
+            <a href="https://docs.tor.us/integration-builder" class="button-hero primary-mode w-button">Integration builder</a>
+          </div>
+        </div>
+        <div class="w-col w-col-6 w-col-stack">
+          <div class="div-block-9 torusv2">
+            <div data-duration-in="300" data-duration-out="100" data-w-id="312c8e04-5d16-8c08-e9d7-cbb7e6540823" style="opacity:0" class="w-tabs">
+              <div class="top-side-tab-menu-2 w-tab-menu">
+                <a data-w-tab="Tab 1" data-type="wallet" class="side-tab-white-2 editor-selector w-inline-block w-tab-link w--current">
+                  <div>Web</div>
+                </a>
+                <a data-w-tab="Tab 2" data-type="direct" class="side-tab-white-2 editor-selector w-inline-block w-tab-link">
+                  <div>iOS/Swift</div>
+                </a>
+                <a data-w-tab="Tab 3" data-type="tkey" class="side-tab-white-2 editor-selector w-inline-block w-tab-link">
+                  <div>Android/Java</div>
+                </a>
+              </div>
+              <div class="tabs-content-3 w-tab-content">
+                <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                  <div class="editor-container">
+                    <div class="w-embed">
+                      <div id="editor-wallet" class="inline-editor"></div>
+                    </div>
+                  </div>
+                </div>
+                <div data-w-tab="Tab 2" class="w-tab-pane">
+                  <div class="editor-container">
+                    <div class="w-embed">
+                      <div id="editor-direct" class="inline-editor"></div>
+                    </div>
+                  </div>
+                </div>
+                <div data-w-tab="Tab 3" class="w-tab-pane">
+                  <div class="editor-container">
+                    <div class="w-embed">
+                      <div id="editor-tkey" class="inline-editor"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="page-header">
+      <h1 class="text-header keys-header">Our products</h1>
+      <p class="big-text center-text">Tailored to meet your specific needs</p>
+    </div>
+    <div class="w-clearfix">
+      <div data-w-id="63f49db1-c7ff-d1b9-039a-b7973d8a37d7" class="section-12">
+        <div class="container-1206 w-container"><img src="images/Layer-4.svg" loading="lazy" alt="" class="image-488"><img src="images/Layer-3.svg" loading="lazy" alt="" class="image-489"><img src="images/Layer-2.svg" loading="lazy" alt="" class="image-490"><img src="images/Layer-1.5.svg" loading="lazy" alt="" class="image-491"><img src="images/Layer-1.2.svg" loading="lazy" alt="" class="image-492"><img src="images/Layer-0.5.svg" loading="lazy" alt="" class="image-493"><img src="images/BAckground.svg" loading="lazy" alt="" class="image-494"></div>
+      </div>
+      <div class="section-10">
+        <div class="div-block-60">
+          <h2 class="text-header-4 left"><span class="text-header-4 hero-small left-align">The Torus Stack</span></h2>
+          <div class="w-layout-grid simple-grid-2">
+            <div class="div-block-63">
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/Group-4860.svg" loading="lazy" alt=""></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Boost conversion rates by up to 74%</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div class="div-block-64">
+              <div class="simple-column-2 w-row">
+                <div class="column-26 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/Group-4861.svg" loading="lazy" alt=""></div>
+                </div>
+                <div class="column-21 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Save the hassle of password loss</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="paragraph-28">An SDK of authentication and key management products, powered by a decentralized non-custodial PKI infrastructure that is maintained by users themselves and large stakeholders in the blockchain ecosystem.<br><br></p>
+        </div>
+      </div>
+      <div class="section-10">
+        <div class="div-block-60"><img src="images/T|Openlogin.svg" loading="lazy" alt="" class="image-479">
+          <h5 class="heading-19"><strong class="bold-text-25">STEP 1: Login with</strong></h5>
+          <p class="paragraph-27">An authentication suite that combines the simplicity of passwordless authentication with the security of non-custodial PKI<br></p>
+          <div class="w-layout-grid simple-grid-2">
+            <div class="div-block-61">
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/OpenBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Passwordless, SSO, Face/TouchID Login</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/OpenBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Manage data flows to achieve GDPR, CPRA, or CCPA compliance</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/OpenBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Connect up to any blockchain</strong></h5>
+                </div>
+              </div>
+            </div>
+            <a href="https://docs.tor.us/open-login/get-started" class="button-6 w-button">Get Started</a>
+            <a href="https://docs.tor.us/open-login/what-is-openlogin" class="button-6 w-button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-10">
+        <div class="div-block-60"><img src="images/T|Wallet.svg" loading="lazy" alt="" class="image-479">
+          <h5 class="heading-19"><strong class="bold-text-25">STEP 1: Login with</strong></h5>
+          <p class="paragraph-27">Wallet uses the same OpenLogin flows and additionally provides a direct connection to Ethereum and other blockchains via a metamask esque style.<br></p>
+          <div class="w-layout-grid simple-grid-2">
+            <div class="div-block-61">
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/WalletBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Same seamless login experiences</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/WalletBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Interoperable with other decentralized applications</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/WalletBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Comes with fiat-to-crypto providers</strong></h5>
+                </div>
+              </div>
+            </div>
+            <a href="https://docs.tor.us/wallet/get-started" class="button-6 w-button">Get Started</a>
+            <a href="https://docs.tor.us/wallet/what-is-wallet" class="button-6 w-button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-10">
+        <div class="div-block-60"><img src="images/T|Customauth.svg" loading="lazy" alt="" class="image-479">
+          <h5 class="heading-19"><strong class="bold-text-25">STEP 1: Login with</strong></h5>
+          <p class="paragraph-27">Do everything you can do with OpenLogin and Wallet in a fully customizable way<br></p>
+          <div class="w-layout-grid simple-grid-2">
+            <div class="div-block-61">
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/CustoBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">All logins and full UX control</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/CustoBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Fully-customizable authentication experiences</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/CustoBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Leverage on Torus&#x27; key infrastructure.</strong></h5>
+                </div>
+              </div>
+            </div>
+            <a href="https://docs.tor.us/customauth/get-started" class="button-6 w-button">Get Started</a>
+            <a href="https://docs.tor.us/customauth/what-is-customauth" class="button-6 w-button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-10">
+        <div class="div-block-60"><img src="images/T|infrastructure.svg" loading="lazy" alt="" class="image-479">
+          <h5 class="heading-19"><strong class="bold-text-25">STEP 1: Login with</strong></h5>
+          <p class="paragraph-27">Torus Key Infrastructure is a decentralized non-custodial PKI that is maintained by users themselves and large stakeholders in the blockchain ecosystem. Keys (or user accounts) are managed by multiple authentication factors, threshold of which gives access to the account.<br></p>
+          <div class="w-layout-grid simple-grid-2">
+            <div class="div-block-61">
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/TorusBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">No central server, its decentralized</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/TorusBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Open-source</strong></h5>
+                </div>
+              </div>
+              <div class="columns-11 w-row">
+                <div class="column-27 w-col w-col-2">
+                  <div class="features-icon third"><img src="images/TorusBullet.svg" loading="lazy" alt="" class="image-480"></div>
+                </div>
+                <div class="column-20 w-col w-col-10">
+                  <h5 class="heading-points"><strong class="bold-text-26">Non-custodial PKI designed to leverage on existing  authentication systems</strong></h5>
+                </div>
+              </div>
+            </div>
+            <a href="https://docs.tor.us/key-infrastructure/overview" class="button-6 w-button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="build-for-web3-3">
+    <div class="container">
+      <div class="page-header">
+        <h1 class="text-header keys-header">Security and Transparency</h1>
+        <p class="big-text center-text">As the next generation of authentication necessitates</p>
+        <div class="w-layout-grid grid-10">
+          <div class="cards-div"><img src="images/Group-4903.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Frontier of usable key management</strong></h5>
+            <p class="paragraph-25">We marry great user experiences and cryptography to get ahead of what auth can provide for its applications</p>
+            <div>
+              <div class="w-row">
+                <div class="w-col w-col-2"><img src="images/oid-l-certification-mark-l-rgb-150dpi-90mm.png" loading="lazy" alt="" class="image-471"></div>
+                <div class="w-col w-col-2"><img src="images/oauth2.png" loading="lazy" alt="" class="image-473"></div>
+                <div class="w-col w-col-2"><img src="images/FIDO_Certified_U2F.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 1279px) 12vw, 148.328125px" srcset="images/FIDO_Certified_U2F-p-500.png 500w, images/FIDO_Certified_U2F-p-800.png 800w, images/FIDO_Certified_U2F-p-1080.png 1080w, images/FIDO_Certified_U2F.png 1350w" alt="" class="image-472"></div>
+                <div class="w-col w-col-2"></div>
+                <div class="w-col w-col-2"></div>
+                <div class="w-col w-col-2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-div"><img src="images/Group-4904.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Secure and audited</strong></h5>
+            <p class="paragraph-25">Using Torus means leveraging on a both academic and performance vetted infrastructure. We routinely undergo review from external parties</p>
+          </div>
+          <div class="cards-div"><img src="images/Group-4905.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Open source</strong></h5>
+            <p class="paragraph-25">By necessity, we believe that for key management to be non-custodial, it needs to be open source</p>
+          </div>
+          <div class="cards-div"><img src="images/Group-4906.svg" loading="lazy" width="80" height="80" alt="" class="image-470">
+            <h5 class="heading-18"><strong class="bold-text-4">Battle tested</strong></h5>
+            <p class="paragraph-25">Millions of authentications and with the Torus Key Infrastructure having 99.9% uptime, using Torus is using auth that scales</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="build-for-web3-2">
+    <div class="container">
+      <div class="page-header">
+        <h1 class="text-header keys-header white">You don&#x27;t have to hear it from us</h1>
+        <p class="big-text center-text white">Here’s what some industry thought leaders have to say</p>
+        <div class="column-tweet-1 w-row">
+          <div class="w-col w-col-8">
+            <div><img src="images/Group-4974.svg" loading="lazy" alt="" class="image-496"></div>
+          </div>
+          <div class="w-col w-col-4">
+            <div><img src="images/Group-4971.svg" loading="lazy" width="319" alt=""></div>
+          </div>
+        </div>
+        <div class="column-tweet-1 w-row">
+          <div class="w-col w-col-8">
+            <div><img src="images/Group-4972.svg" loading="lazy" alt="" class="image-495"></div>
+          </div>
+          <div class="w-col w-col-4">
+            <div><img src="images/Group-4973.svg" loading="lazy" width="319" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-ix="nav" data-w-id="fae5562a-ae55-ace3-81ba-083f02411c79" style="opacity:0" class="featured-on">
+    <div data-w-id="fae5562a-ae55-ace3-81ba-083f02411c7a" style="opacity:0" class="page-header">
+      <div class="big-text all-capital trustedby-text">Featured on<strong></strong></div>
+    </div>
+    <div data-w-id="fae5562a-ae55-ace3-81ba-083f02411c7f" style="opacity:0" class="clients">
+      <div class="client-logo coindesk">
+        <a href="https://www.coindesk.com/multicoin-binance-coinbase-invest-in-startup-keeping-private-keys-secure" target="_blank" class="link-block w-inline-block"></a>
+      </div>
+      <div class="client-logo shopify">
+        <a href="https://cointelegraph.com/news/twitter-users-can-now-send-crypto-to-each-other-with-torus" target="_blank" class="link-block w-inline-block"></a>
+      </div>
+      <div class="client-logo sales-force">
+        <a href="https://ethereumworldnews.com/binance-labs-releases-8-blockchain-projects-from-its-incubator-program/" target="_blank" class="link-block w-inline-block"></a>
+      </div>
+      <div class="client-logo dropbox">
+        <a href="https://www.forbes.com/sites/rachelwolfson/2018/12/14/binance-labs-launches-8-blockchain-projects-to-solve-the-industrys-biggest-challenges/#78819d043a79" target="_blank" class="link-block w-inline-block"></a>
+      </div>
+      <a href="https://www.nasdaq.com/articles/torus-goes-blockchain-agnostic-with-new-directauth-dapp-login-tool-2020-05-28" target="_blank" class="link-block w-inline-block"><img src="images/Nasdaq-1.svg" loading="lazy" alt="" class="image-427"></a>
+      <div class="client-logo twitter">
+        <a href="https://www.techinasia.com/crypto-startup-torus-funding-dapps-keys-management-tool" target="_blank" class="link-block w-inline-block"></a>
+      </div>
+      <a href="https://sg.news.yahoo.com/torus-goes-blockchain-agnostic-directauth-130000074.html" target="_blank" class="link-block w-inline-block"><img src="images/Yahoo-news.png" loading="lazy" alt="" class="image-426"></a>
+    </div>
+  </div>
+  <div class="section-9 more-top-padding">
+    <div class="container">
+      <div class="page-header">
+        <h1 class="text-header keys-header">Start building for free</h1>
+        <p class="big-text center-text">Let&#x27;s work together towards a more open internet</p>
+        <div class="w-row">
+          <div class="w-col w-col-6">
+            <div class="div-block-66">
+              <a href="https://docs.tor.us/" class="button-hero secondary-mode w-button">View Docs</a>
+            </div>
+          </div>
+          <div class="w-col w-col-6">
+            <div class="div-block-67">
+              <a href="https://docs.tor.us/guides" class="button-hero primary-mode w-button">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="footer small">
+    <div class="container w-container">
+      <div class="footer-flex-container height">
+        <div class="footer-column-info"><img src="images/torus-logo-blue-1.svg" width="150" alt="" class="image-444">
+          <p class="footer-text">Join our community</p>
+          <div class="div-block-icons">
+            <a href="https://t.me/TorusLabs" class="social-icon-2 w-inline-block"><img src="images/Telegram_1Telegram.png" width="32" height="32" alt="" class="image-437"></a>
+            <a href="https://twitter.com/TorusLabs" class="social-icon-n w-inline-block"><img src="images/Twitter_1Twitter.png" width="32" height="32" alt="" class="image-437"></a>
+            <a href="https://medium.com/toruslabs" class="social-icon-medium-copy w-inline-block"><img src="images/Exclude_1Exclude.png" width="32" height="32" alt="" class="image-437"></a>
+            <a href="https://github.com/torusresearch/" class="social-icon-github w-inline-block"><img src="images/Github_1Github.png" width="32" height="32" alt="" class="image-437"></a>
+            <a href="https://www.reddit.com/r/toruslabs" class="social-icon-reddit w-inline-block"><img src="images/R_1R.png" width="32" height="32" alt="" class="image-23"></a>
+            <a href="https://www.linkedin.com/company/toruslabs" class="social-icon-discord w-inline-block"><img src="images/Linkedin_1Linkedin.png" width="32" height="32" alt="" class="discord"></a>
+            <a href="https://www.youtube.com/c/toruslabs" class="social-icon-youtube w-inline-block"><img src="images/Youtube_1Youtube.png" width="32" height="32" alt="" class="image-23"></a>
+          </div>
+        </div>
+        <div class="footer-column-div">
+          <h2 class="footer-heading">Developers</h2>
+          <ul role="list" class="w-list-unstyled">
+            <li>
+              <a href="https://openlogin.com" class="footer-link">OpenLogin</a>
+            </li>
+            <li>
+              <a href="https://toruswallet.io" class="footer-link">Wallet</a>
+            </li>
+            <li>
+              <a href="https://customauth.io" class="footer-link">CustomAuth</a>
+            </li>
+            <li>
+              <a href="https://docs.tor.us" class="footer-link">Documentation</a>
+            </li>
+            <li>
+              <a href="technology.html" class="footer-link">Technology</a>
+            </li>
+            <li>
+              <a href="pricing.html" class="footer-link">Pricing</a>
+            </li>
+            <li>
+              <a href="https://status.torusnode.com/" class="footer-link">Status page</a>
+            </li>
+            <li>
+              <a href="https://t.me/torusdev" class="footer-link">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column-div">
+          <h2 class="footer-heading">Users</h2>
+          <ul role="list" class="w-list-unstyled">
+            <li>
+              <a href="https://app.tor.us" class="footer-link">My Torus Wallet</a>
+            </li>
+            <li>
+              <a href="https://app.openlogin.com" class="footer-link-2">My OpenLogin</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column-div">
+          <h2 class="footer-heading">Company</h2>
+          <ul role="list" class="w-list-unstyled">
+            <li>
+              <a href="about-us.html" class="footer-link">About us</a>
+            </li>
+            <li>
+              <a href="partners.html" class="footer-link">Partners</a>
+            </li>
+            <li>
+              <a href="https://angel.co/company/torus-2" class="footer-link">Career</a>
+            </li>
+            <li>
+              <a href="https://medium.com/@TorusLabs" class="footer-link">Newsroom</a>
+            </li>
+            <li>
+              <a href="media-kit.html" class="footer-link">Media kit</a>
+            </li>
+            <li>
+              <a href="contact-us.html" class="footer-link">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="footer-pte-ltd"><strong class="bold-text-13-copy">© 2021 Torus Labs Private Limited </strong></div>
+        <div class="footer-bottom-div">
+          <div class="footer-policies">
+            <a href="https://docs.tor.us/legal/cookie-policy" target="_blank" class="footer-link">Cookie Policy</a>
+          </div>
+          <div class="text-block-5">
+            <a href="#" class="link space">|</a>
+          </div>
+          <div>
+            <a href="pricing.html" class="footer-link">Privacy Policy</a>
+          </div>
+          <div class="text-block-6">
+            <a href="#" class="link space">|</a>
+          </div>
+          <div class="footer-bottom-text">
+            <a href="https://docs.tor.us/legal/terms-and-conditions" target="_blank" class="footer-link">Terms and Conditions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60576ecd0fcb94c403250d07" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/torusv2.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.min.js" integrity="sha512-GoORoNnxst42zE3rYPj4bNBm0Q6ZRXKNH2D9nEmNvVF/z24ywVnijAWVi/09iBiVDQVf3UlZHpzhAJIdd9BXqw==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/mode-javascript.min.js" integrity="sha512-ZxMbXDxB0Whct+zt+DeW/RZaBv33N5D7myNFtBGiqpDSFRLxn2CNp6An0A1zUAJU/+bl8CMVrwxwnFcpFi3yTQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/theme-tomorrow_night.min.js" integrity="sha512-ryZQhiiDGwaCLx61hQOsRD2qUZ6ln04ve/kmK90rKnMzKCU9kJFXJW8a/1641brqnd6QG7Zv9Iq3Ftp1cjFWuA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/keybinding-vim.min.js" integrity="sha512-oz1c/ej3p90Q3jaAkdnobWNw392iWTcMSf6HHD+ZyrBS5U1GRicJ/pT0+oIFuO+CPng5XGYi9jShmtlX/f/0UQ==" crossorigin="anonymous"></script>
+  <script>
+      var editor = {
+        wallet: ace.edit("editor-wallet"),
+        direct: ace.edit("editor-direct"),
+        tkey: ace.edit("editor-tkey"),
+      }
+      var walletInput = {
+        wallet: [
+          "import OpenLogin from \"@toruslabs/openlogin\"",  
+          "\n\n",
+          "const sdk = new OpenLogin()",
+          "\n",
+          "sdk.init()",
+          "\n",
+          "sdk.login()",
+          "\n",
+          "console.log(sdk.privKey)",
+          "\n",
+        ],
+        direct: [
+          "import OpenLogin from \"@toruslabs/openlogin\"",  
+          "\n\n",
+          "const sdk = new OpenLogin()",
+          "\n",
+          "sdk.init()",
+          "\n",
+          "sdk.login()",
+          "\n",
+          "console.log(sdk.privKey)",
+          "\n",
+        ],
+        tkey: [
+           "import OpenLogin from \"@toruslabs/openlogin\"",  
+          "\n\n",
+          "const sdk = new OpenLogin()",
+          "\n",
+          "sdk.init()",
+          "\n",
+          "sdk.login()",
+          "\n",
+          "console.log(sdk.privKey)",
+          "\n",
+        ]
+      }
+      var timeouts = []
+      // Setup Editors
+      setupEditor(editor.wallet)
+      setupEditor(editor.direct)
+      setupEditor(editor.tkey)
+      // listen to tab changes
+      document.querySelectorAll(".editor-selector").forEach(function(elem) {
+        elem.addEventListener("click", function() {
+          var showType = this.dataset.type
+          if(!this.classList.contains('w--current')) {
+            timeouts.forEach(timeout => clearTimeout(timeout))
+            addTexts(editor[showType], walletInput[showType])
+          }
+        })
+      });
+      // listen to scroll
+      window.addEventListener("scroll", triggerEditorOnScroll);
+      function triggerEditorOnScroll() {
+        var elementTarget = document.getElementById("torus-feats");
+        if (window.scrollY > (elementTarget.offsetTop - elementTarget.offsetHeight + 100) && window.scrollY < (elementTarget.offsetTop + elementTarget.offsetHeight - 600)) {
+            var currentSelector = document.querySelector(".editor-selector.w--current")
+            addTexts(editor[currentSelector.dataset.type], walletInput[currentSelector.dataset.type])
+            window.removeEventListener("scroll", triggerEditorOnScroll)
+        }
+      }
+      function setupEditor(editor) {
+          editor.setTheme("ace/theme/tomorrow_night");
+          editor.session.setMode("ace/mode/javascript");
+          editor.session.setTabSize(2);
+          editor.setKeyboardHandler('ace/keyboard/vim')
+          editor.setBehavioursEnabled(false)
+          editor.setOptions({
+            autoScrollEditorIntoView: true,
+          });
+          editor.session.on('change', () => {
+            editor.renderer.scrollToLine(Number.POSITIVE_INFINITY)
+          })
+      }
+      function addTexts(editor, editorInput) {
+        var timer = 0;
+        editor.setValue("")
+        editorInput.forEach((text, i) => {
+          var timeout = setTimeout(() => {
+            addChars(editor, text, timer)
+          }, timer);
+          timeouts.push(timeout)
+          timer += (text.length*20 + 300)
+        });
+      }
+      function addChars(editor, textLine, timer) {
+        var chars = [textLine]
+        if(textLine !== "\n") {
+          chars = textLine.split('')
+        }
+        chars.forEach((char, i) => {
+          timeout = setTimeout(() => {
+            editor.insert(char)
+          }, i * 20);
+          timeouts.push(timeout)
+        });
+      }
+  </script><!--  Google Tag Manager (noscript)  -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KN2SFHS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!--  End Google Tag Manager (noscript)  -->
+</body>
+</html>

@@ -1,0 +1,1808 @@
+Uri: https://tether.to/
+File Name: C:\Downloaded Web Sites\tether.to\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\star\font.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\star\font-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\star\font.woff
+Content Type: application/font-woff
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\star\font.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\star\font.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\woocommerce\font.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\woocommerce\font-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\woocommerce\font.woff
+Content Type: application/font-woff
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\woocommerce\font.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\fonts\woocommerce\font.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/uploads/2020/01/group-112.png?id=8232
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2020\01\group-112.png
+Content Type: image/png
+
+Uri: https://tether.to/feed/
+File Name: C:\Downloaded Web Sites\tether.to\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/comments/feed/
+File Name: C:\Downloaded Web Sites\tether.to\comments\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/wp-content/uploads/2018/09/TetherFavicon_diamon.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\09\TetherFavicon_diamon.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/04/Tether_57.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\04\Tether_57.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/04/Tether114.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\04\Tether114.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/04/Tether_72.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\04\Tether_72.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/04/Tether_144.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\04\Tether_144.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=6.11.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\LayerSlider\assets\static\layerslider\css\layerslider.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900|Open+Sans:300|Indie+Flower:regular|Oswald:300,regular,700&subset=latin%2Clatin-ext
+File Name: C:\Downloaded Web Sites\tether.to\css.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-includes/css/dist/block-library/style.min.css?ver=5.5.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-includes/css/dist/block-library/theme.min.css?ver=5.5.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\css\dist\block-library\theme.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\contact-form-7\includes\css\styles.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.6
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\css\rs6.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/stylesheet/min/full-styles.6.8.1.css?ver=1617815242
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\stylesheet\min\full-styles.6.8.1.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-render.css?ver=6.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\header-builder\includes\assets\css\mkhb-render.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-row.css?ver=6.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\header-builder\includes\assets\css\mkhb-row.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-column.css?ver=6.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\header-builder\includes\assets\css\mkhb-column.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\eicons\css\elementor-icons.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\animations\animations.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\css\frontend-legacy.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/uploads/elementor/css/post-8263.css?ver=1600284841
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\elementor\css\post-8263.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/uploads/elementor/css/global.css?ver=1600284842
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\elementor\css\global.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/css/js_composer.min.css?ver=6.5.0
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\css\js_composer.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/uploads/mk_assets/theme-options-production-1623939037.css?ver=1623939035
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\mk_assets\theme-options-production-1623939037.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/masterslider.main.css?ver=3.4.7
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\masterslider.main.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/jupiter-donut/assets/css/shortcodes-styles.min.css?ver=1.2.0
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\jupiter-donut\assets\css\shortcodes-styles.min.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Roboto+Slab:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.5.5
+File Name: C:\Downloaded Web Sites\tether.to\css-1.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-includes/wlwmanifest.xml
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\wlwmanifest.xml
+Content Type: text/xml
+
+Uri: https://tether.to/why-use-tether/
+File Name: C:\Downloaded Web Sites\tether.to\why-use-tether\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2016\06\TetherWhitePaper.pdf
+Content Type: application/pdf
+
+Uri: https://wallet.tether.to/richlist
+File Name: C:\Downloaded Web Sites\tether.to\richlist.html
+Content Type: text/html
+
+Uri: https://tether.to/legal/
+File Name: C:\Downloaded Web Sites\tether.to\legal\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/fees/
+File Name: C:\Downloaded Web Sites\tether.to\fees\index.htm
+Content Type: text/html
+
+Uri: https://gold.tether.to/
+File Name: C:\Downloaded Web Sites\tether.to\index-2.htm
+Content Type: text/html
+
+Uri: https://app.tether.to/app/signup
+File Name: C:\Downloaded Web Sites\tether.to\app\signup.html
+Content Type: text/html
+
+Uri: https://tether.to/assurance-opinion-mar-21/
+File Name: C:\Downloaded Web Sites\tether.to\assurance-opinion-mar-21\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-and-bitfinex-reach-settlement-with-new-york-attorney-generals-office/
+File Name: C:\Downloaded Web Sites\tether.to\tether-and-bitfinex-reach-settlement-with-new-york-attorney-generals-office\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-usdt-to-launch-on-solana/
+File Name: C:\Downloaded Web Sites\tether.to\tether-usdt-to-launch-on-solana\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-gold-launch-meets-growing-demand-for-digital-exposure-to-worlds-most-enduring-asset/
+File Name: C:\Downloaded Web Sites\tether.to\tether-gold-launch-meets-growing-demand-for-digital-exposure-to-worlds-most-enduring-asset\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-now-supports-offshore-chinese-yuan-cnh-launches-cnht-stablecoin/
+File Name: C:\Downloaded Web Sites\tether.to\tether-now-supports-offshore-chinese-yuan-cnh-launches-cnht-stablecoin\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-pledges-1m-in-support-for-hurricane-dorian-relief/
+File Name: C:\Downloaded Web Sites\tether.to\tether-pledges-1m-in-support-for-hurricane-dorian-relief\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-banking-relationship-announced/
+File Name: C:\Downloaded Web Sites\tether.to\tether-banking-relationship-announced\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-reopens-account-verification-and-direct-redemption-of-fiat-from-its-platform/
+File Name: C:\Downloaded Web Sites\tether.to\tether-reopens-account-verification-and-direct-redemption-of-fiat-from-its-platform\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2021/04/tether-assurance-mar-2021-2.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\04\tether-assurance-mar-2021-2.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/faqs/
+File Name: C:\Downloaded Web Sites\tether.to\faqs\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/knowledge-base/
+File Name: C:\Downloaded Web Sites\tether.to\knowledge-base\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-for-individuals/
+File Name: C:\Downloaded Web Sites\tether.to\tether-for-individuals\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/press/
+File Name: C:\Downloaded Web Sites\tether.to\press\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/about-us/
+File Name: C:\Downloaded Web Sites\tether.to\about-us\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/branding/
+File Name: C:\Downloaded Web Sites\tether.to\branding\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/category/announcements/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\index.htm
+Content Type: text/html
+
+Uri: https://tether.recruitee.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-3.htm
+Content Type: text/html
+
+Uri: https://tether.to/contact-us/
+File Name: C:\Downloaded Web Sites\tether.to\contact-us\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/media-contact/
+File Name: C:\Downloaded Web Sites\tether.to\media-contact\index.htm
+Content Type: text/html
+
+Uri: https://twitter.com/Tether_to/
+File Name: C:\Downloaded Web Sites\tether.to\Tether_to\index.htm
+Content Type: text/html
+
+Uri: https://www.facebook.com/tether.to
+File Name: C:\Downloaded Web Sites\tether.to\tether.to.html
+Content Type: text/html
+
+Uri: https://tether.to/wp-includes/css/dashicons.min.css?ver=5.5.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\css\dashicons.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/plugins/gdpr-cookie-consent/public/css/gdpr-cookie-consent-public.min.css?ver=2.0.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\gdpr-cookie-consent\public\css\gdpr-cookie-consent-public.min.css
+Content Type: text/css
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/js/plugins/wp-enqueue/webfontloader.js?ver=5.5.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\js\plugins\wp-enqueue\webfontloader.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\jquery\jquery.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=6.11.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\LayerSlider\assets\static\layerslider\js\layerslider.utils.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.11.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\LayerSlider\assets\static\layerslider\js\layerslider.kreaturamedia.jquery.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=6.11.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\LayerSlider\assets\static\layerslider\js\layerslider.transitions.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/masterslider/includes/modules/elementor/assets/js/elementor-widgets.js?ver=3.4.7
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\includes\modules\elementor\assets\js\elementor-widgets.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.6
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\js\rbtools.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.6
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\js\rs6.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/uploads/2018/09/TetherLogo_white_diamond.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\09\TetherLogo_white_diamond.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2020/01/group-111-500x109.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2020\01\group-111-500x109.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/07/Icon_blockchain.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\Icon_blockchain.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/uploads/2014/07/Icon_Exchanges.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\Icon_Exchanges.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/uploads/2014/07/Icon_Individuals.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\Icon_Individuals.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/uploads/2014/07/Media_WSJ.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\Media_WSJ.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/07/Media_Coindesk.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\Media_Coindesk.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/07/Media_CT.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\Media_CT.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/09/TetherLogo_diamond.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\09\TetherLogo_diamond.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\dist\vendor\wp-polyfill.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/dist/i18n.min.js?ver=772b1b30d38ec9ba77ae8ae1a39b232a
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\dist\i18n.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\dist\vendor\lodash.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/dist/url.min.js?ver=961fb5d5da74eb34194394dfed1abce3
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\dist\url.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/dist/hooks.min.js?ver=fd4cfce4ee6f38b4c8fb837fa537df14
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\dist\hooks.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/dist/api-fetch.min.js?ver=e2b9d6fc95f6390f25385ee45795c3e3
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\dist\api-fetch.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\contact-form-7\includes\js\index.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/js/plugins/wp-enqueue/smoothscroll.js?ver=1617815242
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\js\plugins\wp-enqueue\smoothscroll.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/js/core-scripts.6.8.1.js?ver=1617815242
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\js\core-scripts.6.8.1.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/js/components-full.6.8.1.js?ver=1617815242
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\js\components-full.6.8.1.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-render.js?ver=6.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\header-builder\includes\assets\js\mkhb-render.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-column.js?ver=6.8.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\header-builder\includes\assets\js\mkhb-column.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/jupiter-donut/assets/js/shortcodes-scripts.min.js?ver=1.2.0
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\jupiter-donut\assets\js\shortcodes-scripts.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/wp-embed.min.js?ver=5.5.5
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\wp-embed.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/js/dist/js_composer_front.min.js?ver=6.5.0
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\js\dist\js_composer_front.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/gdpr-cookie-consent/public/js/bootstrap.bundle.js?ver=2.0.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\gdpr-cookie-consent\public\js\bootstrap.bundle.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/gdpr-cookie-consent/public/js/gdpr-cookie-consent-public.min.js?ver=2.0.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\gdpr-cookie-consent\public\js\gdpr-cookie-consent-public.min.js
+Content Type: application/javascript
+
+Uri: https://wordpress.org/
+File Name: C:\Downloaded Web Sites\tether.to\index-1.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/plugins/LayerSlider/assets/static/layerslider/img/icon-muted-white.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\LayerSlider\assets\static\layerslider\img\icon-muted-white.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/LayerSlider/assets/static/layerslider/img/icon-unmuted-white.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\LayerSlider\assets\static\layerslider\img\icon-unmuted-white.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.woff
+Content Type: application/font-woff
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/css/openhand.cur
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\css\openhand.cur
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/css/closedhand.cur
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\css\closedhand.cur
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/assets/gridtile.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\assets\gridtile.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\assets\gridtile_white.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\assets\gridtile_3x3.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\assets\gridtile_3x3_white.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/assets/coloredbg.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\assets\coloredbg.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/revslider/public/assets/assets/loader.gif
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\revslider\public\assets\assets\loader.gif
+Content Type: image/gif
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/images/pre_code.gif
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\images\pre_code.gif
+Content Type: image/gif
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/images/selectbox-arrow.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\images\selectbox-arrow.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/themes/jupiter/assets/images/social-icons/twitter-blue.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\themes\jupiter\assets\images\social-icons\twitter-blue.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.9.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.9.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.woff2
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.9.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.woff
+Content Type: application/font-woff
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.9.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.9.1
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/vc/alert.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\vc\alert.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/vc/info.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\vc\info.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/vc/tick.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\vc\tick.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/vc/exclamation.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\vc\exclamation.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/address-book.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\address-book.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/alarm-clock.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\alarm-clock.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/anchor.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\anchor.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/application-image.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\application-image.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/arrow.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\arrow.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/asterisk.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\asterisk.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/auction-hammer.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\auction-hammer.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/balloon.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\balloon.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/balloon-buzz.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\balloon-buzz.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/balloon-facebook.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\balloon-facebook.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/balloon-twitter.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\balloon-twitter.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/battery-full.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\battery-full.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/binocular.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\binocular.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-excel.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-excel.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-image.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-image.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-music.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-music.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-office.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-office.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-pdf.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-pdf.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-powerpoint.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-powerpoint.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/blue-document-word.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\blue-document-word.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/bookmark.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\bookmark.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/camcorder.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\camcorder.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/camera.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\camera.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/chart.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\chart.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/chart-pie.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\chart-pie.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/clock.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\clock.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/control.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\control.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/fire.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\fire.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/heart.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\heart.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/mail.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\mail.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/plus-shield.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\plus-shield.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/icons/video.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\icons\video.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_icons_v2\fonts\vcpb-plugin-icons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?f6ud62
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_icons_v2\fonts\vcpb-plugin-icons.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?f6ud62
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_icons_v2\fonts\vcpb-plugin-icons.woff
+Content Type: application/font-woff
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?f6ud62
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_icons_v2\fonts\vcpb-plugin-icons.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/toggle_open.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\toggle_open.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/toggle_close.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\toggle_close.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/flickr.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\flickr.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/vc/blur.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\vc\blur.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_grid/vc_grid_v1.eot?-9hbgac
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_grid\vc_grid_v1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_grid/vc_grid_v1.eot?
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_grid\vc_grid_v1-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_grid/vc_grid_v1.woff?-9hbgac
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_grid\vc_grid_v1.woff
+Content Type: application/font-woff
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_grid/vc_grid_v1.ttf?-9hbgac
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_grid\vc_grid_v1.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/fonts/vc_grid/vc_grid_v1.svg?-9hbgac
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\fonts\vc_grid\vc_grid_v1.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/images/spinner.gif
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\images\spinner.gif
+Content Type: image/gif
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/vc/remove.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\vc\remove.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/common/loading-2.gif
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\common\loading-2.gif
+Content Type: image/gif
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/common/grab.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\common\grab.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/common/grabbing.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\common\grabbing.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/common/video-close-btn.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\common\video-close-btn.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-1.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-1.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-1-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-1-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/black-skin-1.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\black-skin-1.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/black-skin-1-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\black-skin-1-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/black-skin-2.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\black-skin-2.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/black-skin-2-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\black-skin-2-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-2.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-2.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-2-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-2-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-3.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-3.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-3-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-3-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-4.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-4.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-4-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-4-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-5.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-5.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-5-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-5-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-6.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-6.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-6-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-6-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/metro-skin.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\metro-skin.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/metro-skin-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\metro-skin-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/minimal.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\minimal.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/contrast-skin.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\contrast-skin.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/skins/contrast-skin-retina.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\skins\contrast-skin-retina.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/templates/device-skin.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\templates\device-skin.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/templates/gallery-btns.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\templates\gallery-btns.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/templates/staff-arrows.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\templates\staff-arrows.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/masterslider/public/assets/css/templates/vertical-arrows.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\masterslider\public\assets\css\templates\vertical-arrows.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/jupiter-donut/assets/img/fancy-title-pattern.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\jupiter-donut\assets\img\fancy-title-pattern.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/08/Logos_Partners_Omni.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\08\Logos_Partners_Omni.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/08/Logos_Partners_Bitfinex.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\08\Logos_Partners_Bitfinex.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/08/Logos_Partners_Poloniex.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\08\Logos_Partners_Poloniex.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2016/06/logo_ambisafe.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2016\06\logo_ambisafe.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/03/Logos_HolyTrans_G.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\03\Logos_HolyTrans_G.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2020/05/ftx-grayscale.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2020\05\ftx-grayscale.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2017/03/logo_kraken.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\03\logo_kraken.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2017/03/Logos_Partners_Bittrex.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\03\Logos_Partners_Bittrex.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2017/07/Megachange4PM_bw.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\07\Megachange4PM_bw.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2017/08/hitbtc.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\08\hitbtc.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/01/epay_bw1.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\01\epay_bw1.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/05/badge_holding_group_limited.jpg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\05\badge_holding_group_limited.jpg
+Content Type: image/jpeg
+
+Uri: https://tether.to/wp-content/uploads/2018/05/freewallet.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\05\freewallet.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/07/mobi.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\07\mobi.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/07/btcturk.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\07\btcturk.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/07/BTCtrades.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\07\BTCtrades.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/09/changelly-bw-e1536160781934.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\09\changelly-bw-e1536160781934.png
+Content Type: image/png
+
+Uri: https://www.bitfinex.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-5.htm
+Content Type: text/html
+
+Uri: https://poloniex.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-6.htm
+Content Type: text/html
+
+Uri: https://holytransaction.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-8.htm
+Content Type: text/html
+
+Uri: https://ftx.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-9.htm
+Content Type: text/html
+
+Uri: https://www.kraken.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-10.htm
+Content Type: text/html
+
+Uri: https://hitbtc.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-11.htm
+Content Type: text/html
+
+Uri: https://mobi.me/
+File Name: C:\Downloaded Web Sites\tether.to\index-13.htm
+Content Type: text/html
+
+Uri: https://www.btcturk.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-14.htm
+Content Type: text/html
+
+Uri: https://btctrader.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-15.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2015/03/TetherSmall.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\03\TetherSmall.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/uploads/2014/08/GC-150x150.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\08\GC-150x150.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/08/Tristan-150x150.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\08\Tristan-150x150.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2021/05/privacy_info.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\05\privacy_info.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2021/05/privacy_info-245x300.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\05\privacy_info-245x300.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\jquery\ui\widget.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\js\jquery\ui\tabs.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/plugins/js_composer_theme/assets/lib/bower/jquery-ui-tabs-rotate/jquery-ui-tabs-rotate.min.js?ver=6.5.0
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\js_composer_theme\assets\lib\bower\jquery-ui-tabs-rotate\jquery-ui-tabs-rotate.min.js
+Content Type: application/javascript
+
+Uri: https://tether.to/wp-content/uploads/2021/05/privacy_info-835x1024.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\05\privacy_info-835x1024.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2021/05/privacy_info-1253x1536.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\05\privacy_info-1253x1536.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2021/05/privacy_info-245x300@2x.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\05\privacy_info-245x300@2x.png
+Content Type: image/png
+
+Uri: https://tether.to/deposit-of-wrong-tokens-or-wrong-addresses/
+File Name: C:\Downloaded Web Sites\tether.to\deposit-of-wrong-tokens-or-wrong-addresses\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/verify-tether-account/
+File Name: C:\Downloaded Web Sites\tether.to\verify-tether-account\index.htm
+Content Type: text/html
+
+Uri: https://app.tether.to/app/
+File Name: C:\Downloaded Web Sites\tether.to\app\index.htm
+Content Type: text/html
+
+Uri: https://app.tether.to/app/login
+File Name: C:\Downloaded Web Sites\tether.to\app\login.html
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2014/07/TetherHomeBackground.jpg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\TetherHomeBackground.jpg
+Content Type: image/jpeg
+
+Uri: https://tether.to/tether-tokens-usdt-live-on-solana/
+File Name: C:\Downloaded Web Sites\tether.to\tether-tokens-usdt-live-on-solana\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-usdt-to-launch-on-polkadot/
+File Name: C:\Downloaded Web Sites\tether.to\tether-usdt-to-launch-on-polkadot\index.htm
+Content Type: text/html
+
+Uri: https://www.moore.ky/
+File Name: C:\Downloaded Web Sites\tether.to\index-16.htm
+Content Type: text/html
+
+Uri: https://www.moore-global.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-17.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2021/03/tether-assurance-feb-2021.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\03\tether-assurance-feb-2021.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/tether-announces-loan-repayment-by-bitfinex/
+File Name: C:\Downloaded Web Sites\tether.to\tether-announces-loan-repayment-by-bitfinex\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-usdt-integration-live-on-omg-network/
+File Name: C:\Downloaded Web Sites\tether.to\tether-usdt-integration-live-on-omg-network\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-will-be-integrated-into-meconcash/
+File Name: C:\Downloaded Web Sites\tether.to\tether-will-be-integrated-into-meconcash\index.htm
+Content Type: text/html
+
+Uri: https://projectserum.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-18.htm
+Content Type: text/html
+
+Uri: https://tor.us/
+File Name: C:\Downloaded Web Sites\tether.to\index-19.htm
+Content Type: text/html
+
+Uri: https://chain.link/
+File Name: C:\Downloaded Web Sites\tether.to\index-20.htm
+Content Type: text/html
+
+Uri: https://solana.com/
+File Name: C:\Downloaded Web Sites\tether.to\index.html
+Content Type: text/html
+
+Uri: https://tether.to/tether-files-reply-brief-in-new-york-appeal/
+File Name: C:\Downloaded Web Sites\tether.to\tether-files-reply-brief-in-new-york-appeal\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-launches-as-the-first-stablecoin-on-algorands-next-generation-blockchain-platform/
+File Name: C:\Downloaded Web Sites\tether.to\tether-launches-as-the-first-stablecoin-on-algorands-next-generation-blockchain-platform\index.htm
+Content Type: text/html
+
+Uri: https://etherscan.io/token/0x4922a015c4407f87432b179bb209e125432e4a2a
+File Name: C:\Downloaded Web Sites\tether.to\token\0x4922a015c4407f87432b179bb209e125432e4a2a.html
+Content Type: text/html
+
+Uri: https://tether.to/statement-in-response-to-justice-joel-m-cohens-order/
+File Name: C:\Downloaded Web Sites\tether.to\statement-in-response-to-justice-joel-m-cohens-order\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/claudia/
+File Name: C:\Downloaded Web Sites\tether.to\author\claudia\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/09/
+File Name: C:\Downloaded Web Sites\tether.to\2019\09\index.htm
+Content Type: text/html
+
+Uri: https://etherscan.io/token/0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef
+File Name: C:\Downloaded Web Sites\tether.to\token\0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef.html
+Content Type: text/html
+
+Uri: https://tether.to/tether-anticipates-meritless-and-mercenary-lawsuit-based-on-bogus-study/
+File Name: C:\Downloaded Web Sites\tether.to\tether-anticipates-meritless-and-mercenary-lawsuit-based-on-bogus-study\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-confirms-receipt-of-prepayment-on-loan-facility-from-bitfinex/
+File Name: C:\Downloaded Web Sites\tether.to\tether-confirms-receipt-of-prepayment-on-loan-facility-from-bitfinex\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/the-leading-stablecoin-now-available-on-eos/
+File Name: C:\Downloaded Web Sites\tether.to\the-leading-stablecoin-now-available-on-eos\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-and-omni-further-collaborate-to-drive-digital-transformation/
+File Name: C:\Downloaded Web Sites\tether.to\tether-and-omni-further-collaborate-to-drive-digital-transformation\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/07/
+File Name: C:\Downloaded Web Sites\tether.to\2019\07\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/upcoming-usdt-redemption-october-24th-2018/
+File Name: C:\Downloaded Web Sites\tether.to\upcoming-usdt-redemption-october-24th-2018\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2018/11/
+File Name: C:\Downloaded Web Sites\tether.to\2018\11\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2018/11/Tether-Letter.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\11\Tether-Letter.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/usdt-introduced-to-tron-blockchain/
+File Name: C:\Downloaded Web Sites\tether.to\usdt-introduced-to-tron-blockchain\index.htm
+Content Type: text/html
+
+Uri: https://www.omniexplorer.info/tx/5ed3694e8a4fa8d3ec5c75eb6789492c69e65511522b220e94ab51da2b6dd53f
+File Name: C:\Downloaded Web Sites\tether.to\tx\5ed3694e8a4fa8d3ec5c75eb6789492c69e65511522b220e94ab51da2b6dd53f.html
+Content Type: text/html
+
+Uri: https://www.wsj.com/articles/BL-MBB-23780
+File Name: C:\Downloaded Web Sites\tether.to\articles\BL-MBB-23780.html
+Content Type: text/html
+
+Uri: https://www.coindesk.com/realcoin-relaunches-tether-avoid-altcoin-association
+File Name: C:\Downloaded Web Sites\tether.to\realcoin-relaunches-tether-avoid-altcoin-association.html
+Content Type: text/html
+
+Uri: https://cointelegraph.com/news/shapeshift-is-now-the-fastest-way-to-buy-or-sell-tether-usd
+File Name: C:\Downloaded Web Sites\tether.to\news\shapeshift-is-now-the-fastest-way-to-buy-or-sell-tether-usd.html
+Content Type: text/html
+
+Uri: https://tether.to/deposit-tethers-to-account/
+File Name: C:\Downloaded Web Sites\tether.to\deposit-tethers-to-account\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/redeem-tethers-to-bank-account/
+File Name: C:\Downloaded Web Sites\tether.to\redeem-tethers-to-bank-account\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-token-recoveries/
+File Name: C:\Downloaded Web Sites\tether.to\tether-token-recoveries\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/integration-guidelines/
+File Name: C:\Downloaded Web Sites\tether.to\integration-guidelines\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/api-documentation/
+File Name: C:\Downloaded Web Sites\tether.to\api-documentation\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/why-are-transactions-on-my-account-temporarily-disabled/
+File Name: C:\Downloaded Web Sites\tether.to\why-are-transactions-on-my-account-temporarily-disabled\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2015/04/TetherCash.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\04\TetherCash.svg
+Content Type: image/svg+xml
+
+Uri: https://coinreport.net/factom-tether-collaborate-wallet-transparency-hedging-plan/
+File Name: C:\Downloaded Web Sites\tether.to\factom-tether-collaborate-wallet-transparency-hedging-plan\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2014/07/LogoPress_CT.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\07\LogoPress_CT.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/PressLogos_IB.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\PressLogos_IB.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/PressLogos_SA.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\PressLogos_SA.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/LogoPress_CR.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\LogoPress_CR.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/LogoPress_BM.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\LogoPress_BM.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/PressLogos_Reuters.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\PressLogos_Reuters.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/LogoPress_CT.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\LogoPress_CT.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/LogoPress_Coindesk.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\LogoPress_Coindesk.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2014/12/LogoPress_WSJ.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2014\12\LogoPress_WSJ.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/bfi_thumb/dummy-transparent-p5djdhc1zr5sauhs4r1q76og7j3j01iv9colrwav7s.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\bfi_thumb\dummy-transparent-p5djdhc1zr5sauhs4r1q76og7j3j01iv9colrwav7s.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/09/Tether_logos_dm.zip
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\09\Tether_logos_dm.zip
+Content Type: application/zip
+
+Uri: https://tether.to/wp-content/uploads/2020/01/tether_gold.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2020\01\tether_gold.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/uploads/2015/02/Tether_logo_dm-e1537976324456.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\02\Tether_logo_dm-e1537976324456.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/02/Tether_full_logo_dm-e1537976162191.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\02\Tether_full_logo_dm-e1537976162191.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2020/01/tether_gold-160x140.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2020\01\tether_gold-160x140.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/02/overlay-example.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\02\overlay-example.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2015/02/overlay-example-300x54.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2015\02\overlay-example-300x54.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/plugins/jupiter-donut/assets/img/social-icons/twitter-blue.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\jupiter-donut\assets\img\social-icons\twitter-blue.svg
+Content Type: image/svg+xml
+
+Uri: https://tether.to/wp-content/plugins/jupiter-donut/assets/img/social-icons/instagram.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\jupiter-donut\assets\img\social-icons\instagram.png
+Content Type: image/png
+
+Uri: https://tether.to/category/announcements/page/2/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\page\2\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/category/announcements/feed/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/2021/06/
+File Name: C:\Downloaded Web Sites\tether.to\2021\06\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/how-is-tether-used/
+File Name: C:\Downloaded Web Sites\tether.to\how-is-tether-used\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-launches-new-erc20-contract-address-for-tether-euro-eurt-tokens/
+File Name: C:\Downloaded Web Sites\tether.to\tether-launches-new-erc20-contract-address-for-tether-euro-eurt-tokens\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2021/05/
+File Name: C:\Downloaded Web Sites\tether.to\2021\05\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-issuance-primer/
+File Name: C:\Downloaded Web Sites\tether.to\tether-issuance-primer\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-tokens-usdt-to-launch-on-avalanche/
+File Name: C:\Downloaded Web Sites\tether.to\tether-tokens-usdt-to-launch-on-avalanche\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-releases-breakdown-of-its-reserves/
+File Name: C:\Downloaded Web Sites\tether.to\tether-releases-breakdown-of-its-reserves\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2021/04/
+File Name: C:\Downloaded Web Sites\tether.to\2021\04\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/assurance-opinion-apr-21/
+File Name: C:\Downloaded Web Sites\tether.to\assurance-opinion-apr-21\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2021/03/
+File Name: C:\Downloaded Web Sites\tether.to\2021\03\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2021/02/
+File Name: C:\Downloaded Web Sites\tether.to\2021\02\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-includes/fonts/dashicons.eot?99ac726223c749443b642ce33df8b800
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\fonts\dashicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tether.to/wp-includes/fonts/dashicons.ttf?99ac726223c749443b642ce33df8b800
+File Name: C:\Downloaded Web Sites\tether.to\wp-includes\fonts\dashicons.ttf
+Content Type: application/octet-stream
+
+Uri: https://tether.to/wp-content/plugins/gdpr-cookie-consent/public/images/placeholder.svg
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\plugins\gdpr-cookie-consent\public\images\placeholder.svg
+Content Type: image/svg+xml
+
+Uri: https://www.omnilayer.org/
+File Name: C:\Downloaded Web Sites\tether.to\index-4.htm
+Content Type: text/html
+
+Uri: https://ambisafe.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-7.htm
+Content Type: text/html
+
+Uri: https://www.epay.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-12.htm
+Content Type: text/html
+
+Uri: https://freewallet.org/usdt-wallet
+File Name: C:\Downloaded Web Sites\tether.to\usdt-wallet.html
+Content Type: text/html
+
+Uri: https://web3.foundation/
+File Name: C:\Downloaded Web Sites\tether.to\index-21.htm
+Content Type: text/html
+
+Uri: https://tether.to/bittrex-and-poloniex-filing-in-class-action-undermines-plaintiffs-claims/
+File Name: C:\Downloaded Web Sites\tether.to\bittrex-and-poloniex-filing-in-class-action-undermines-plaintiffs-claims\index.htm
+Content Type: text/html
+
+Uri: https://omg.network/
+File Name: C:\Downloaded Web Sites\tether.to\index-22.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-responds-to-mercenary-and-baseless-class-action-complaint-in-washington-state/
+File Name: C:\Downloaded Web Sites\tether.to\tether-responds-to-mercenary-and-baseless-class-action-complaint-in-washington-state\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/12/
+File Name: C:\Downloaded Web Sites\tether.to\2019\12\index.htm
+Content Type: text/html
+
+Uri: https://iapps.courts.state.ny.us/fbem/DocumentDisplayServlet?documentId=Za0rHXEQYfN21WKw4GaEnw==&amp;system=prod
+File Name: C:\Downloaded Web Sites\tether.to\fbem\2019_03341_In_the_Matter_of_the_I_v_In_the_Matter_of_the_I_APPELLANT_S_REPLY_B_14.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/tether-statement-on-appointment-of-lead-counsel-for-plaintiffs-in-consolidated-class-action-lawsuit-in-u-s-district-court-for-the-southern-district-of-new-york/
+File Name: C:\Downloaded Web Sites\tether.to\tether-statement-on-appointment-of-lead-counsel-for-plaintiffs-in-consolidated-class-action-lawsuit-in-u-s-district-court-for-the-southern-district-of-new-york\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-add-support-for-liquid-network/
+File Name: C:\Downloaded Web Sites\tether.to\tether-add-support-for-liquid-network\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/08/
+File Name: C:\Downloaded Web Sites\tether.to\2019\08\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/claudia/page/2/
+File Name: C:\Downloaded Web Sites\tether.to\author\claudia\page\2\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/claudia/feed/
+File Name: C:\Downloaded Web Sites\tether.to\author\claudia\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/explained-chain-swaps/
+File Name: C:\Downloaded Web Sites\tether.to\explained-chain-swaps\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/10/
+File Name: C:\Downloaded Web Sites\tether.to\2019\10\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-obtains-stay-of-document-demands-in-new-york/
+File Name: C:\Downloaded Web Sites\tether.to\tether-obtains-stay-of-document-demands-in-new-york\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/05/
+File Name: C:\Downloaded Web Sites\tether.to\2019\05\index.htm
+Content Type: text/html
+
+Uri: https://www.stablecoinswar.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-25.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-coming-to-algorand/
+File Name: C:\Downloaded Web Sites\tether.to\tether-coming-to-algorand\index.htm
+Content Type: text/html
+
+Uri: https://blog.omni.foundation/2019/07/16/omni-state-of-the-layer/
+File Name: C:\Downloaded Web Sites\tether.to\2019\07\16\omni-state-of-the-layer\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/a-commentary-on-tether-chainalysis/
+File Name: C:\Downloaded Web Sites\tether.to\a-commentary-on-tether-chainalysis\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2018/10/
+File Name: C:\Downloaded Web Sites\tether.to\2018\10\index.htm
+Content Type: text/html
+
+Uri: https://www.omniexplorer.info/address/1NTMakcgVwQpMdGxRQnFKyb3G1FAJysSfz
+File Name: C:\Downloaded Web Sites\tether.to\address\1NTMakcgVwQpMdGxRQnFKyb3G1FAJysSfz.html
+Content Type: text/html
+
+Uri: https://tether.to/tether-respond-to-new-york-attorney-generals-actions/
+File Name: C:\Downloaded Web Sites\tether.to\tether-respond-to-new-york-attorney-generals-actions\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/03/
+File Name: C:\Downloaded Web Sites\tether.to\2019\03\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-ethfinex-collaborate-on-development-of-erc20-tether-tokens/
+File Name: C:\Downloaded Web Sites\tether.to\tether-ethfinex-collaborate-on-development-of-erc20-tether-tokens\index.htm
+Content Type: text/html
+
+Uri: https://tron.network/
+File Name: C:\Downloaded Web Sites\tether.to\index-27.htm
+Content Type: text/html
+
+Uri: https://www.omniexplorer.info/asset/31
+File Name: C:\Downloaded Web Sites\tether.to\asset\31.html
+Content Type: text/html
+
+Uri: https://www.omniexplorer.info/asset/41
+File Name: C:\Downloaded Web Sites\tether.to\asset\41.html
+Content Type: text/html
+
+Uri: https://github.com/OmniLayer/omnicore/wiki/Platform-Integration-of-Omni-Core
+File Name: C:\Downloaded Web Sites\tether.to\OmniLayer\omnicore\wiki\Platform-Integration-of-Omni-Core.html
+Content Type: text/html
+
+Uri: https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7
+File Name: C:\Downloaded Web Sites\tether.to\token\0xdac17f958d2ee523a2206206994597c13d831ec7.html
+Content Type: text/html
+
+Uri: https://etherscan.io/token/0xabdf147870235fcfc34153828c769a70b3fae01f
+File Name: C:\Downloaded Web Sites\tether.to\token\0xabdf147870235fcfc34153828c769a70b3fae01f.html
+Content Type: text/html
+
+Uri: https://tronscan.org/
+File Name: C:\Downloaded Web Sites\tether.to\index-28.htm
+Content Type: text/html
+
+Uri: https://bloks.io/account/tethertether
+File Name: C:\Downloaded Web Sites\tether.to\account\tethertether.html
+Content Type: text/html
+
+Uri: https://blockstream.info/liquid/address/H4UWQS836njW4QJ6WfkGAPjaYtK2twLnZE
+File Name: C:\Downloaded Web Sites\tether.to\liquid\address\H4UWQS836njW4QJ6WfkGAPjaYtK2twLnZE.html
+Content Type: text/html
+
+Uri: https://developer.algorand.org/search/?query=optin&sort_by=relevancy&category=all-categories
+File Name: C:\Downloaded Web Sites\tether.to\search\index.htm
+Content Type: text/html
+
+Uri: https://app.tether.to/app/settings/keys
+File Name: C:\Downloaded Web Sites\tether.to\app\settings\keys.html
+Content Type: text/html
+
+Uri: https://siliconangle.com/2015/04/14/tether-teams-up-with-gocoin-to-give-merchants-free-bitcoin-payment-processing/
+File Name: C:\Downloaded Web Sites\tether.to\2015\04\14\tether-teams-up-with-gocoin-to-give-merchants-free-bitcoin-payment-processing\index.htm
+Content Type: text/html
+
+Uri: https://bitcoinmagazine.com/press-releases/tether-factom-announce-collaboration-1425939995
+File Name: C:\Downloaded Web Sites\tether.to\press-releases\tether-factom-announce-collaboration-1425939995.html
+Content Type: text/html
+
+Uri: https://cointelegraph.com/news/bitfinex-adds-tether-the-first-real-world-currency-platform-on-the-bitcoin-blockchain
+File Name: C:\Downloaded Web Sites\tether.to\news\bitfinex-adds-tether-the-first-real-world-currency-platform-on-the-bitcoin-blockchain.html
+Content Type: text/html
+
+Uri: https://cointelegraph.com/news/tether-brings-benefits-of-p2p-transactions-to-fiat-currency-transfers
+File Name: C:\Downloaded Web Sites\tether.to\news\tether-brings-benefits-of-p2p-transactions-to-fiat-currency-transfers.html
+Content Type: text/html
+
+Uri: https://tether.to/category/announcements/page/3/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\page\3\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/09/
+File Name: C:\Downloaded Web Sites\tether.to\2020\09\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/08/
+File Name: C:\Downloaded Web Sites\tether.to\2020\08\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/06/
+File Name: C:\Downloaded Web Sites\tether.to\2020\06\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-and-bitfinex-denounce-baseless-lawsuit-designed-to-undermine-the-cryptocurrency-community/
+File Name: C:\Downloaded Web Sites\tether.to\tether-and-bitfinex-denounce-baseless-lawsuit-designed-to-undermine-the-cryptocurrency-community\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/02/
+File Name: C:\Downloaded Web Sites\tether.to\2020\02\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/category/tether-gold/
+File Name: C:\Downloaded Web Sites\tether.to\category\tether-gold\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/01/
+File Name: C:\Downloaded Web Sites\tether.to\2020\01\index.htm
+Content Type: text/html
+
+Uri: https://etherscan.io/address/0xc581b735a1688071a1746c968e0798d642ede491
+File Name: C:\Downloaded Web Sites\tether.to\address\0xc581b735a1688071a1746c968e0798d642ede491.html
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2021/05/tether-march-31-2021-reserves-breakdown.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2021\05\tether-march-31-2021-reserves-breakdown.pdf
+Content Type: application/pdf
+
+Uri: https://meconcash.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-23.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-submits-intent-to-file-motion-to-dismiss-frivolous-class-action-law-suit/
+File Name: C:\Downloaded Web Sites\tether.to\tether-submits-intent-to-file-motion-to-dismiss-frivolous-class-action-law-suit\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2019/11/
+File Name: C:\Downloaded Web Sites\tether.to\2019\11\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/ftx-lists-tether-gold-xaut/
+File Name: C:\Downloaded Web Sites\tether.to\ftx-lists-tether-gold-xaut\index.htm
+Content Type: text/html
+
+Uri: https://www.algorand.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-24.htm
+Content Type: text/html
+
+Uri: https://blockstream.com/liquid/
+File Name: C:\Downloaded Web Sites\tether.to\liquid\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/claudia/page/3/
+File Name: C:\Downloaded Web Sites\tether.to\author\claudia\page\3\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/05/
+File Name: C:\Downloaded Web Sites\tether.to\2020\05\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/btse-lists-tether-gold-xaut/
+File Name: C:\Downloaded Web Sites\tether.to\btse-lists-tether-gold-xaut\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2020/03/
+File Name: C:\Downloaded Web Sites\tether.to\2020\03\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-response-to-flawed-paper-by-griffin-and-shams/
+File Name: C:\Downloaded Web Sites\tether.to\tether-response-to-flawed-paper-by-griffin-and-shams\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/new-york-court-grants-tether-motion-to-modify-injunction/
+File Name: C:\Downloaded Web Sites\tether.to\new-york-court-grants-tether-motion-to-modify-injunction\index.htm
+Content Type: text/html
+
+Uri: https://streamingfast.io/
+File Name: C:\Downloaded Web Sites\tether.to\index-26.htm
+Content Type: text/html
+
+Uri: https://algorand.foundation/
+File Name: C:\Downloaded Web Sites\tether.to\index-29.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-appoints-former-aml-quality-control-manager-at-bank-of-montreal-as-chief-compliance-officer/
+File Name: C:\Downloaded Web Sites\tether.to\tether-appoints-former-aml-quality-control-manager-at-bank-of-montreal-as-chief-compliance-officer\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2018/08/
+File Name: C:\Downloaded Web Sites\tether.to\2018\08\index.htm
+Content Type: text/html
+
+Uri: https://www.chainalysis.com/
+File Name: C:\Downloaded Web Sites\tether.to\index-30.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2018/08/Tether.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\08\Tether.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/wp-content/uploads/2018/08/Screen-Shot-2018-08-27-at-15.46.03.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\08\Screen-Shot-2018-08-27-at-15.46.03.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/08/Screen-Shot-2018-08-27-at-15.46.03-300x142.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\08\Screen-Shot-2018-08-27-at-15.46.03-300x142.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/08/Screen-Shot-2018-08-27-at-15.46.03-1024x484.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\08\Screen-Shot-2018-08-27-at-15.46.03-1024x484.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/08/Screen-Shot-2018-08-27-at-15.46.03-300x142@2x.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\08\Screen-Shot-2018-08-27-at-15.46.03-300x142@2x.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/08/Screen-Shot-2018-08-27-at-15.46.03-1024x484@2x.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\08\Screen-Shot-2018-08-27-at-15.46.03-1024x484@2x.png
+Content Type: image/png
+
+Uri: https://tether.to/2019/04/
+File Name: C:\Downloaded Web Sites\tether.to\2019\04\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/tether-update/
+File Name: C:\Downloaded Web Sites\tether.to\tether-update\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/announcement-transparency-update/
+File Name: C:\Downloaded Web Sites\tether.to\announcement-transparency-update\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2017/09/
+File Name: C:\Downloaded Web Sites\tether.to\2017\09\index.htm
+Content Type: text/html
+
+Uri: https://etherscan.io/address/0xd697A61D5FB4e076125e0bE647f902b02bb3A0F1
+File Name: C:\Downloaded Web Sites\tether.to\address\0xd697A61D5FB4e076125e0bE647f902b02bb3A0F1.html
+Content Type: text/html
+
+Uri: https://tether.to/category/announcements/page/4/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\page\4\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/category/tether-gold/feed/
+File Name: C:\Downloaded Web Sites\tether.to\category\tether-gold\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://drive.google.com/drive/folders/1wikfagB58wfwSobPCa19F7m8LGGXFXSX
+File Name: C:\Downloaded Web Sites\tether.to\drive\folders\1wikfagB58wfwSobPCa19F7m8LGGXFXSX.html
+Content Type: text/html
+
+Uri: https://u.today/tether-gold-xaut-reaches-market-cap-of-21-mln-surpassing-biggest-rival
+File Name: C:\Downloaded Web Sites\tether.to\tether-gold-xaut-reaches-market-cap-of-21-mln-surpassing-biggest-rival.html
+Content Type: text/html
+
+Uri: https://help.ftx.com/hc/en-us/articles/360029839371-About-FTX
+File Name: C:\Downloaded Web Sites\tether.to\hc\en-us\articles\360029839371-About-FTX.html
+Content Type: text/html
+
+Uri: https://gold.tether.to/legal
+File Name: C:\Downloaded Web Sites\tether.to\legal.html
+Content Type: text/html
+
+Uri: https://tether.to/author/claudia/page/4/
+File Name: C:\Downloaded Web Sites\tether.to\author\claudia\page\4\index.htm
+Content Type: text/html
+
+Uri: https://www.btse.com/en/about-us/
+File Name: C:\Downloaded Web Sites\tether.to\en\about-us\index.htm
+Content Type: text/html
+
+Uri: https://celsius.network/earn-gold/
+File Name: C:\Downloaded Web Sites\tether.to\earn-gold\index.htm
+Content Type: text/html
+
+Uri: https://blog.deversifi.com/deversifi-lists-tethergold/
+File Name: C:\Downloaded Web Sites\tether.to\deversifi-lists-tethergold\index.htm
+Content Type: text/html
+
+Uri: https://www.coindesk.com/interest-in-gold-backed-token-trading-grows-amid-supply-disruptions
+File Name: C:\Downloaded Web Sites\tether.to\interest-in-gold-backed-token-trading-grows-amid-supply-disruptions.html
+Content Type: text/html
+
+Uri: https://tether.to/fss-report-transparency-update/
+File Name: C:\Downloaded Web Sites\tether.to\fss-report-transparency-update\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2018/07/
+File Name: C:\Downloaded Web Sites\tether.to\2018\07\index.htm
+Content Type: text/html
+
+Uri: https://www.businesswire.com/news/home/20170920006348/en/ACAMS-16TH-Annual-AML-Financial-Crime-Conference
+File Name: C:\Downloaded Web Sites\tether.to\news\home\20170920006348\en\ACAMS-16TH-Annual-AML-Financial-Crime-Conference.html
+Content Type: text/html
+
+Uri: https://tether.to/tether-update/feed/
+File Name: C:\Downloaded Web Sites\tether.to\tether-update\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/bitcoin-fork-policy-update/
+File Name: C:\Downloaded Web Sites\tether.to\bitcoin-fork-policy-update\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/adam/
+File Name: C:\Downloaded Web Sites\tether.to\author\adam\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20161231.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\09\Tether-Ltd-20161231.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20170131.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\09\Tether-Ltd-20170131.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20170228.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\09\Tether-Ltd-20170228.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/wp-content/uploads/2017/09/Tether-Ltd-20170331.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\09\Tether-Ltd-20170331.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/tether-critical-announcement/
+File Name: C:\Downloaded Web Sites\tether.to\tether-critical-announcement\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2017/09/Final-Tether-Consulting-Report-9-15-17_Redacted.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2017\09\Final-Tether-Consulting-Report-9-15-17_Redacted.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/category/announcements/page/5/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\page\5\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/claudia/page/5/
+File Name: C:\Downloaded Web Sites\tether.to\author\claudia\page\5\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/usd₮-and-eur₮-now-supported-on-ethereum/
+File Name: C:\Downloaded Web Sites\tether.to\usd₮-and-eur₮-now-supported-on-ethereum\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2018/06/
+File Name: C:\Downloaded Web Sites\tether.to\2018\06\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2018/06/FSS1JUN18-Account-Snapshot-Statement-final-15JUN18.pdf
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\06\FSS1JUN18-Account-Snapshot-Statement-final-15JUN18.pdf
+Content Type: application/pdf
+
+Uri: https://tether.to/bitcoin-fork-policy-update/feed/
+File Name: C:\Downloaded Web Sites\tether.to\bitcoin-fork-policy-update\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/announcement/
+File Name: C:\Downloaded Web Sites\tether.to\announcement\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2017/07/
+File Name: C:\Downloaded Web Sites\tether.to\2017\07\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/author/adam/feed/
+File Name: C:\Downloaded Web Sites\tether.to\author\adam\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/2018/01/
+File Name: C:\Downloaded Web Sites\tether.to\2018\01\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2017/12/
+File Name: C:\Downloaded Web Sites\tether.to\2017\12\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wallet-service-and-platform-update/
+File Name: C:\Downloaded Web Sites\tether.to\wallet-service-and-platform-update\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/2017/11/
+File Name: C:\Downloaded Web Sites\tether.to\2017\11\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/update-on-security-incident/
+File Name: C:\Downloaded Web Sites\tether.to\update-on-security-incident\index.htm
+Content Type: text/html
+
+Uri: https://github.com/tetherto/omnicore/releases/tag/0.2.99.s
+File Name: C:\Downloaded Web Sites\tether.to\tetherto\omnicore\releases\tag\0.2.99.s.html
+Content Type: text/html
+
+Uri: https://tether.to/category/announcements/page/6/
+File Name: C:\Downloaded Web Sites\tether.to\category\announcements\page\6\index.htm
+Content Type: text/html
+
+Uri: https://tether.to/wp-content/uploads/2018/01/zep-300x81.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\01\zep-300x81.png
+Content Type: image/png
+
+Uri: https://tether.to/wp-content/uploads/2018/01/zep.png
+File Name: C:\Downloaded Web Sites\tether.to\wp-content\uploads\2018\01\zep.png
+Content Type: image/png
+
+Uri: https://tether.to/announcement/feed/
+File Name: C:\Downloaded Web Sites\tether.to\announcement\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://tether.to/2017/04/
+File Name: C:\Downloaded Web Sites\tether.to\2017\04\index.htm
+Content Type: text/html
+
+Uri: https://blog.openzeppelin.com/tether-token-audit-438d561a380/
+File Name: C:\Downloaded Web Sites\tether.to\tether-token-audit-438d561a380\index.htm
+Content Type: text/html
+
